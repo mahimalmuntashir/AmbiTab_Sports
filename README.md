@@ -19,12 +19,6 @@ python code/verify_manifest.py
 
 The first command installs analysis dependencies. Reproduction writes to `reproduced/` and leaves the released evidence/tables unchanged. It requires no GPU, network access after installation, model download, or private blinding key. The final two commands check regenerated tables and archive integrity. The canonical notebook under `notebooks/` calls the same implementation; install `requirements-notebook.txt` for a Jupyter interface.
 
-## Evidence and interpretation
-
-The recorded primary execution counts are Gemma 43/120, Qwen 22/120, and Mistral 19/120. The corrected master uses these labels. Automatic execution scoring is secondary; it is not substituted into the master. Paired execution advantages for Gemma are conditional on the recorded labels and references. No corrected LLM differences are significant for cooperative score or overall action accuracy. The strong rank-reversal claim is withdrawn.
-
-**Independent human authorship/re-review of the supplied response ratings is not established.** Earlier AI-assisted scoring records and human-rating descriptions have not been reconciled by documented independent review. Historical filenames containing `human` are retained for compatibility and do not certify provenance. The proposed response-review guides have not been applied to the archived labels. See `docs/Annotation_Provenance.md`.
-
 
 ## Files
 
