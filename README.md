@@ -25,7 +25,6 @@ The recorded primary execution counts are Gemma 43/120, Qwen 22/120, and Mistral
 
 **Independent human authorship/re-review of the supplied response ratings is not established.** Earlier AI-assisted scoring records and human-rating descriptions have not been reconciled by documented independent review. Historical filenames containing `human` are retained for compatibility and do not certify provenance. The proposed response-review guides have not been applied to the archived labels. See `docs/Annotation_Provenance.md`.
 
-Execution answers are preserved from the supplied benchmark. Original verification claims are retained in `supplied_verification_status`; current `verification_status` distinguishes those claims from independent validation. Six references/sources need explicit review, detailed in `benchmark/execution_gold_source_audit.csv`. The release does not certify all 120 factual references. See `docs/Gold_Source_Review.md`.
 
 ## Files
 
