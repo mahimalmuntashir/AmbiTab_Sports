@@ -1,0 +1,62 @@
+# AmbiTab-Sports model configurations
+# Exact repository identifiers follow model_manifest_exact_checkpoints.csv.
+# Historical revision SHAs were not recorded; null means unknown.
+# Do not substitute current HEAD for the unknown historical commit.
+# New exploratory runs should specify and record their own actual revision.
+
+models:
+  Qwen2.5-7B-Instruct:
+    model_id: "Qwen/Qwen2.5-7B-Instruct"
+    revision: null
+    preprocessor_kind: "tokenizer"
+    model_family: "causal_lm"
+    preprocessor_class: "AutoTokenizer"
+    model_class: "AutoModelForCausalLM"
+    trust_remote_code: true
+    use_fast_tokenizer: true
+    low_cpu_mem_usage: true
+    device_map: "auto"
+    pad_token_fallback_to_eos: true
+
+  Gemma-4-E4B-it:
+    model_id: "google/gemma-4-E4B-it"
+    revision: null
+    preprocessor_kind: "processor"
+    model_family: "multimodal_lm"
+    preprocessor_class: "AutoProcessor"
+    model_class: "AutoModelForMultimodalLM"
+    trust_remote_code: true
+    low_cpu_mem_usage: true
+    device_map: "auto"
+
+  Mistral-7B-Instruct-v0.2:
+    model_id: "mistralai/Mistral-7B-Instruct-v0.2"
+    revision: null
+    preprocessor_kind: "tokenizer"
+    model_family: "causal_lm"
+    preprocessor_class: "AutoTokenizer"
+    model_class: "AutoModelForCausalLM"
+    trust_remote_code: true
+    use_fast_tokenizer: true
+    low_cpu_mem_usage: true
+    device_map: "auto"
+    pad_token_fallback_to_eos: true
+
+loading:
+  dtype_policy:
+    cuda_bf16_supported: "bfloat16"
+    cuda_otherwise: "float16"
+    cpu: "float32"
+
+  quantization:
+    enabled_by_default: false
+    environment_variable: "LOAD_IN_4BIT"
+    method: "bitsandbytes_4bit"
+    quant_type: "nf4"
+    use_double_quant: true
+    compute_dtype: "same_as_dtype_policy"
+
+authentication:
+  huggingface_token_environment_variables:
+    - "HF_TOKEN"
+    - "HUGGINGFACE_TOKEN"

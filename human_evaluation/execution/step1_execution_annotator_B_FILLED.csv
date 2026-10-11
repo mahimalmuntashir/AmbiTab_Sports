@@ -1,0 +1,633 @@
+blind_response_id,query_id,subdomain,query_text,task_type,gold_answer_1,gold_answer_2,gold_answer_3,raw_response,human_correct,error_type,human_notes
+81f93c02259d72dd,OL-U009,Olympics,How many medals did Australia win in swimming at the 2020 Tokyo Olympics?,numeric,20,,,The Australian swimming team won a total of 31 medals at the 2020 Tokyo Olympics.,0,wrong_number,The returned figure does not equal the supplied target of 20.
+666f3bdceb1e24d2,IF-U009,International Football,Compare the total goals of France and Argentina in the 2022 FIFA World Cup.,compare,17,15,,"France: 8 goals
+Argentina: 6 goals",0,incorrect_comparison,"The comparison has incorrect figures; the supplied totals are 17 and 15, respectively."
+a48bab47e3612aea,F1-U004,Formula 1,What was Lewis Hamilton's average finishing position in the 2021 Formula 1 season?,numeric,3.3,,,"The average finishing position of Lewis Hamilton in the 2021 Formula 1 season was 1.71. (Note: This answer is based on the points system in Formula 1 where 1 point is awarded for finishing 1st, 2 points for finishing 2nd, etc. So, an average position of 1.71 means Hamilton finished roughly 1st in about 71% of the races and 2nd in about 29%",0,wrong_number,1.71 is not the supplied 3.3 finishing average. The explanation also invents an F1 scoring system based on finishing positions.
+d6b10b35bc831c93,CF-U017,Club Football,Which club earned the most points away from home in the Premier League in the 2021–22 season?,entity,Manchester City,45,,Manchester City earned the most points away from home in the Premier League 2021-22 season with a total of 36 points.,0,false_supporting_fact,"Manchester City is right, but 36 away points is false. City had 46 away points (14 wins and 4 draws). The gold statistic of 45 is also inaccurate."
+51e47d9e5cd9dd9c,OL-U019,Olympics,How many medals did Canada win in rowing at the 2008 Beijing Olympics?,numeric,4,,,14,0,wrong_number,The returned figure does not equal the supplied target of 4.
+14983f61f328a8a6,IF-U012,International Football,Which team had the fewest shots on target against them at the 2022 World Cup?,entity,Spain,,,"The team with the fewest shots on target against them at the 2022 World Cup was Morocco, with a total of 12 shots on target conceded.",0,wrong_entity,Morocco is not the supplied shots-conceded leader (Spain); the response also asserts an unsupported 12-shot total.
+f0968b7311df462d,OL-U018,Olympics,Which country won the men's basketball gold medal at the 2012 London Olympics?,entity,United States,,,The United States won the men's basketball gold medal at the 2012 London Olympics.,1,none,"Identifies United States, the requested entity."
+9091873b1f946563,IF-U008,International Football,How many wins did Brazil record in the 2014 FIFA World Cup?,numeric,3,,,7,0,wrong_number,The returned figure does not equal the supplied target of 3.
+d53ca27d76ade195,OL-U017,Olympics,Who won the women's singles tennis gold medal at the 2020 Tokyo Olympics?,entity,Belinda Bencic,,,Iga Ujifusa,0,wrong_entity,Names the wrong entity. The supplied target is Belinda Bencic.
+ed891dd535caf0df,BK-U012,Basketball,Compare the regular-season win totals of the Bucks and Celtics in 2022–23.,compare,58,57,,"Bucks: 54  
+Celtics: 51",0,incorrect_comparison,"Neither total is right: Milwaukee won 58 games and Boston 57, not 54 and 51."
+9d4ddcb0e81e895c,OL-U001,Olympics,Which country won the most gold medals at the 2020 Tokyo Olympics?,entity,United States,,,"China won the most gold medals at the 2020 Tokyo Olympics, with a total of 78 gold medals.",0,wrong_entity,The United States led with 39 golds. China did not lead and did not win 78 gold medals.
+eb5abd8615003125,OL-U015,Olympics,How many bronze medals did India win at the 2020 Tokyo Olympics?,numeric,4,,,7,0,wrong_number,The returned figure does not equal the supplied target of 4.
+88bb805084872ac0,BK-U015,Basketball,How many assists did LeBron James average in the 2020–21 NBA regular season?,numeric,7.8,,,6.2,0,wrong_number,The returned figure does not equal the supplied target of 7.8.
+674838081836c9b4,BK-U019,Basketball,Which player had the highest free-throw percentage in the 2023 WNBA season among qualified players?,entity,Elena Delle Donne,93.80%,,"Jewell Loydthought
+Thinking Process:
+
+1.  **Identify the Goal:** The user wants to know the player with the highest free-throw percentage in the 2023 WNBA season among qualified players.
+2.  **Determine the Required Output Format:** Return only the requested final answer (the player's name).
+3.  **Information Retrieval (Simulated Knowledge Check):** I need the 2023 WNBA free-",0,wrong_entity,Names the wrong entity. The supplied target is Elena Delle Donne.
+c43e9edc07186533,OL-U010,Olympics,Which country had the highest total medal count at the 2004 Athens Olympics?,entity,United States,101,,"United Statesthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants to know which country had the highest total medal count at the 2004 Athens Olympics.
+2.  **Identify Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain reasoning.
+    *   Do not invent an answer if uncertain.
+    *   Return *only* the requested final answer.
+3.  **Retrieve",1,none,"Identifies United States, the requested entity."
+d65ffb709c9667ff,BK-U017,Basketball,What was the average margin of victory in the 2023 FIBA World Cup knockout stage?,numeric,11.9,,,The average margin of victory in the 2023 FIBA World Cup knockout stage was 11.2 points.,0,wrong_number,The returned figure does not equal the supplied target of 11.9.
+250951a4e5b82afa,BK-U005,Basketball,Who led the WNBA in assists per game in 2023?,entity,Alyssa Thomas,7.9,,The player who led the WNBA in assists per game in 2023 was [Name of the Player]. [Assists per game] was [Number of Assists].,0,incomplete_answer,A placeholder is used instead of an actual player or team name.
+c000ede99c420f5c,CF-U008,Club Football,What was Manchester City's goal difference in the 2021–22 Premier League season?,numeric,73,,,58,0,wrong_number,The returned figure does not equal the supplied target of 73.
+082024b5d8b448eb,CF-U019,Club Football,Which club had the fewest losses in the 2023–24 Premier League?,entity,Manchester City,3,,"Manchester Citythought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants to know which club had the fewest losses in the 2023–24 Premier League season.
+2.  **Identify the Data Needed:** Premier League 2023-2024 season results, specifically the number of losses for each team.
+3.  **Determine the Answer:** I need to recall or access the final standings/records",1,none,"Identifies Manchester City, the requested entity."
+89f631ee213070c1,F1-U017,Formula 1,What was the median number of overtakes per race in the 2023 Formula 1 season?,numeric,39.5,,,The median number of overtakes per race in the 2023 Formula 1 season was 12.5.,0,wrong_number,The returned figure does not equal the supplied target of 39.5.
+d9101357964d4e0f,IF-U013,International Football,How many clean sheets did England keep at UEFA Euro 2020?,numeric,5,,,4,0,wrong_number,The returned figure does not equal the supplied target of 5.
+492b7475dc7e5d86,OL-U010,Olympics,Which country had the highest total medal count at the 2004 Athens Olympics?,entity,United States,101,,China,0,wrong_entity,Names the wrong entity. The supplied target is United States.
+8b4c7484625769ac,CF-U001,Club Football,Who won the 2023–24 English Premier League?,entity,Manchester City,,,Manchester City won the 2023-24 English Premier League.,1,none,"Identifies Manchester City, the requested entity."
+bb5ad348195a1d25,BK-U008,Basketball,What was Nikola Jokic's rebounds per game average in the 2022–23 NBA regular season?,numeric,11.8,,,Nikola Jokic had an average of 11.9 rebounds per game in the 2022–23 NBA regular season.,0,wrong_number,The returned figure does not equal the supplied target of 11.8.
+2c3bec2c11cdaa4c,CF-U008,Club Football,What was Manchester City's goal difference in the 2021–22 Premier League season?,numeric,73,,,Manchester City had a goal difference of +52 in the 2021–22 Premier League season.,0,wrong_number,The returned figure does not equal the supplied target of 73.
+85a9cd834685829b,TN-U009,Tennis,Which country won the 2023 Davis Cup?,entity,Italy,,,I'm unable to provide the answer to that question as the 2023 Davis Cup has not yet been held. Please check back after the tournament for the results.,0,no_answer,Declines to answer or asks for more information instead of supplying the requested result.
+b9cfea8f031bc375,OL-U018,Olympics,Which country won the men's basketball gold medal at the 2012 London Olympics?,entity,United States,,,USA,1,none,"Identifies United States, the requested entity."
+03917897b925f2e2,BK-U019,Basketball,Which player had the highest free-throw percentage in the 2023 WNBA season among qualified players?,entity,Elena Delle Donne,93.80%,,Breanna Stewart,0,wrong_entity,Names the wrong entity. The supplied target is Elena Delle Donne.
+ae7cba3a4782b86f,OL-U007,Olympics,Compare the total medals of China and the United States at the 2020 Tokyo Olympics.,compare,88,113,,"China: 38, United States: 39",0,incorrect_comparison,38 and 39 are gold-medal counts. The requested total-medal counts are China 88 and United States 113.
+7298d9be41b30e99,F1-U004,Formula 1,What was Lewis Hamilton's average finishing position in the 2021 Formula 1 season?,numeric,3.3,,,5.38,0,wrong_number,The returned figure does not equal the supplied target of 3.3.
+d29f5be0e18635ca,F1-U016,Formula 1,Who won the 2024 Monaco Grand Prix?,entity,Charles Leclerc,,,Valtteri Bottas,0,wrong_entity,Names the wrong entity. The supplied target is Charles Leclerc.
+1b0f40ba652962d3,OL-U006,Olympics,What was Kenya's total medal count at the 2016 Rio Olympics?,numeric,13,,,1,0,wrong_number,The returned figure does not equal the supplied target of 13.
+2ea124d4283bf11b,IF-U014,International Football,Which country won the 2021 Copa America final?,entity,Argentina,,,Argentina,1,none,"Identifies Argentina, the requested entity."
+9081cdbc9bfbc94b,IF-U015,International Football,What was Portugal's average possession at the 2022 FIFA World Cup?,numeric,61.40%,,,The average possession percentage for Portugal at the 2022 FIFA World Cup was 53.7%.,0,wrong_number,The returned figure does not equal the supplied target of 61.4%.
+aa01d69eb423ecc1,OL-U011,Olympics,How many medals did Jamaica win in athletics at the 2016 Rio Olympics?,numeric,11,,,7,0,wrong_number,The returned figure does not equal the supplied target of 11.
+79c72408fc24c5cf,OL-U016,Olympics,Which delegation recorded the most medals in track cycling at the 2016 Rio Olympics?,entity,Great Britain,,,"The delegation that recorded the most medals in track cycling at the 2016 Rio Olympics was China, with a total of 12 medals.",0,wrong_entity,Names the wrong entity. The supplied target is Great Britain.
+8163a47cb905d2bc,BK-U020,Basketball,How many rebounds did the United States average per game in men's basketball at the 2020 Olympics?,numeric,41.2,,,The United States men's basketball team averaged 45.3 rebounds per game at the 2020 Olympics.,0,wrong_number,The returned figure does not equal the supplied target of 41.2.
+9a276029f822db89,F1-U017,Formula 1,What was the median number of overtakes per race in the 2023 Formula 1 season?,numeric,39.5,,,"13.0thought
+Thinking Process:
+
+1.  **Analyze the Request:** The user is asking for the median number of overtakes per race in the 2023 Formula 1 season.
+2.  **Identify the Role:** I am a sports statistics assistant.
+3.  **Determine Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain reasoning.
+    *   Do not invent an answer if",0,wrong_number,The returned figure does not equal the supplied target of 39.5.
+5d7d255bd2278358,CF-U012,Club Football,How many assists did Kevin De Bruyne record in the 2022–23 Premier League season?,numeric,16,,,I'm unable to provide the answer to that question as the 2022-23 Premier League season has not yet started. Please check back after the season has ended for the updated statistics.,0,no_answer,Declines to answer or asks for more information instead of supplying the requested result.
+0a028d2523b77d09,F1-U002,Formula 1,How many wins did Max Verstappen record in the 2022 Formula 1 season?,numeric,15,,,5,0,wrong_number,The returned figure does not equal the supplied target of 15.
+50c20e1905a9fc28,OL-U004,Olympics,How many gold medals did the United States win at the 2012 London Olympics?,numeric,46,,,46,1,none,46 is the supplied historical London gold count. Later medal reallocations change retrospective tables.
+a6207250dce0b0a0,IF-U011,International Football,Who provided the most assists at the 2021 Copa America?,entity,Lionel Messi,5,,Lionel Messi,1,none,"Identifies Lionel Messi, the requested entity."
+63e3f38187945508,TN-U009,Tennis,Which country won the 2023 Davis Cup?,entity,Italy,,,USA,0,wrong_entity,Names the wrong entity. The supplied target is Italy.
+1bee13099993d63b,BK-U009,Basketball,Which country won gold in men's basketball at the 2020 Tokyo Olympics?,entity,United States,,,USA,1,none,"Identifies United States, the requested entity."
+53f77a24d36f8a7d,F1-U004,Formula 1,What was Lewis Hamilton's average finishing position in the 2021 Formula 1 season?,numeric,3.3,,,2.71,0,wrong_number,The returned figure does not equal the supplied target of 3.3.
+fb670661bf83351b,CF-U005,Club Football,Who kept the most clean sheets in Serie A in the 2021–22 season?,entity,Mike Maignan,17,,Gianluigi Donnarumma,0,wrong_entity,Names the wrong entity. The supplied target is Mike Maignan.
+808a9c6da01fc4ec,BK-U019,Basketball,Which player had the highest free-throw percentage in the 2023 WNBA season among qualified players?,entity,Elena Delle Donne,93.80%,,"The player with the highest free-throw percentage in the 2023 WNBA season among qualified players was Alyssa Thomas, with a percentage of 0.915.",0,wrong_entity,Names Alyssa Thomas instead of the supplied qualified free-throw leader Elena Delle Donne; the extra 91.5% claim is also wrong.
+d04204ad0b19b4b0,BK-U002,Basketball,How many points per game did Luka Doncic average in the 2023–24 NBA regular season?,numeric,33.9,,,33.9,1,none,"Gives the requested value, 33.9."
+530c665b7293a8c9,F1-U014,Formula 1,Which driver achieved the highest average qualifying position in 2023?,entity,Max Verstappen,,,Max Verstappen (2023: 1.1),0,false_supporting_fact,Verstappen is the right driver. The added qualifying average of 1.1 is false; his 22 Grand Prix qualifying results average 3.00. Source: https://gpracingstats.com/seasons/2023-world-championship/qualifying-stats/
+23464b548d9089dd,CF-U010,Club Football,Compare the total points of Barcelona and Real Madrid in the 2023–24 La Liga season.,compare,85,95,,"Barcelona: 81
+Real Madrid: 79",0,incorrect_comparison,"Barcelona finished with 85 points and Real Madrid 95. Both returned totals, 81 and 79, are wrong."
+c39fd65e6e74c3b6,CF-U014,Club Football,What was Juventus's league position in Serie A in the 2020–21 season?,numeric,4th,,,1,0,wrong_number,The returned figure does not equal the supplied target of 4th.
+7bf750280b48c3ef,TN-U007,Tennis,Which player won the most ATP titles in 2021?,entity,Alexander Zverev,6,,Novak Djokovic,0,wrong_entity,Names the wrong entity. The supplied target is Alexander Zverev.
+3ce4340b1a84e9b7,IF-U011,International Football,Who provided the most assists at the 2021 Copa America?,entity,Lionel Messi,5,,Artur Maurício (Brazil) provided the most assists at the 2021 Copa America with a total of 4 assists.,0,wrong_entity,Names the wrong entity. The supplied target is Lionel Messi.
+bfef6dd529bf2ca2,F1-U019,Formula 1,How many sprint race wins did Red Bull drivers collect in 2023?,numeric,4,,,"I'm an assistant, not a database, but based on the information I have, Red Bull drivers won a total of 12 sprint races in 2023.",0,wrong_number,The claimed sprint-win total is wrong. Red Bull won 5: four by Verstappen and one by Perez. The supplied gold of 4 omits Perez. Source: https://www.formula1points.com/season/2023
+7ba88661cb01444f,IF-U001,International Football,Who scored the most goals in the 2022 FIFA World Cup?,entity,Kylian Mbappé,8,,Kylian Mbappé,1,none,"Identifies Kylian Mbappé, the requested entity."
+b72d627a2de802ba,CF-U011,Club Football,Which club won the 2021–22 UEFA Champions League?,entity,Real Madrid,,,The club that won the 2021–22 UEFA Champions League is Real Madrid.,1,none,"Identifies Real Madrid, the requested entity."
+e8cf8c263bc83bcb,CF-U003,Club Football,Which club finished second in La Liga in the 2021–22 season?,entity,Barcelona,,,"Real Madridthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user is asking for the club that finished second in La Liga during the 2021–22 season.
+2.  **Identify Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain reasoning.
+    *   Do not invent an answer if uncertain.
+    *   Return *only* the requested final answer.
+3.",0,wrong_entity,Names the wrong entity. The supplied target is Barcelona.
+28d8262838d70bcd,TN-U012,Tennis,Which player spent the most weeks at world No. 1 in the 2023 ATP season?,entity,Novak Djokovic,32 weeks,,"Daniil Medvedev spent the most weeks at world No. 1 in the 2023 ATP season, with a total of 23 weeks.",0,wrong_entity,Names the wrong entity. The supplied target is Novak Djokovic.
+11d2a094e38575d3,OL-U008,Olympics,Which country won the most silver medals at the 2020 Tokyo Olympics?,entity,United States,41,,China,0,wrong_entity,Names the wrong entity. The supplied target is United States.
+e30d603d1710fdda,IF-U007,International Football,Which team finished third in the 2022 FIFA World Cup?,entity,Croatia,,,Third-place team was Croatia.,1,none,"Identifies Croatia, the requested entity."
+592527567226047a,IF-U016,International Football,Which team scored first most often at UEFA Euro 2024?,entity,Spain,,,Germany,0,wrong_entity,Names the wrong entity. The supplied target is Spain.
+7fc6a191deaffd85,TN-U013,Tennis,How many titles did Iga Swiatek win in 2022?,numeric,8,,,5,0,wrong_number,The returned figure does not equal the supplied target of 8.
+f25740440f7dd820,F1-U011,Formula 1,What was McLaren's total points tally in the 2023 Constructors' Championship?,numeric,302,,,The total points tally for McLaren in the 2023 Constructors' Championship was 251.,0,wrong_number,The returned figure does not equal the supplied target of 302.
+3b7b571bff654936,OL-U020,Olympics,Which nation led the athletics medal table at the 2020 Tokyo Olympics?,entity,United States,,,United States,1,none,"Identifies United States, the requested entity."
+daccc47662a92552,IF-U012,International Football,Which team had the fewest shots on target against them at the 2022 World Cup?,entity,Spain,,,Argentina,0,wrong_entity,Names the wrong entity. The supplied target is Spain.
+145fecd51cdd3ea3,CF-U002,Club Football,How many goals did Erling Haaland score in the 2022–23 Premier League season?,numeric,36,,,36,1,none,"Gives the requested value, 36."
+b49b5e0d4ca70550,BK-U018,Basketball,Which team made the most three-pointers per game in the 2022–23 NBA season?,entity,Golden State Warriors,16.6,,"Golden State Warriorsthought
+Thinking Process:
+
+1.  **Identify the core request:** The user wants to know which team had the most three-pointers per game in the 2022–23 NBA season.
+2.  **Determine the required output format:** Return only the requested final answer (the team name).
+3.  **Access/Recall knowledge (2022-2023 NBA season 3P/G leaders):",1,none,"Identifies Golden State Warriors, the requested entity."
+50db1306915132ac,TN-U018,Tennis,Which player won the 2024 Miami Open men's singles title?,entity,Jannik Sinner,,,"Carlos Alcarazthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user is asking for the winner of the 2024 Miami Open men's singles title.
+2.  **Identify the Role:** I am a sports statistics assistant.
+3.  **Determine Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain reasoning.
+    *   Do not invent an answer if uncertain.",0,wrong_entity,Names the wrong entity. The supplied target is Jannik Sinner.
+f6c7cbadba752658,TN-U018,Tennis,Which player won the 2024 Miami Open men's singles title?,entity,Jannik Sinner,,,I'm unable to provide the answer as the 2024 Miami Open men's singles title has not yet been played. Please check back after the tournament for the winner's name.,0,no_answer,Declines to answer or asks for more information instead of supplying the requested result.
+d34212c3253a5060,IF-U004,International Football,What was Argentina's goal difference in the 2022 FIFA World Cup?,numeric,7,,,-2,0,wrong_number,The returned figure does not equal the supplied target of 7.
+1724e302b9c3ad8c,OL-U013,Olympics,What was Great Britain's total medal count at the 2012 London Olympics?,numeric,65,,,46,0,wrong_number,The returned figure does not equal the supplied target of 65.
+ec41c6c4a23c6bd2,IF-U003,International Football,How many goals did Kylian Mbappe score in the 2022 FIFA World Cup?,numeric,8,,,3,0,wrong_number,The returned figure does not equal the supplied target of 8.
+21251668c3adcd4d,OL-U002,Olympics,How many total medals did Japan win at the 2020 Tokyo Olympics?,numeric,58,,,27,0,wrong_number,The returned figure does not equal the supplied target of 58.
+a2431d322ef6bf92,CF-U019,Club Football,Which club had the fewest losses in the 2023–24 Premier League?,entity,Manchester City,3,,Manchester City (had the fewest losses in the 2023-24 Premier League),1,none,"Identifies Manchester City, the requested entity."
+60d173c5e0fb0e54,BK-U003,Basketball,Which team finished with the best regular-season record in the 2022–23 NBA season?,entity,Milwaukee Bucks,58,,Boston Celtics,0,wrong_entity,Names the wrong entity. The supplied target is Milwaukee Bucks.
+d89fded71358d79c,BK-U014,Basketball,Which team had the best point differential in the 2023–24 NBA season?,entity,Boston Celtics,11.34,,"The team with the best point differential in the 2023-24 NBA season was the Miami Heat, with a differential of +8.3 points per game.",0,wrong_entity,"The leader was Boston, not Miami; the added Miami differential of +8.3 is also false."
+ce3c66e9882168f8,F1-U010,Formula 1,Which driver gained the most positions on lap one across the 2023 season?,entity,Lance Stroll,,,Driver: Max Verstappen (gained 11 positions on lap one across the 2023 season),0,wrong_entity,"Identifies Verstappen instead of the supplied Lance Stroll target, and adds an unsupported 11-position total."
+5adc43d4326f9d0d,CF-U020,Club Football,How many yellow cards did Real Madrid receive in La Liga in the 2021–22 season?,numeric,89,,,The number of yellow cards Real Madrid received in La Liga during the 2021–22 season was 45.,0,wrong_number,The response (The number of yellow cards Real Madrid received in La Liga during the 2021–22 season was 45.) is incorrect. Published 2021-22 La Liga data give Real Madrid 76 yellow cards; the supplied gold of 89 is also inconsistent. Source: https://www.statmuse.com/fc/ask/real-madrid-yellow-cards-since-2000?l=laliga
+67b32b23bb2f86a2,F1-U020,Formula 1,Which team had the best average qualifying result in 2022?,entity,Red Bull Racing,,,I do not have the necessary data to answer this question.,0,no_answer,"Declines to answer or asks for more information instead of supplying the requested result. The qualifying-session results support Ferrari (mean 3.41), not the supplied Red Bull target (3.795). Source: https://gpracingstats.com/seasons/2022-world-championship/qualifying-stats/"
+2054cfbc28a90198,TN-U016,Tennis,Who had the best return games won percentage on the WTA Tour in 2023?,entity,Iga Świątek,,,I do not have the specific data to answer this question.,0,no_answer,Declines to answer or asks for more information instead of supplying the requested result.
+76b9f305dc574bfb,F1-U018,Formula 1,Which driver recorded the most laps led in 2023?,entity,Max Verstappen,1003,,Max Verstappen,1,none,"Identifies Max Verstappen, the requested entity."
+5c2bafc60c71552c,IF-U018,International Football,Which nation had the best goal difference in the 2016 Copa America Centenario group stage?,entity,Argentina,10,,"Brazilthought
+Thinking Process:
+
+1.  **Identify the core request:** The user wants to know which nation had the best goal difference in the 2016 Copa America Centenario group stage.
+2.  **Determine the required output format:** Return only the requested final answer (the nation's name).
+3.  **Recall/Search knowledge (2016 Copa America Centenario group stage goal differences):**
+    *   Brazil:",0,wrong_entity,Names the wrong entity. The supplied target is Argentina.
+586ee34ba24422fe,CF-U018,Club Football,What was the median number of goals per match in the 2022–23 Ligue 1 season?,numeric,2,,,The median number of goals per match in the 2022–23 Ligue 1 season was 2.5.,0,wrong_number,"The response is wrong. Summing published team counts and dividing by two gives 214 of 380 matches with at least 3 goals, so the median must be at least 3. The supplied gold of 2 is also invalid. Source: https://www.windrawwin.com/statistics/over-under-25-goals/france-ligue-1/2022-2023/"
+27a6f2d0b6cd1797,BK-U002,Basketball,How many points per game did Luka Doncic average in the 2023–24 NBA regular season?,numeric,33.9,,,I'm unable to provide the answer to that question as the 2023-24 NBA regular season has not yet occurred. Luka Doncic's points per game average for that season is unknown at this time.,0,no_answer,Declines to answer or asks for more information instead of supplying the requested result.
+fa5d7eb350421f3f,CF-U013,Club Football,Which team scored the most goals in the 2023–24 Bundesliga season?,entity,Bayern Munich,94,,Bayern Munich,1,none,"Identifies Bayern Munich, the requested entity."
+81340120a089517c,TN-U001,Tennis,Who won the men's singles title at Wimbledon 2023?,entity,Carlos Alcaraz,,,Taylor Fritz,0,wrong_entity,Names the wrong entity. The supplied target is Carlos Alcaraz.
+44bfa9d687c91620,F1-U010,Formula 1,Which driver gained the most positions on lap one across the 2023 season?,entity,Lance Stroll,,,"Max Verstappenthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants to know which driver gained the most positions on lap one across the 2023 Formula 1 season.
+2.  **Identify the Data Needed:** Lap 1 position gains for all drivers in the 2023 season.
+3.  **Determine the Answer Format:** Return only the requested final answer (the driver's name).
+4.",0,wrong_entity,Names the wrong entity. The supplied target is Lance Stroll.
+4420368f3ce3ca36,CF-U019,Club Football,Which club had the fewest losses in the 2023–24 Premier League?,entity,Manchester City,3,,Manchester City,1,none,"Identifies Manchester City, the requested entity."
+d5b34b3631b851ee,IF-U018,International Football,Which nation had the best goal difference in the 2016 Copa America Centenario group stage?,entity,Argentina,10,,"Argentina, with a goal difference of +6.",0,false_supporting_fact,"Argentina is right, but its group-stage goal difference was +10, not +6."
+24f60d6e22a068c8,F1-U007,Formula 1,List the top five drivers by points after the 2024 Bahrain Grand Prix.,list,Max Verstappen (26); Sergio Pérez (18); Carlos Sainz (15); Charles Leclerc (12); George Russell (10),,,"I. Hamilton, Bottas, Verstappen, Perez, Leclerc.",0,wrong_list,"Sainz and Russell are missing. Hamilton and Bottas are incorrectly included, and the ordering does not match the points standings."
+608b70f3c7336160,BK-U003,Basketball,Which team finished with the best regular-season record in the 2022–23 NBA season?,entity,Milwaukee Bucks,58,,Miami Heat,0,wrong_entity,Names the wrong entity. The supplied target is Milwaukee Bucks.
+7c390b373dee2cf4,TN-U002,Tennis,How many aces did Aryna Sabalenka serve at the 2024 Australian Open?,numeric,31,,,I'm unable to provide the exact number of aces Aryna Sabalenka served at the 2024 Australian Open as the tournament has already concluded before this interaction. Please check the official WTA statistics for the accurate information.,0,no_answer,Declines to answer or asks for more information instead of supplying the requested result.
+d3f89dedfb23c36c,F1-U012,Formula 1,Which constructor scored the fewest points in 2022?,entity,Williams,8,,"Haasthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants to know which constructor scored the fewest points in the 2022 Formula 1 season.
+2.  **Identify the Data Needed:** 2022 F1 Constructor Standings (Points).
+3.  **Recall/Verify Data (Internal Knowledge Check for 2022 F1 Constructors):**
+    *   Red Bull Racing: 8",0,wrong_entity,Names the wrong entity. The supplied target is Williams.
+c946f20364c03929,IF-U020,International Football,Which team recorded the most crosses at UEFA Euro 2024?,entity,Spain,,,Belgium,0,wrong_entity,Names the wrong entity. The supplied target is Spain.
+72034efd69f0ceea,TN-U015,Tennis,Compare the 2023 match-win totals of Jannik Sinner and Daniil Medvedev.,compare,64,66,,I'm unable to provide the 2023 match-win totals for Jannik Sinner and Daniil Medvedev as the tennis season has not yet begun. Please check back later in the year for an updated answer.,0,no_answer,Declines to answer or asks for more information instead of supplying the requested result.
+0c6bc32f86d2c962,TN-U006,Tennis,List the top five WTA players by ranking points at the end of 2023.,list,Iga Świątek (9295); Aryna Sabalenka (8905); Coco Gauff (6580); Elena Rybakina (6365); Jessica Pegula (5975),,,"1. Iga Świątek
+2. Aryna Sabalenka
+3. Coco Gauff
+4. Elena Rybakina
+5. Jessica Pegulathought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants a list of the top five WTA players by ranking points at the end of 2023.
+2.  **Analyze Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain",1,none,"Swiatek, Sabalenka, Gauff, Rybakina and Pegula are the five year-end leaders in order. The question asks for players, so naming them is sufficient."
+a6017b8cacbc846d,CF-U001,Club Football,Who won the 2023–24 English Premier League?,entity,Manchester City,,,Manchester City,1,none,"Identifies Manchester City, the requested entity."
+2c2e70d92cead05c,TN-U001,Tennis,Who won the men's singles title at Wimbledon 2023?,entity,Carlos Alcaraz,,,Novak Djokovic won the men's singles title at Wimbledon 2023.,0,wrong_entity,Names the wrong entity. The supplied target is Carlos Alcaraz.
+34e159652d755435,TN-U007,Tennis,Which player won the most ATP titles in 2021?,entity,Alexander Zverev,6,,Daniil Medvedev,0,wrong_entity,Names the wrong entity. The supplied target is Alexander Zverev.
+a69268df7da33d48,TN-U017,Tennis,What was the average duration of men's singles matches at Wimbledon 2022?,numeric,149 minutes,,,3 hours 5 minutes,0,wrong_number,"3 hours 5 minutes equals 185 minutes, not the supplied 149-minute average."
+1cc09a1280255a4d,IF-U003,International Football,How many goals did Kylian Mbappe score in the 2022 FIFA World Cup?,numeric,8,,,0,0,wrong_number,The returned figure does not equal the supplied target of 8.
+31884b2054a342e4,TN-U015,Tennis,Compare the 2023 match-win totals of Jannik Sinner and Daniil Medvedev.,compare,64,66,,"Jannik Sinner: 15
+Daniil Medvedev: 18",0,incorrect_comparison,"The comparison has incorrect figures; the supplied totals are 64 and 66, respectively."
+6fced47af4ec975b,IF-U010,International Football,Which country had the highest points total in the UEFA Euro 2024 group stage?,entity,Spain,9,,The country with the highest points total in the UEFA Euro 2024 group stage is not yet determined as the tournament has not taken place.,0,no_answer,Declines to answer or asks for more information instead of supplying the requested result.
+a2a140dc4d6c9b5a,OL-U011,Olympics,How many medals did Jamaica win in athletics at the 2016 Rio Olympics?,numeric,11,,,"Eight gold, three silver, and two bronze medals were won by Jamaica in athletics at the 2016 Rio Olympics. In total, they won thirteen medals.",0,wrong_number,"Jamaica won 11 athletics medals: 6 gold, 3 silver and 2 bronze. The answer invents two extra gold medals and a total of 13."
+dec29aca6d073cc0,CF-U009,Club Football,Which team conceded the fewest goals in Ligue 1 in the 2022–23 season?,entity,Lens,29,,Paris Saint-Germain,0,wrong_entity,Names the wrong entity. The supplied target is Lens.
+8f7405519f9fa2c3,BK-U014,Basketball,Which team had the best point differential in the 2023–24 NBA season?,entity,Boston Celtics,11.34,,Boston Celtics,1,none,"Identifies Boston Celtics, the requested entity."
+7b8829223f2bc640,CF-U005,Club Football,Who kept the most clean sheets in Serie A in the 2021–22 season?,entity,Mike Maignan,17,,"Juventusthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants to know which goalkeeper kept the most clean sheets in Serie A during the 2021–22 season.
+2.  **Identify the Role:** I am a sports statistics assistant.
+3.  **Determine the Output Format:** Answer directly and briefly, no explanation, no invention.
+4.  **Recall/Search Data (Internal Knowledge Check for 20",0,wrong_entity,Names the wrong entity. The supplied target is Mike Maignan.
+92415800a1529008,TN-U019,Tennis,How many double faults did Elena Rybakina average per match at the 2023 Wimbledon Championships?,numeric,4.6,,,I'm unable to provide the exact number of double faults Elena Rybakina averaged per match at the 2023 Wimbledon Championships without access to the specific data. Please check the official Wimbledon or ATP/WTA statistics for the most accurate information.,0,no_answer,Declines to answer or asks for more information instead of supplying the requested result. The 4.6 reference also conflicts with published match-level statistics and should be reviewed.
+4913319ad52b78e5,IF-U009,International Football,Compare the total goals of France and Argentina in the 2022 FIFA World Cup.,compare,17,15,,"France: 6, Argentina: 3",0,incorrect_comparison,"The comparison has incorrect figures; the supplied totals are 17 and 15, respectively."
+9ae5b87a2899922f,F1-U007,Formula 1,List the top five drivers by points after the 2024 Bahrain Grand Prix.,list,Max Verstappen (26); Sergio Pérez (18); Carlos Sainz (15); Charles Leclerc (12); George Russell (10),,,"1. Max Verstappen
+2. Charles Leclerc
+3. Lando Norris
+4. Oscar Piastri
+5. Carlos SainzYou have not provided the necessary data for the 2024 Bahrain Grand Prix.",0,wrong_list,Perez and Russell are absent; Norris and Piastri are incorrectly included. The listed order is also wrong.
+7e0259c9124adc96,OL-U009,Olympics,How many medals did Australia win in swimming at the 2020 Tokyo Olympics?,numeric,20,,,16,0,wrong_number,The returned figure does not equal the supplied target of 20.
+58b0629877a5c06f,IF-U002,International Football,Which team won the 2018 FIFA World Cup?,entity,France,,,France,1,none,"Identifies France, the requested entity."
+8ff07adc2c1f4d95,IF-U015,International Football,What was Portugal's average possession at the 2022 FIFA World Cup?,numeric,61.40%,,,43.50%,0,wrong_number,The returned figure does not equal the supplied target of 61.4%.
+ff0bb91294cab69a,F1-U009,Formula 1,How many pole positions did Charles Leclerc win in 2022?,numeric,9,,,3,0,wrong_number,The returned figure does not equal the supplied target of 9.
+4f6d649239884f6f,CF-U012,Club Football,How many assists did Kevin De Bruyne record in the 2022–23 Premier League season?,numeric,16,,,14,0,wrong_number,The returned figure does not equal the supplied target of 16.
+7247c29d8aea6cf3,OL-U010,Olympics,Which country had the highest total medal count at the 2004 Athens Olympics?,entity,United States,101,,China,0,wrong_entity,Names the wrong entity. The supplied target is United States.
+9dce437cd3101192,CF-U015,Club Football,Which club had the highest average possession in La Liga in the 2022–23 season?,entity,Barcelona,64.90%,,Barcelona,1,none,"Identifies Barcelona, the requested entity."
+815a7ad72e795901,CF-U013,Club Football,Which team scored the most goals in the 2023–24 Bundesliga season?,entity,Bayern Munich,94,,"The team that scored the most goals in the 2023–24 Bundesliga season is [Team Name]. [Replace ""Team Name"" with the actual name of the team that holds this record.]",0,incomplete_answer,A placeholder is used instead of an actual player or team name.
+febfd07235f4e78a,OL-U014,Olympics,Which country won the most medals in judo at the 2020 Tokyo Olympics?,entity,Japan,,,"Japan won the most medals in judo at the 2020 Tokyo Olympics, with a total of 14 medals (6 gold, 4 silver, 4 bronze).",0,false_supporting_fact,"Japan is right. The claimed 14 medals and 6/4/4 breakdown are false: Japan had 12 event medals including the mixed-team silver (9 gold, 2 silver, 1 bronze)."
+a6678c2200293423,BK-U016,Basketball,Which club won the 2024 EuroLeague title?,entity,Panathinaikos,,,I'm unable to provide the answer to that question as the 2024 EuroLeague title has not yet been determined.,0,no_answer,Declines to answer or asks for more information instead of supplying the requested result.
+684e80031cc99d2f,OL-U001,Olympics,Which country won the most gold medals at the 2020 Tokyo Olympics?,entity,United States,,,China,0,wrong_entity,Names the wrong entity. The supplied target is United States.
+ba30cefbd9511dfb,OL-U020,Olympics,Which nation led the athletics medal table at the 2020 Tokyo Olympics?,entity,United States,,,"United Statesthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user is asking for the nation that led the athletics medal table at the 2020 Tokyo Olympics.
+2.  **Identify the Role:** I am a sports statistics assistant.
+3.  **Determine Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain reasoning.
+    *   Do not invent an answer if uncertain.
+    *",1,none,"Identifies United States, the requested entity."
+59bb762f75aa5035,IF-U006,International Football,What was the median number of goals per match in the 2018 FIFA World Cup?,numeric,2,,,The median number of goals per match in the 2018 FIFA World Cup was 2.5.,0,wrong_number,The returned figure does not equal the supplied target of 2.
+ff4f06f3610f7d2e,TN-U003,Tennis,Which player reached the women's singles final at the 2022 US Open against Iga Swiatek?,entity,Ons Jabeur,,,"Aryna Sabalenkathought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants to know which player reached the women's singles final at the 2022 US Open against Iga Swiatek.
+2.  **Identify Key Information:**
+    *   Tournament: 2022 US Open
+    *   Event: Women's Singles Final
+    *   Known Opponent: Iga Swiatek",0,wrong_entity,Names the wrong entity. The supplied target is Ons Jabeur.
+5d57e52d35b895c6,TN-U014,Tennis,Which player won the women's singles gold medal at the 2020 Tokyo Olympics?,entity,Belinda Bencic,,,"Simona Halepthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user is asking for the winner of the women's singles gold medal at the 2020 Tokyo Olympics.
+2.  **Identify the Role:** I am a sports statistics assistant.
+3.  **Determine Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain reasoning.
+    *   Do not invent an answer if uncertain",0,wrong_entity,Names the wrong entity. The supplied target is Belinda Bencic.
+dcc7dcff1ffb9707,TN-U011,Tennis,Who had the highest ace count in men's singles at the 2024 Australian Open?,entity,Daniil Medvedev,89,,"The player with the highest ace count in men's singles at the 2024 Australian Open was John Isner, with a total of 32 aces.",0,wrong_entity,Names the wrong entity. The supplied target is Daniil Medvedev.
+c18dad9a5058db50,IF-U017,International Football,How many yellow cards did Uruguay receive at the 2021 Copa America?,numeric,8,,,11,0,wrong_number,The returned figure does not equal the supplied target of 8.
+0fa59cd5d09746de,IF-U006,International Football,What was the median number of goals per match in the 2018 FIFA World Cup?,numeric,2,,,2.3,0,wrong_number,The returned figure does not equal the supplied target of 2.
+ac82483c12934340,F1-U002,Formula 1,How many wins did Max Verstappen record in the 2022 Formula 1 season?,numeric,15,,,Max Verstappen recorded 15 wins in the 2022 Formula 1 season.,1,none,"Gives the requested value, 15."
+35a4923260025b14,F1-U013,Formula 1,How many retirements did Fernando Alonso have in the 2021 Formula 1 season?,numeric,2,,,Fernando Alonso had 0 retirements in the 2021 Formula 1 season.,0,wrong_number,The returned figure does not equal the supplied target of 2.
+2f39b671f174b24c,IF-U015,International Football,What was Portugal's average possession at the 2022 FIFA World Cup?,numeric,61.40%,,,48.10%,0,wrong_number,The returned figure does not equal the supplied target of 61.4%.
+367b566e936f535d,BK-U001,Basketball,Who won the 2023–24 NBA championship?,entity,Boston Celtics,,,Boston Celtics,1,none,"Identifies Boston Celtics, the requested entity."
+cdb9c95f02b7cab6,IF-U001,International Football,Who scored the most goals in the 2022 FIFA World Cup?,entity,Kylian Mbappé,8,,Mohamed Salah,0,wrong_entity,Names the wrong entity. The supplied target is Kylian Mbappé.
+837a37a6552fc83d,BK-U012,Basketball,Compare the regular-season win totals of the Bucks and Celtics in 2022–23.,compare,58,57,,The regular-season win totals for the Bucks and Celtics in 2022-23 are to be determined as the NBA season has not yet ended. Please check back after the season for the updated information.,0,no_answer,Declines to answer or asks for more information instead of supplying the requested result.
+86d5a635cf47c690,BK-U007,Basketball,List the top five scorers in the 2023 FIBA Basketball World Cup by total points.,list,"Luka Doncic (216); Shai Gilgeous-Alexander (196); Dennis Schroder (153, tie); Bogdan Bogdanovic (153, tie); Anthony Edwards (151)",,,"Giannis Antetokounmpo, Luka Dončić, Nikola Jokić, Evan Turner, Franz Wagner",0,wrong_list,"Includes incorrect names or omits required names. Reference list: Luka Doncic (216); Shai Gilgeous-Alexander (196); Dennis Schroder (153, tie); Bogdan Bogdanovic (153, tie); Anthony Edwards (151)."
+c79726d0fb10a3f5,IF-U008,International Football,How many wins did Brazil record in the 2014 FIFA World Cup?,numeric,3,,,The Brazil national soccer team recorded 7 wins in the 2014 FIFA World Cup.,0,wrong_number,The returned figure does not equal the supplied target of 3.
+2782d05fd41ec480,OL-U008,Olympics,Which country won the most silver medals at the 2020 Tokyo Olympics?,entity,United States,41,,"China won the most silver medals at the 2020 Tokyo Olympics, with a total of 71 silver medals.",0,wrong_entity,"The United States had the most silvers, with 41. China did not lead and did not win 71 silver medals."
+51e6bb4c49e2b501,OL-U005,Olympics,Which athlete won the most medals at the 2008 Beijing Olympics?,entity,Michael Phelps,8,,"Michael Phelpsthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants to know which athlete won the most medals at the 2008 Beijing Olympics.
+2.  **Identify the Key Information Needed:** Athlete name, 2008 Beijing Olympics, most medals.
+3.  **Recall/Search Knowledge (Internal Knowledge Base):** Michael Phelps dominated the 2008 Beijing Olympics, winning 8 gold medals and",1,none,"Identifies Michael Phelps, the requested entity."
+ad309561cc6cc5ed,TN-U011,Tennis,Who had the highest ace count in men's singles at the 2024 Australian Open?,entity,Daniil Medvedev,89,,Jannik Sinner,0,wrong_entity,Names the wrong entity. The supplied target is Daniil Medvedev.
+50593abdb7c28ef1,F1-U006,Formula 1,Which driver scored the most podiums in 2023?,entity,Max Verstappen,21,,Max Verstappen,1,none,"Identifies Max Verstappen, the requested entity."
+9baf19f00221574b,IF-U006,International Football,What was the median number of goals per match in the 2018 FIFA World Cup?,numeric,2,,,2.71,0,wrong_number,The returned figure does not equal the supplied target of 2.
+5964232463cf61b4,TN-U007,Tennis,Which player won the most ATP titles in 2021?,entity,Alexander Zverev,6,,"Daniil Medvedev won the most ATP titles in 2021, with a total of 6 titles.",0,wrong_entity,"Zverev led with 6 titles. Medvedev won 4, so both the claimed leader and his title count are wrong."
+ecebb1415c6d8450,CF-U006,Club Football,What was the average attendance of Liverpool home matches in the 2022–23 Premier League season?,numeric,53184,,,39618,0,wrong_number,The returned figure does not equal the supplied target of 53184.
+688f8f3695132821,F1-U001,Formula 1,Who won the 2023 Formula 1 Drivers' Championship?,entity,Max Verstappen,,,Max Verstappen won the 2023 Formula 1 Drivers' Championship.,1,none,"Identifies Max Verstappen, the requested entity."
+7952e2ccb72562df,TN-U009,Tennis,Which country won the 2023 Davis Cup?,entity,Italy,,,Argentina,0,wrong_entity,Names the wrong entity. The supplied target is Italy.
+8d8b201782701839,BK-U015,Basketball,How many assists did LeBron James average in the 2020–21 NBA regular season?,numeric,7.8,,,LeBron James averaged 7.4 assists per game in the 2020–21 NBA regular season.,0,wrong_number,The returned figure does not equal the supplied target of 7.8.
+b89b63a3ddc7b2ff,CF-U020,Club Football,How many yellow cards did Real Madrid receive in La Liga in the 2021–22 season?,numeric,89,,,54,0,wrong_number,The response (54) is incorrect. Published 2021-22 La Liga data give Real Madrid 76 yellow cards; the supplied gold of 89 is also inconsistent. Source: https://www.statmuse.com/fc/ask/real-madrid-yellow-cards-since-2000?l=laliga
+f1b643e33f208ff2,BK-U013,Basketball,Who recorded the most blocks per game in the 2023 WNBA season?,entity,A'ja Wilson,2.2,,Breanna Stewart,0,wrong_entity,Names the wrong entity. The supplied target is A'ja Wilson.
+f25f6c0056083221,OL-U005,Olympics,Which athlete won the most medals at the 2008 Beijing Olympics?,entity,Michael Phelps,8,,Yang Yang,0,wrong_entity,Names the wrong entity. The supplied target is Michael Phelps.
+0fc0fc55b3587d14,IF-U019,International Football,Who attempted the most shots at the 2022 FIFA World Cup?,entity,Kylian Mbappé,,,"Neymar attempted the most shots at the 2022 FIFA World Cup, with a total of 23 shots.",0,wrong_entity,"Neymar is not the shots leader. Messi led, so the supplied Mbappe gold is also wrong. Source: https://www.soccerzz.com/edition/catar-2022/132894/player-statistics?avg=1&stat=18"
+1f4f2d97b620f531,IF-U002,International Football,Which team won the 2018 FIFA World Cup?,entity,France,,,The team that won the 2018 FIFA World Cup was France.,1,none,"Identifies France, the requested entity."
+cf3a4bdafdc05634,F1-U020,Formula 1,Which team had the best average qualifying result in 2022?,entity,Red Bull Racing,,,Red Bull Racing,0,wrong_entity,"Ferrari, rather than Red Bull, had the best mean qualifying-session position. Ferrari averaged 3.41 versus Red Bull 3.795. The supplied gold may be using starting-grid positions instead. Source: https://gpracingstats.com/seasons/2022-world-championship/qualifying-stats/"
+1dd32943a48f2679,F1-U016,Formula 1,Who won the 2024 Monaco Grand Prix?,entity,Charles Leclerc,,,"Charles Leclercthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user is asking for the winner of the 2024 Monaco Grand Prix.
+2.  **Identify the Role:** I am a sports statistics assistant.
+3.  **Determine Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain reasoning.
+    *   Do not invent an answer if uncertain.
+    *   Return *only",1,none,"Identifies Charles Leclerc, the requested entity."
+dfa9da47806aeea6,F1-U008,Formula 1,Which team had the fastest pit-stop average in the 2023 Formula 1 season?,entity,Red Bull Racing,,,"The team with the fastest pit-stop average in the 2023 Formula 1 season was McLaren, with an average pit-stop time of 1 minute and 18.5 seconds.",0,false_supporting_fact,The 78.5-second pit-stop average is false regardless of the named team. McLaren does not match the supplied Red Bull reference; an average also requires a defined set of stops.
+f8eab0765d4424e0,BK-U010,Basketball,How many three-pointers did Stephen Curry make in the 2021–22 NBA regular season?,numeric,285,,,270,0,wrong_number,The returned figure does not equal the supplied target of 285.
+a3083a8e004f804e,CF-U014,Club Football,What was Juventus's league position in Serie A in the 2020–21 season?,numeric,4th,,,Juventus finished 2nd in the 2020–21 Serie A season.,0,wrong_number,The returned figure does not equal the supplied target of 4th.
+44fd0bab0015dcff,OL-U017,Olympics,Who won the women's singles tennis gold medal at the 2020 Tokyo Olympics?,entity,Belinda Bencic,,,"Simona Halepthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user is asking for the winner of the women's singles tennis gold medal at the 2020 Tokyo Olympics.
+2.  **Identify Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain reasoning.
+    *   Do not invent an answer if uncertain.
+    *   Return *only* the requested final answer.",0,wrong_entity,Names the wrong entity. The supplied target is Belinda Bencic.
+d291880ecabe4318,OL-U015,Olympics,How many bronze medals did India win at the 2020 Tokyo Olympics?,numeric,4,,,The number of bronze medals won by India at the 2020 Tokyo Olympics was 7.,0,wrong_number,The returned figure does not equal the supplied target of 4.
+bd3a00b6911da3f7,TN-U012,Tennis,Which player spent the most weeks at world No. 1 in the 2023 ATP season?,entity,Novak Djokovic,32 weeks,,Novak Djokovic,1,none,"Identifies Novak Djokovic, the requested entity."
+1d3a032790479ff9,F1-U010,Formula 1,Which driver gained the most positions on lap one across the 2023 season?,entity,Lance Stroll,,,Max Verstappen,0,wrong_entity,Names the wrong entity. The supplied target is Lance Stroll.
+262868629abde02b,TN-U019,Tennis,How many double faults did Elena Rybakina average per match at the 2023 Wimbledon Championships?,numeric,4.6,,,2.1,0,wrong_number,The returned figure does not equal the supplied target of 4.6. The 4.6 reference also conflicts with published match-level statistics and should be reviewed.
+8ff62ef9f1dee7a7,IF-U007,International Football,Which team finished third in the 2022 FIFA World Cup?,entity,Croatia,,,Argentina,0,wrong_entity,Names the wrong entity. The supplied target is Croatia.
+d1bf7e70a2122c83,F1-U001,Formula 1,Who won the 2023 Formula 1 Drivers' Championship?,entity,Max Verstappen,,,Carlos Sainz,0,wrong_entity,Names the wrong entity. The supplied target is Max Verstappen.
+2f3ee256c6c90179,F1-U016,Formula 1,Who won the 2024 Monaco Grand Prix?,entity,Charles Leclerc,,,I'm unable to provide the answer to that question as the 2024 Monaco Grand Prix has not yet taken place.,0,no_answer,Declines to answer or asks for more information instead of supplying the requested result.
+85c4bcfc77a486a3,IF-U014,International Football,Which country won the 2021 Copa America final?,entity,Argentina,,,Argentina won the 2021 Copa America final.,1,none,"Identifies Argentina, the requested entity."
+e9111f6643c26ce3,F1-U007,Formula 1,List the top five drivers by points after the 2024 Bahrain Grand Prix.,list,Max Verstappen (26); Sergio Pérez (18); Carlos Sainz (15); Charles Leclerc (12); George Russell (10),,,"Max Verstappen  
+Charles Leclerc  
+Lando Norris  
+Carlos Sainz  
+Valtteri Bottas",0,wrong_list,Includes incorrect names or omits required names. Reference list: Max Verstappen (26); Sergio Pérez (18); Carlos Sainz (15); Charles Leclerc (12); George Russell (10).
+15cb6302b2ee53a4,OL-U008,Olympics,Which country won the most silver medals at the 2020 Tokyo Olympics?,entity,United States,41,,"United Statesthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants to know which country won the most silver medals at the 2020 Tokyo Olympics.
+2.  **Identify the Data Needed:** Silver medal counts for all participating countries at the 2020 Tokyo Olympics.
+3.  **Determine the Winner:** Recall/Search the official medal table for the 2020 Tokyo Olympics (held in 20",1,none,"Identifies United States, the requested entity."
+b98020b1964cf6a1,TN-U004,Tennis,What was Carlos Alcaraz's first-serve percentage in the 2023 Wimbledon final?,numeric,67%,,,66.70%,0,wrong_number,"66.7% is incorrect. The match figure was 94/150 first serves in (62.7%, rounded to 63%), not the supplied gold of 67%. Source: https://braingametennis.com/2023-wimbledon-final-alcaraz-first-serve-lesson/"
+d57b65622743f227,IF-U003,International Football,How many goals did Kylian Mbappe score in the 2022 FIFA World Cup?,numeric,8,,,Kylian Mbappe did not score any goals in the 2022 FIFA World Cup.,0,wrong_number,The returned figure does not equal the supplied target of 8.
+1a73ed2a46a81741,F1-U012,Formula 1,Which constructor scored the fewest points in 2022?,entity,Williams,8,,Alfa Romeo,0,wrong_entity,Names the wrong entity. The supplied target is Williams.
+2e7f36135bd1fa68,CF-U006,Club Football,What was the average attendance of Liverpool home matches in the 2022–23 Premier League season?,numeric,53184,,,The average attendance of Liverpool home matches in the 2022–23 Premier League season is not available yet as the season has not ended.,0,no_answer,Declines to answer or asks for more information instead of supplying the requested result.
+61926cbc2777eec4,F1-U013,Formula 1,How many retirements did Fernando Alonso have in the 2021 Formula 1 season?,numeric,2,,,3,0,wrong_number,The returned figure does not equal the supplied target of 2.
+9c0615a65b119b33,OL-U012,Olympics,Which athlete won gold in the men's 100 meters at the 2020 Tokyo Olympics?,entity,Lamont Marcell Jacobs,,,"Noah Lylesthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user is asking for the winner of the men's 100 meters at the 2020 Tokyo Olympics.
+2.  **Identify the Role:** I am a sports statistics assistant.
+3.  **Determine Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain reasoning.
+    *   Do not invent an answer if",0,wrong_entity,Names the wrong entity. The supplied target is Lamont Marcell Jacobs.
+b0a00bb2407e3d78,BK-U016,Basketball,Which club won the 2024 EuroLeague title?,entity,Panathinaikos,,,,0,no_answer,The response is empty; no club is named.
+f811c5ab3ac324f0,OL-U015,Olympics,How many bronze medals did India win at the 2020 Tokyo Olympics?,numeric,4,,,1,0,wrong_number,The returned figure does not equal the supplied target of 4.
+3f480620e932b535,IF-U017,International Football,How many yellow cards did Uruguay receive at the 2021 Copa America?,numeric,8,,,4,0,wrong_number,The returned figure does not equal the supplied target of 8.
+565e8104fe1ee720,CF-U007,Club Football,List the top five scorers in the 2023–24 Bundesliga by total goals.,list,Harry Kane (36); Serhou Guirassy (28); Loïs Openda (24); Deniz Undav (18); Maximilian Beier (16),,,"I. Muller (Bayern Munich) - 25 goals
+II. Haaland (Borussia Dortmund) - 23 goals
+III. Sane (Bayern Munich) - 21 goals
+IV. Werner (RB Leipzig) - 20 goals
+V. Gnabry (Bayern Munich) - 19 goals",0,wrong_list,Includes incorrect names or omits required names. Reference list: Harry Kane (36); Serhou Guirassy (28); Loïs Openda (24); Deniz Undav (18); Maximilian Beier (16).
+b158d71d67443b0a,F1-U003,Formula 1,Which team finished second in the 2023 Constructors' Championship?,entity,Mercedes,,,Red Bull Racing,0,wrong_entity,Names the wrong entity. The supplied target is Mercedes.
+cf58288ed327d1de,IF-U011,International Football,Who provided the most assists at the 2021 Copa America?,entity,Lionel Messi,5,,Angel Di Maria,0,wrong_entity,Names the wrong entity. The supplied target is Lionel Messi.
+2c5446713094d589,BK-U001,Basketball,Who won the 2023–24 NBA championship?,entity,Boston Celtics,,,I'm unable to provide the answer to that question as the 2023-24 NBA championship has not yet taken place.,0,no_answer,Declines to answer or asks for more information instead of supplying the requested result.
+3367fcbcc864be30,F1-U003,Formula 1,Which team finished second in the 2023 Constructors' Championship?,entity,Mercedes,,,Mercedes,1,none,"Identifies Mercedes, the requested entity."
+fc706ef2beebb6db,CF-U015,Club Football,Which club had the highest average possession in La Liga in the 2022–23 season?,entity,Barcelona,64.90%,,"Barcelona, with an average possession of 61.3% in La Liga 2022–23 season.",0,false_supporting_fact,"Barcelona is right, but the extra 61.3% possession figure is wrong relative to the 64.9% reference."
+8954d2482a8e3ea4,IF-U005,International Football,Which country conceded the fewest goals in UEFA Euro 2020?,entity,England,,,"The country that conceded the fewest goals in UEFA Euro 2020 was Italy, with a total of 4 goals conceded in 7 matches.",0,wrong_entity,"Italy conceded 4 goals. England conceded only 2, so Italy was not the fewest-conceding side."
+76dd920fdc64f0ac,IF-U005,International Football,Which country conceded the fewest goals in UEFA Euro 2020?,entity,England,,,Sweden,0,wrong_entity,Names the wrong entity. The supplied target is England.
+1ec67fda2738914f,TN-U006,Tennis,List the top five WTA players by ranking points at the end of 2023.,list,Iga Świątek (9295); Aryna Sabalenka (8905); Coco Gauff (6580); Elena Rybakina (6365); Jessica Pegula (5975),,,"I. Sasnovich, Aryna (Belarus) - 9,520 points
+II. Sabalenka, Aryna (Belarus) - 9,385 points
+III. Swanepoel, Elina (South Africa) - 8,912 points
+IV. Pliskova, Karolina (Czech Republic) - 8,850 points
+V. Barty, Ashle",0,wrong_list,Includes incorrect names or omits required names. Reference list: Iga Świątek (9295); Aryna Sabalenka (8905); Coco Gauff (6580); Elena Rybakina (6365); Jessica Pegula (5975).
+422f018d659b0971,BK-U004,Basketball,What was the Boston Celtics' win total in the 2023–24 regular season?,numeric,64,,,51,0,wrong_number,The returned figure does not equal the supplied target of 64.
+96800d7c79d6a515,BK-U015,Basketball,How many assists did LeBron James average in the 2020–21 NBA regular season?,numeric,7.8,,,6.2,0,wrong_number,The returned figure does not equal the supplied target of 7.8.
+1dce618587e9c543,CF-U002,Club Football,How many goals did Erling Haaland score in the 2022–23 Premier League season?,numeric,36,,,I'm unable to provide the exact number of goals Erling Haaland scored in the 2022–23 Premier League season as the season has not yet started. Please check back after the season for the updated information.,0,no_answer,Declines to answer or asks for more information instead of supplying the requested result.
+27522f299dfc1162,TN-U017,Tennis,What was the average duration of men's singles matches at Wimbledon 2022?,numeric,149 minutes,,,The average duration of men's singles matches at Wimbledon 2022 was 3 hours and 11 minutes.,0,wrong_number,"3 hours 11 minutes equals 191 minutes, not the supplied 149-minute average."
+67c6c6a2acea229d,TN-U012,Tennis,Which player spent the most weeks at world No. 1 in the 2023 ATP season?,entity,Novak Djokovic,32 weeks,,"Novak Djokovicthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants to know which player spent the most weeks at world No. 1 in the 2023 ATP season.
+2.  **Identify the Role:** I am a sports statistics assistant.
+3.  **Determine Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain reasoning.
+    *   Do not invent an answer if",1,none,"Identifies Novak Djokovic, the requested entity."
+65187c7c660b55bc,IF-U014,International Football,Which country won the 2021 Copa America final?,entity,Argentina,,,Brazil,0,wrong_entity,Names the wrong entity. The supplied target is Argentina.
+4c77e5007cb308d3,CF-U011,Club Football,Which club won the 2021–22 UEFA Champions League?,entity,Real Madrid,,,Real Madrid,1,none,"Identifies Real Madrid, the requested entity."
+d5e9c6606223c649,CF-U014,Club Football,What was Juventus's league position in Serie A in the 2020–21 season?,numeric,4th,,,4,1,none,"Gives the requested value, 4th."
+69ac006334887089,OL-U004,Olympics,How many gold medals did the United States win at the 2012 London Olympics?,numeric,46,,,The United States won a total of 46 gold medals at the 2012 London Olympics.,1,none,46 is the supplied historical London gold count. Later medal reallocations change retrospective tables.
+7c3077ad001e277c,F1-U013,Formula 1,How many retirements did Fernando Alonso have in the 2021 Formula 1 season?,numeric,2,,,0,0,wrong_number,The returned figure does not equal the supplied target of 2.
+ec45e5a45d9b65a9,TN-U008,Tennis,How many break points did Novak Djokovic save in the 2023 Roland Garros final?,numeric,7 of 8,,,11,0,wrong_number,The returned figure does not equal the supplied target of 7 of 8.
+35175a2444f7f771,OL-U006,Olympics,What was Kenya's total medal count at the 2016 Rio Olympics?,numeric,13,,,Kenya won a total of 13 medals at the 2016 Rio Olympics.,1,none,"Gives the requested value, 13."
+7143f8f056a8349b,IF-U002,International Football,Which team won the 2018 FIFA World Cup?,entity,France,,,France,1,none,"Identifies France, the requested entity."
+2ae3ea9d2048c64b,OL-U014,Olympics,Which country won the most medals in judo at the 2020 Tokyo Olympics?,entity,Japan,,,Japan,1,none,"Identifies Japan, the requested entity."
+5071bc5b7a568d32,OL-U018,Olympics,Which country won the men's basketball gold medal at the 2012 London Olympics?,entity,United States,,,United States,1,none,"Identifies United States, the requested entity."
+3a64c752df4b1624,CF-U011,Club Football,Which club won the 2021–22 UEFA Champions League?,entity,Real Madrid,,,Manchester City,0,wrong_entity,Names the wrong entity. The supplied target is Real Madrid.
+05a6ab18f2c1b51b,F1-U012,Formula 1,Which constructor scored the fewest points in 2022?,entity,Williams,8,,"In the 2022 constructors' championship, Alfa Romeo scored the fewest points with a total of 19 points.",0,wrong_entity,Williams finished last with 8 points. Alfa Romeo was not last and did not score only 19 points.
+89a8bb08171b7242,OL-U003,Olympics,Which country finished second in the gold medal table at the 2016 Rio Olympics?,entity,Great Britain,,,"United Statesthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants to know which country finished second in the gold medal table at the 2016 Rio Olympics.
+2.  **Identify Key Information:** Event = 2016 Rio Olympics; Metric = Gold Medal Table; Rank = Second.
+3.  **Retrieve Knowledge (Internal Search/Verification):** Access data regarding the medal standings of the 2016",0,wrong_entity,Names the wrong entity. The supplied target is Great Britain.
+312cb554cfdb376e,OL-U016,Olympics,Which delegation recorded the most medals in track cycling at the 2016 Rio Olympics?,entity,Great Britain,,,"United Statesthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants to know which delegation recorded the most medals in track cycling at the 2016 Rio Olympics.
+2.  **Identify Key Information Needed:** Sport (Track Cycling), Event (2016 Rio Olympics), Metric (Most Medals), Output (Delegation Name).
+3.  **Search/Recall Data (Simulated Knowledge Retrieval):** I need data on",0,wrong_entity,Names the wrong entity. The supplied target is Great Britain.
+324cad9e8d80f1b5,OL-U007,Olympics,Compare the total medals of China and the United States at the 2020 Tokyo Olympics.,compare,88,113,,"China: 71 medals (36 gold, 21 silver, 14 bronze)
+United States: 113 medals (39 gold, 41 silver, 33 bronze)",0,incorrect_comparison,"The USA total and breakdown are right, but China had 88 medals (38/32/18), not 71 (36/21/14)."
+abeaf138db95bfbf,IF-U005,International Football,Which country conceded the fewest goals in UEFA Euro 2020?,entity,England,,,"Italythought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants to know which country conceded the fewest goals in UEFA Euro 2020.
+2.  **Identify the Event:** UEFA Euro 2020.
+3.  **Identify the Metric:** Fewest goals conceded (lowest goals against).
+4.  **Recall/Search Data (Internal Knowledge Check for Euro 2020):** I need the",0,wrong_entity,Names the wrong entity. The supplied target is England.
+49411229a09fafae,BK-U016,Basketball,Which club won the 2024 EuroLeague title?,entity,Panathinaikos,,,Olympiacos>,0,wrong_entity,Names the wrong entity. The supplied target is Panathinaikos.
+05b8dd20ed1970ba,TN-U015,Tennis,Compare the 2023 match-win totals of Jannik Sinner and Daniil Medvedev.,compare,64,66,,"Jannik Sinner: 15, Daniil Medvedev: 11",0,incorrect_comparison,"The comparison has incorrect figures; the supplied totals are 64 and 66, respectively."
+b67b8c515be7a894,TN-U003,Tennis,Which player reached the women's singles final at the 2022 US Open against Iga Swiatek?,entity,Ons Jabeur,,,The player who reached the women's singles final at the 2022 US Open against Iga Swiatek is Ons Jabeur.,1,none,"Identifies Ons Jabeur, the requested entity."
+3401552f33a6ed8a,BK-U010,Basketball,How many three-pointers did Stephen Curry make in the 2021–22 NBA regular season?,numeric,285,,,Stephen Curry made 228 three-pointers in the 2021–22 NBA regular season.,0,wrong_number,The returned figure does not equal the supplied target of 285.
+983942d63d235c53,TN-U011,Tennis,Who had the highest ace count in men's singles at the 2024 Australian Open?,entity,Daniil Medvedev,89,,Novak Djokovic,0,wrong_entity,Names the wrong entity. The supplied target is Daniil Medvedev.
+e731ef23498c0861,F1-U005,Formula 1,Who set the most fastest laps in the 2022 season?,entity,Max Verstappen,,,Max Verstappen,1,none,"Identifies Max Verstappen, the requested entity."
+ce119ba0e1fb5409,F1-U017,Formula 1,What was the median number of overtakes per race in the 2023 Formula 1 season?,numeric,39.5,,,4,0,wrong_number,The returned figure does not equal the supplied target of 39.5.
+04b5cdffd66a1645,F1-U008,Formula 1,Which team had the fastest pit-stop average in the 2023 Formula 1 season?,entity,Red Bull Racing,,,"Red Bull Racingthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user is asking for the team with the fastest pit-stop average in the 2023 Formula 1 season.
+2.  **Identify Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain reasoning.
+    *   Do not invent an answer if uncertain.
+    *   Return *only* the requested final answer.
+3",1,none,Red Bull matches the supplied target and won the 2023 DHL Fastest Pit Stop Award. The query leaves the average calculation undefined. Source: https://group.dhl.com/en/media-relations/press-releases/2023/dhl-concludes-the-2023-formula-1-season-by-presenting-the-awards-for-the-fastest-lap-and-pit-stop.html
+d713175b49886cd4,IF-U019,International Football,Who attempted the most shots at the 2022 FIFA World Cup?,entity,Kylian Mbappé,,,"Lionel Messithought
+Thinking Process:
+
+1.  **Analyze the Request:** The user is asking for the player who attempted the most shots at the 2022 FIFA World Cup.
+2.  **Identify the Role:** I am a sports statistics assistant.
+3.  **Determine Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain reasoning.
+    *   Do not invent an answer if uncertain.",1,none,Messi is correct: published totals show Messi 32 shots and Mbappe 31. The supplied Mbappe gold is wrong. Source: https://www.soccerzz.com/edition/catar-2022/132894/player-statistics?avg=1&stat=18
+a572db1160810ac6,CF-U018,Club Football,What was the median number of goals per match in the 2022–23 Ligue 1 season?,numeric,2,,,2.6,0,wrong_number,"The response is wrong. Summing published team counts and dividing by two gives 214 of 380 matches with at least 3 goals, so the median must be at least 3. The supplied gold of 2 is also invalid. Source: https://www.windrawwin.com/statistics/over-under-25-goals/france-ligue-1/2022-2023/"
+1abe9fa5fae4f1f5,BK-U018,Basketball,Which team made the most three-pointers per game in the 2022–23 NBA season?,entity,Golden State Warriors,16.6,,Golden State Warriors,1,none,"Identifies Golden State Warriors, the requested entity."
+e888558ac9cde500,IF-U013,International Football,How many clean sheets did England keep at UEFA Euro 2020?,numeric,5,,,0,0,wrong_number,The returned figure does not equal the supplied target of 5.
+24cdc42fe801a08e,TN-U005,Tennis,Who recorded the most match wins on ATP clay courts in 2022?,entity,Casper Ruud,,,Rafael Nadal,0,wrong_entity,Names the wrong entity. The supplied target is Casper Ruud.
+d64ce7a6afa91a9f,OL-U020,Olympics,Which nation led the athletics medal table at the 2020 Tokyo Olympics?,entity,United States,,,China,0,wrong_entity,Names the wrong entity. The supplied target is United States.
+92e348286f96c34c,TN-U014,Tennis,Which player won the women's singles gold medal at the 2020 Tokyo Olympics?,entity,Belinda Bencic,,,Naomi Osaka won the women's singles gold medal at the 2020 Tokyo Olympics.,0,wrong_entity,Names the wrong entity. The supplied target is Belinda Bencic.
+d31a7e1b9fe6cbc5,IF-U001,International Football,Who scored the most goals in the 2022 FIFA World Cup?,entity,Kylian Mbappé,8,,"Mbappé, Kylian (France) scored 8 goals in the 2022 FIFA World Cup.",1,none,"Identifies Kylian Mbappé, the requested entity."
+36825794356c1cd0,CF-U013,Club Football,Which team scored the most goals in the 2023–24 Bundesliga season?,entity,Bayern Munich,94,,"Bayer Leverkusenthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user is asking for the team that scored the most goals in the 2023–24 Bundesliga season.
+2.  **Identify the Role:** I am a sports statistics assistant.
+3.  **Determine Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain reasoning.
+    *   Do not invent an answer if uncertain.",0,wrong_entity,Names the wrong entity. The supplied target is Bayern Munich.
+2512acda7a0e7cb7,BK-U008,Basketball,What was Nikola Jokic's rebounds per game average in the 2022–23 NBA regular season?,numeric,11.8,,,13.9,0,wrong_number,The returned figure does not equal the supplied target of 11.8.
+d7c480d3c0fdcbff,CF-U003,Club Football,Which club finished second in La Liga in the 2021–22 season?,entity,Barcelona,,,Atlético Madrid,0,wrong_entity,Names the wrong entity. The supplied target is Barcelona.
+c3bbcc337b2f9294,CF-U010,Club Football,Compare the total points of Barcelona and Real Madrid in the 2023–24 La Liga season.,compare,85,95,,"Barcelona: ____ points
+Real Madrid: ____ points
+
+(I'm unable to provide the actual points without having access to the 2023–24 La Liga season statistics.)",0,no_answer,Declines to answer or asks for more information instead of supplying the requested result.
+c9659ab494077346,BK-U005,Basketball,Who led the WNBA in assists per game in 2023?,entity,Alyssa Thomas,7.9,,Ade Ayepinko,0,wrong_entity,Names the wrong entity. The supplied target is Alyssa Thomas.
+68b82e2a8ae6f717,BK-U003,Basketball,Which team finished with the best regular-season record in the 2022–23 NBA season?,entity,Milwaukee Bucks,58,,"The team with the best regular-season record in the 2022–23 NBA season is the Miami Heat, with a record of 67-15.",0,wrong_entity,Milwaukee had the best record at 58-24. Miami was not the leader and the claimed 67-15 record is false.
+14bddd83bf5d1d4e,BK-U006,Basketball,Which team allowed the fewest points per game in the 2021–22 NBA regular season?,entity,Boston Celtics,104.5,,Denver Nuggets,0,wrong_entity,Names the wrong entity. The supplied target is Boston Celtics.
+5c83ebdd4803207c,F1-U002,Formula 1,How many wins did Max Verstappen record in the 2022 Formula 1 season?,numeric,15,,,15,1,none,"Gives the requested value, 15."
+434f257aa882174c,CF-U016,Club Football,How many home wins did Inter Milan have in Serie A in the 2023–24 season?,numeric,15,,,15,0,wrong_number,The answer 15 is incorrect. Inter had 14 home wins; 15 was its away-win count. The supplied gold needs correction. Source: https://www.inter.it/en/club/palmares/serie-a?season=2023-2024
+61d3065c5be3304d,F1-U005,Formula 1,Who set the most fastest laps in the 2022 season?,entity,Max Verstappen,,,Max Verstappen set the most fastest laps in the 2022 Formula 1 season with a total of 17.,0,false_supporting_fact,"Verstappen is right. He recorded 5 fastest laps in 2022, not 17."
+511921dbf98e75e6,TN-U010,Tennis,What was Coco Gauff's win-loss record at Grand Slams in 2023?,numeric,14-3,,,1-Mar,0,wrong_number,The returned figure does not equal the supplied target of 14-3.
+f9572c04d657f2d7,CF-U017,Club Football,Which club earned the most points away from home in the Premier League in the 2021–22 season?,entity,Manchester City,45,,"Manchester Citythought
+Thinking Process:
+
+1.  **Identify the Goal:** The user wants to know which Premier League club earned the most points away from home during the 2021–22 season.
+2.  **Determine Necessary Data:** I need the away points total for every Premier League club in the 2021-2022 season.
+3.  **Recall/Search Data (Internal Knowledge Check for 20",1,none,"Identifies Manchester City, the requested entity."
+1d16f3991a70dec3,TN-U005,Tennis,Who recorded the most match wins on ATP clay courts in 2022?,entity,Casper Ruud,,,Rafael Nadal,0,wrong_entity,Names the wrong entity. The supplied target is Casper Ruud.
+acd0d96cd5cc974e,TN-U004,Tennis,What was Carlos Alcaraz's first-serve percentage in the 2023 Wimbledon final?,numeric,67%,,,71%,0,wrong_number,"71% is incorrect. The match figure was 94/150 first serves in (62.7%, rounded to 63%), not the supplied gold of 67%. Source: https://braingametennis.com/2023-wimbledon-final-alcaraz-first-serve-lesson/"
+1d693b8688fc303e,IF-U009,International Football,Compare the total goals of France and Argentina in the 2022 FIFA World Cup.,compare,17,15,,"France: 8  
+Argentina: 7",0,incorrect_comparison,"The comparison has incorrect figures; the supplied totals are 17 and 15, respectively."
+18784a2e404d8d8f,TN-U010,Tennis,What was Coco Gauff's win-loss record at Grand Slams in 2023?,numeric,14-3,,,Coco Gauff had a win-loss record of 8-3 at Grand Slams in 2023.,0,wrong_number,The returned figure does not equal the supplied target of 14-3.
+f4c3444f945e4a9a,OL-U017,Olympics,Who won the women's singles tennis gold medal at the 2020 Tokyo Olympics?,entity,Belinda Bencic,,,Naomi Osaka won the women's singles tennis gold medal at the 2020 Tokyo Olympics.,0,wrong_entity,Names the wrong entity. The supplied target is Belinda Bencic.
+35e45c5bdce39143,CF-U006,Club Football,What was the average attendance of Liverpool home matches in the 2022–23 Premier League season?,numeric,53184,,,"54,141",0,wrong_number,The returned figure does not equal the supplied target of 53184.
+634591bd7bc30518,CF-U017,Club Football,Which club earned the most points away from home in the Premier League in the 2021–22 season?,entity,Manchester City,45,,Manchester City,1,none,"Identifies Manchester City, the requested entity."
+c43405624a6dbc89,F1-U008,Formula 1,Which team had the fastest pit-stop average in the 2023 Formula 1 season?,entity,Red Bull Racing,,,Red Bull Racing,1,none,Red Bull matches the supplied target and won the 2023 DHL Fastest Pit Stop Award. The query leaves the average calculation undefined. Source: https://group.dhl.com/en/media-relations/press-releases/2023/dhl-concludes-the-2023-formula-1-season-by-presenting-the-awards-for-the-fastest-lap-and-pit-stop.html
+8e8f45407484f57e,IF-U016,International Football,Which team scored first most often at UEFA Euro 2024?,entity,Spain,,,Team A scored first most frequently at UEFA Euro 2024. (Assuming Team A is the team you're referring to.),0,incomplete_answer,A placeholder is used instead of an actual player or team name.
+d7c7bd4ddb025578,F1-U015,Formula 1,Compare the points totals of Ferrari and Mercedes in the 2022 Constructors' Championship.,compare,554,515,,"Ferrari: 183
+Mercedes: 174",0,incorrect_comparison,"The comparison has incorrect figures; the supplied totals are 554 and 515, respectively."
+0b4f675c28014358,OL-U013,Olympics,What was Great Britain's total medal count at the 2012 London Olympics?,numeric,65,,,The total number of medals won by Great Britain at the 2012 London Olympics was 65.,1,none,"Gives the requested value, 65."
+e0a8e11cf6bcd45f,F1-U003,Formula 1,Which team finished second in the 2023 Constructors' Championship?,entity,Mercedes,,,Red Bull Racing finished second in the 2023 Constructors' Championship.,0,wrong_entity,Names the wrong entity. The supplied target is Mercedes.
+e3c818eaaf969b0e,BK-U009,Basketball,Which country won gold in men's basketball at the 2020 Tokyo Olympics?,entity,United States,,,United States,1,none,"Identifies United States, the requested entity."
+a1d8389fb03addf6,IF-U007,International Football,Which team finished third in the 2022 FIFA World Cup?,entity,Croatia,,,Croatia,1,none,"Identifies Croatia, the requested entity."
+70636ae1490843a8,OL-U007,Olympics,Compare the total medals of China and the United States at the 2020 Tokyo Olympics.,compare,88,113,,"China: 88 medals  
+United States: 113 medals",1,none,Both requested totals are right: 88 and 113.
+61a66bc3287cf3dc,TN-U014,Tennis,Which player won the women's singles gold medal at the 2020 Tokyo Olympics?,entity,Belinda Bencic,,,Daniela Osorio Salazar,0,wrong_entity,Names the wrong entity. The supplied target is Belinda Bencic.
+13794ef86a752e63,BK-U009,Basketball,Which country won gold in men's basketball at the 2020 Tokyo Olympics?,entity,United States,,,United States,1,none,"Identifies United States, the requested entity."
+61c0d2abdfe7089c,F1-U014,Formula 1,Which driver achieved the highest average qualifying position in 2023?,entity,Max Verstappen,,,Max Verstappen,1,none,"Identifies Max Verstappen, the requested entity."
+d348642ef57acc14,BK-U011,Basketball,Which team had the highest offensive rating in the 2023–24 NBA regular season?,entity,Boston Celtics,123.2,,Milwaukee Bucks,0,wrong_entity,Names the wrong entity. The supplied target is Boston Celtics.
+3c8dad30abaaa120,F1-U019,Formula 1,How many sprint race wins did Red Bull drivers collect in 2023?,numeric,4,,,15,0,wrong_number,The claimed sprint-win total is wrong. Red Bull won 5: four by Verstappen and one by Perez. The supplied gold of 4 omits Perez. Source: https://www.formula1points.com/season/2023
+32ec5262ea84c90e,OL-U011,Olympics,How many medals did Jamaica win in athletics at the 2016 Rio Olympics?,numeric,11,,,11,1,none,"Gives the requested value, 11."
+34e758e66ef3ab90,CF-U004,Club Football,What was Arsenal's total points tally in the 2023–24 Premier League season?,numeric,89,,,89,1,none,"Gives the requested value, 89."
+6ae891c520dcf23f,BK-U007,Basketball,List the top five scorers in the 2023 FIBA Basketball World Cup by total points.,list,"Luka Doncic (216); Shai Gilgeous-Alexander (196); Dennis Schroder (153, tie); Bogdan Bogdanovic (153, tie); Anthony Edwards (151)",,,"I. Jamal Murray (Canada) - 252 points
+II. Luka Doncic (Slovenia) - 248 points
+III. Giannis Antetokounmpo (Greece) - 245 points
+IV. Nikola Jokic (Serbia) - 239 points
+V. Jayson Tatum (USA) - 233 points",0,wrong_list,"Includes incorrect names or omits required names. Reference list: Luka Doncic (216); Shai Gilgeous-Alexander (196); Dennis Schroder (153, tie); Bogdan Bogdanovic (153, tie); Anthony Edwards (151)."
+3eb43fb8693f96ee,IF-U018,International Football,Which nation had the best goal difference in the 2016 Copa America Centenario group stage?,entity,Argentina,10,,Uruguay,0,wrong_entity,Names the wrong entity. The supplied target is Argentina.
+78d0817ec6ffe020,TN-U008,Tennis,How many break points did Novak Djokovic save in the 2023 Roland Garros final?,numeric,7 of 8,,,11,0,wrong_number,The returned figure does not equal the supplied target of 7 of 8.
+a6662ac4c7b5b699,CF-U018,Club Football,What was the median number of goals per match in the 2022–23 Ligue 1 season?,numeric,2,,,1.5,0,wrong_number,"The response is wrong. Summing published team counts and dividing by two gives 214 of 380 matches with at least 3 goals, so the median must be at least 3. The supplied gold of 2 is also invalid. Source: https://www.windrawwin.com/statistics/over-under-25-goals/france-ligue-1/2022-2023/"
+7d91caa66816f8d3,BK-U002,Basketball,How many points per game did Luka Doncic average in the 2023–24 NBA regular season?,numeric,33.9,,,27.5,0,wrong_number,The returned figure does not equal the supplied target of 33.9.
+f6490e82c056b35a,F1-U005,Formula 1,Who set the most fastest laps in the 2022 season?,entity,Max Verstappen,,,"Max Verstappenthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user is asking ""Who set the most fastest laps in the 2022 season?""
+2.  **Identify the Domain:** The context is sports statistics (specifically Formula 1, given the nature of ""fastest laps"" in a season context).
+3.  **Determine the Required Output Format:** The response must be direct, brief, and return only the requested final",1,none,"Identifies Max Verstappen, the requested entity."
+40c1c83773507b4b,F1-U015,Formula 1,Compare the points totals of Ferrari and Mercedes in the 2022 Constructors' Championship.,compare,554,515,,"Ferrari: 135 points
+Mercedes: 352 points (as of the Hungarian Grand Prix, 2022)",0,incorrect_comparison,"Incorrect partial-season figures. The requested season totals are Ferrari 554 and Mercedes 515, not 135 and 352."
+c11d8ac225dd8b6e,OL-U006,Olympics,What was Kenya's total medal count at the 2016 Rio Olympics?,numeric,13,,,3,0,wrong_number,The returned figure does not equal the supplied target of 13.
+bc0602145231185f,IF-U010,International Football,Which country had the highest points total in the UEFA Euro 2024 group stage?,entity,Spain,9,,Germany,0,wrong_entity,Names the wrong entity. The supplied target is Spain.
+da148757c720c2c6,TN-U013,Tennis,How many titles did Iga Swiatek win in 2022?,numeric,8,,,11,0,wrong_number,The returned figure does not equal the supplied target of 8.
+2f9f3550a710ee7e,TN-U016,Tennis,Who had the best return games won percentage on the WTA Tour in 2023?,entity,Iga Świątek,,,Iga Scheepers,0,wrong_entity,Names the wrong entity. The supplied target is Iga Świątek.
+f385e59672b69700,F1-U018,Formula 1,Which driver recorded the most laps led in 2023?,entity,Max Verstappen,1003,,Max Verstappen,1,none,"Identifies Max Verstappen, the requested entity."
+a20d367e4b0cb56b,CF-U007,Club Football,List the top five scorers in the 2023–24 Bundesliga by total goals.,list,Harry Kane (36); Serhou Guirassy (28); Loïs Openda (24); Deniz Undav (18); Maximilian Beier (16),,,"1. Harry Kane
+2. Serhou Guirassy
+3. Loïs Openda
+4. Richarlison
+5. Julian Brandt",0,wrong_list,"Kane, Guirassy and Openda are right. The remaining two should be Undav and Beier, not Richarlison and Brandt."
+16099df8ad0cefe4,OL-U004,Olympics,How many gold medals did the United States win at the 2012 London Olympics?,numeric,46,,,104,0,wrong_number,The returned figure does not equal the supplied target of 46.
+06b17b30ad63fd88,BK-U012,Basketball,Compare the regular-season win totals of the Bucks and Celtics in 2022–23.,compare,58,57,,"Bucks: 55, Celtics: 57",0,incorrect_comparison,"Boston had 57 wins as stated, but Milwaukee had 58, not 55."
+f3e31129d9ea72d9,OL-U001,Olympics,Which country won the most gold medals at the 2020 Tokyo Olympics?,entity,United States,,,United States,1,none,"Identifies United States, the requested entity."
+3c233d89aec17f42,F1-U011,Formula 1,What was McLaren's total points tally in the 2023 Constructors' Championship?,numeric,302,,,105,0,wrong_number,The returned figure does not equal the supplied target of 302.
+11577aadea690731,F1-U011,Formula 1,What was McLaren's total points tally in the 2023 Constructors' Championship?,numeric,302,,,159,0,wrong_number,The returned figure does not equal the supplied target of 302.
+634d61ea2705cab1,OL-U005,Olympics,Which athlete won the most medals at the 2008 Beijing Olympics?,entity,Michael Phelps,8,,"Michael Phelps won the most medals at the 2008 Beijing Olympics, with a total of 8 gold medals.",1,none,"Identifies Michael Phelps, the requested entity."
+d218323cc4e91370,OL-U002,Olympics,How many total medals did Japan win at the 2020 Tokyo Olympics?,numeric,58,,,The total number of medals won by Japan at the 2020 Tokyo Olympics was 58.,1,none,"Gives the requested value, 58."
+57219e4d7f65da61,F1-U009,Formula 1,How many pole positions did Charles Leclerc win in 2022?,numeric,9,,,0,0,wrong_number,The returned figure does not equal the supplied target of 9.
+92a61f8fe440dea6,CF-U009,Club Football,Which team conceded the fewest goals in Ligue 1 in the 2022–23 season?,entity,Lens,29,,"The team that conceded the fewest goals in Ligue 1 during the 2022-23 season was Paris Saint-Germain, with a total of 22 goals conceded.",0,wrong_entity,"Lens conceded the fewest goals, with 29. PSG and its asserted 22-goal total are wrong."
+d3911aabf7ae000e,BK-U020,Basketball,How many rebounds did the United States average per game in men's basketball at the 2020 Olympics?,numeric,41.2,,,24.1,0,wrong_number,The returned figure does not equal the supplied target of 41.2.
+9aa0763c08ed314d,IF-U008,International Football,How many wins did Brazil record in the 2014 FIFA World Cup?,numeric,3,,,3,1,none,Three wins is right under standard match statistics. The Chile penalty-shootout advancement follows a drawn match and is not an extra match win.
+8e736720bdd46231,BK-U006,Basketball,Which team allowed the fewest points per game in the 2021–22 NBA regular season?,entity,Boston Celtics,104.5,,"The Boston Celtics allowed the fewest points per game in the 2021–22 NBA regular season, with an average of 103.9 points allowed per game.",0,false_supporting_fact,"Boston is right, but it allowed 104.5 points per game, not 103.9."
+64c6bcd5a8a7f705,CF-U004,Club Football,What was Arsenal's total points tally in the 2023–24 Premier League season?,numeric,89,,,I'm unable to provide the answer to that question as the 2023-24 Premier League season has not yet taken place.,0,no_answer,Declines to answer or asks for more information instead of supplying the requested result.
+9d6dc1a6f9da891b,TN-U008,Tennis,How many break points did Novak Djokovic save in the 2023 Roland Garros final?,numeric,7 of 8,,,The number of break points saved by Novak Djokovic in the 2023 Roland Garros final is not publicly available information. I cannot provide an answer.,0,no_answer,Declines to answer or asks for more information instead of supplying the requested result.
+45fdc4aa033b0356,F1-U014,Formula 1,Which driver achieved the highest average qualifying position in 2023?,entity,Max Verstappen,,,Max Verstappen,1,none,"Identifies Max Verstappen, the requested entity."
+15a43fc2113706eb,IF-U010,International Football,Which country had the highest points total in the UEFA Euro 2024 group stage?,entity,Spain,9,,Spain,1,none,"Identifies Spain, the requested entity."
+a8e568b53b72888e,TN-U020,Tennis,Which player had the highest ATP ranking at the end of 2022?,entity,Carlos Alcaraz,,,The player with the highest ATP ranking at the end of 2022 was Daniil Medvedev.,0,wrong_entity,Names the wrong entity. The supplied target is Carlos Alcaraz.
+e112e04a10be6a0c,F1-U015,Formula 1,Compare the points totals of Ferrari and Mercedes in the 2022 Constructors' Championship.,compare,554,515,,"Ferrari: 319, Mercedes: 614thought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants a comparison of the points totals for Ferrari and Mercedes in the 2022 Constructors' Championship.
+2.  **Identify Required Data:**
+    *   2022 Constructors' Championship points for Ferrari.
+    *   2022 Constructors' Championship points for Mercedes.
+3.  **",0,incorrect_comparison,"Ferrari had 554 points and Mercedes 515. Both response totals, 319 and 614, are wrong."
+ff4d9fdfe5294349,F1-U001,Formula 1,Who won the 2023 Formula 1 Drivers' Championship?,entity,Max Verstappen,,,Max Verstappen>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>,1,none,"Identifies Max Verstappen, the requested entity."
+5826f3d3cc73be3f,IF-U016,International Football,Which team scored first most often at UEFA Euro 2024?,entity,Spain,,,No data available.>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>,0,no_answer,Declines to answer or asks for more information instead of supplying the requested result.
+da12d452857499cb,IF-U019,International Football,Who attempted the most shots at the 2022 FIFA World Cup?,entity,Kylian Mbappé,,,Lionel Messi,1,none,Messi is correct: published totals show Messi 32 shots and Mbappe 31. The supplied Mbappe gold is wrong. Source: https://www.soccerzz.com/edition/catar-2022/132894/player-statistics?avg=1&stat=18
+5eb2e41604b11009,TN-U003,Tennis,Which player reached the women's singles final at the 2022 US Open against Iga Swiatek?,entity,Ons Jabeur,,,Rebecca Marino,0,wrong_entity,Names the wrong entity. The supplied target is Ons Jabeur.
+dd6f0fc6111528f4,OL-U014,Olympics,Which country won the most medals in judo at the 2020 Tokyo Olympics?,entity,Japan,,,Japan,1,none,"Identifies Japan, the requested entity."
+e6aa1ea033ec0209,CF-U001,Club Football,Who won the 2023–24 English Premier League?,entity,Manchester City,,,Manchester City,1,none,"Identifies Manchester City, the requested entity."
+48bcc0caa451dd89,TN-U019,Tennis,How many double faults did Elena Rybakina average per match at the 2023 Wimbledon Championships?,numeric,4.6,,,1.8,0,wrong_number,The returned figure does not equal the supplied target of 4.6. The 4.6 reference also conflicts with published match-level statistics and should be reviewed.
+1ec904bb9adb34d1,TN-U002,Tennis,How many aces did Aryna Sabalenka serve at the 2024 Australian Open?,numeric,31,,,12,0,wrong_number,The returned figure does not equal the supplied target of 31.
+f78b5a3b5248fe34,BK-U014,Basketball,Which team had the best point differential in the 2023–24 NBA season?,entity,Boston Celtics,11.34,,"Boston Celticsthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants to know which team had the best point differential in the 2023–24 NBA season.
+2.  **Identify Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain reasoning.
+    *   Do not invent an answer if uncertain.
+    *   Return *only* the requested final answer.
+3.",1,none,"Identifies Boston Celtics, the requested entity."
+55339b64d21fc117,F1-U020,Formula 1,Which team had the best average qualifying result in 2022?,entity,Red Bull Racing,,,I'm unable to provide the answer directly without knowing which specific sports league or competition you're referring to in 2022 where teams qualify for events. Could you please please specify the league or competition?,0,no_answer,"Declines to answer or asks for more information instead of supplying the requested result. The qualifying-session results support Ferrari (mean 3.41), not the supplied Red Bull target (3.795). Source: https://gpracingstats.com/seasons/2022-world-championship/qualifying-stats/"
+0e8af357ba5eaeaf,OL-U009,Olympics,How many medals did Australia win in swimming at the 2020 Tokyo Olympics?,numeric,20,,,1,0,wrong_number,The returned figure does not equal the supplied target of 20.
+0f5758a7265f0fda,IF-U012,International Football,Which team had the fewest shots on target against them at the 2022 World Cup?,entity,Spain,,,Iran,0,wrong_entity,Names the wrong entity. The supplied target is Spain.
+0398da6e3b599061,BK-U004,Basketball,What was the Boston Celtics' win total in the 2023–24 regular season?,numeric,64,,,I'm an assistant and I don't have access to real-time or future sports data. The Boston Celtics' win total for the 2023–24 regular season is not available at this time.,0,no_answer,Declines to answer or asks for more information instead of supplying the requested result.
+4bde0cea9bec076c,F1-U009,Formula 1,How many pole positions did Charles Leclerc win in 2022?,numeric,9,,,Charles Leclerc won 3 pole positions in 2022.,0,wrong_number,The returned figure does not equal the supplied target of 9.
+599872803a1a455e,CF-U016,Club Football,How many home wins did Inter Milan have in Serie A in the 2023–24 season?,numeric,15,,,13,0,wrong_number,The answer 13 is incorrect. Inter had 14 home wins; 15 was its away-win count. The supplied gold needs correction. Source: https://www.inter.it/en/club/palmares/serie-a?season=2023-2024
+0a2bc281184992f3,TN-U017,Tennis,What was the average duration of men's singles matches at Wimbledon 2022?,numeric,149 minutes,,,3.1 hours,0,wrong_number,"3.1 hours equals 186 minutes, not the supplied 149-minute average."
+b7e49df4545f9f53,TN-U018,Tennis,Which player won the 2024 Miami Open men's singles title?,entity,Jannik Sinner,,,Novak Djokovic,0,wrong_entity,Names the wrong entity. The supplied target is Jannik Sinner.
+66cb5152b41e895e,OL-U019,Olympics,How many medals did Canada win in rowing at the 2008 Beijing Olympics?,numeric,4,,,1,0,wrong_number,The returned figure does not equal the supplied target of 4.
+0b1ca54e4f8f9670,BK-U013,Basketball,Who recorded the most blocks per game in the 2023 WNBA season?,entity,A'ja Wilson,2.2,,A'ja Wilson>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>,1,none,"Identifies A'ja Wilson, the requested entity."
+d169044720459bdd,BK-U017,Basketball,What was the average margin of victory in the 2023 FIBA World Cup knockout stage?,numeric,11.9,,,11.2,0,wrong_number,The returned figure does not equal the supplied target of 11.9.
+fcf2984bb224ccc1,CF-U016,Club Football,How many home wins did Inter Milan have in Serie A in the 2023–24 season?,numeric,15,,,"I'm an assistant and I don't have real-time access to sports statistics or databases. However, if the 2023-24 Serie A season has already ended and Inter Milan's home wins are known, I would return that number. For example, ""The answer is 12."" If the season is still in progress, I would need to wait for the final results before providing an answer.",0,no_answer,"The response gives a hypothetical example rather than an actual answer. Inter had 14 home wins, not the example 12 or the supplied reference 15. Source: https://www.inter.it/en/club/palmares/serie-a?season=2023-2024"
+3141bf9a55f76cc3,CF-U007,Club Football,List the top five scorers in the 2023–24 Bundesliga by total goals.,list,Harry Kane (36); Serhou Guirassy (28); Loïs Openda (24); Deniz Undav (18); Maximilian Beier (16),,,"1. Robert Lewandowski - 25 goals
+2. Erling Haaland - 23 goals
+3. Timo Werner - 18 goals
+4. Julian Brandt - 17 goals
+5. Kevin Volland - 16 goals",0,wrong_list,Includes incorrect names or omits required names. Reference list: Harry Kane (36); Serhou Guirassy (28); Loïs Openda (24); Deniz Undav (18); Maximilian Beier (16).
+1eaef34ffb0c570b,OL-U013,Olympics,What was Great Britain's total medal count at the 2012 London Olympics?,numeric,65,,,29,0,wrong_number,The returned figure does not equal the supplied target of 65.
+751e53b9b4e14af5,BK-U011,Basketball,Which team had the highest offensive rating in the 2023–24 NBA regular season?,entity,Boston Celtics,123.2,,Boston Celtics,1,none,"Identifies Boston Celtics, the requested entity."
+de40e2b1936edd52,BK-U007,Basketball,List the top five scorers in the 2023 FIBA Basketball World Cup by total points.,list,"Luka Doncic (216); Shai Gilgeous-Alexander (196); Dennis Schroder (153, tie); Bogdan Bogdanovic (153, tie); Anthony Edwards (151)",,,"1. Nikola Jokic
+2. Luka Doncic
+3. Victor Wembanyama
+4. Shai Gilgeous-Alexander
+5. Giannis Antetokounmpo",0,wrong_list,"Includes incorrect names or omits required names. Reference list: Luka Doncic (216); Shai Gilgeous-Alexander (196); Dennis Schroder (153, tie); Bogdan Bogdanovic (153, tie); Anthony Edwards (151)."
+ab5b7b8b0d8f2ef3,BK-U017,Basketball,What was the average margin of victory in the 2023 FIBA World Cup knockout stage?,numeric,11.9,,,15.2,0,wrong_number,The returned figure does not equal the supplied target of 11.9.
+01dd2a2fb52963c8,TN-U020,Tennis,Which player had the highest ATP ranking at the end of 2022?,entity,Carlos Alcaraz,,,Novak Djokovic,0,wrong_entity,Names the wrong entity. The supplied target is Carlos Alcaraz.
+c0e6fa4efae11216,BK-U010,Basketball,How many three-pointers did Stephen Curry make in the 2021–22 NBA regular season?,numeric,285,,,402,0,wrong_number,The returned figure does not equal the supplied target of 285.
+03ce1a0974745f55,BK-U001,Basketball,Who won the 2023–24 NBA championship?,entity,Boston Celtics,,,Denver Nuggets,0,wrong_entity,Names the wrong entity. The supplied target is Boston Celtics.
+75d59d53cca90172,TN-U004,Tennis,What was Carlos Alcaraz's first-serve percentage in the 2023 Wimbledon final?,numeric,67%,,,Carlos Alcaraz's first-serve percentage in the 2023 Wimbledon final was 68%.,0,wrong_number,"Carlos Alcaraz's first-serve percentage in the 2023 Wimbledon final was 68%. is incorrect. The match figure was 94/150 first serves in (62.7%, rounded to 63%), not the supplied gold of 67%. Source: https://braingametennis.com/2023-wimbledon-final-alcaraz-first-serve-lesson/"
+bd21e38a9e6520fb,TN-U001,Tennis,Who won the men's singles title at Wimbledon 2023?,entity,Carlos Alcaraz,,,Carlos Alcaraz>,1,none,"Identifies Carlos Alcaraz, the requested entity."
+ae0c6194e1249e9f,OL-U002,Olympics,How many total medals did Japan win at the 2020 Tokyo Olympics?,numeric,58,,,27,0,wrong_number,The returned figure does not equal the supplied target of 58.
+6e3a32591d5eb3f2,CF-U004,Club Football,What was Arsenal's total points tally in the 2023–24 Premier League season?,numeric,89,,,61,0,wrong_number,The returned figure does not equal the supplied target of 89.
+b6a48b7ad68a8887,BK-U005,Basketball,Who led the WNBA in assists per game in 2023?,entity,Alyssa Thomas,7.9,,Jewell Loyd,0,wrong_entity,Names the wrong entity. The supplied target is Alyssa Thomas.
+9075ccfe071094d6,OL-U016,Olympics,Which delegation recorded the most medals in track cycling at the 2016 Rio Olympics?,entity,Great Britain,,,China,0,wrong_entity,Names the wrong entity. The supplied target is Great Britain.
+02a88cbb20ff32b9,CF-U012,Club Football,How many assists did Kevin De Bruyne record in the 2022–23 Premier League season?,numeric,16,,,16,1,none,"Gives the requested value, 16."
+186c225589b791f6,CF-U009,Club Football,Which team conceded the fewest goals in Ligue 1 in the 2022–23 season?,entity,Lens,29,,Lens,1,none,"Identifies Lens, the requested entity."
+f61f6db61447fd61,CF-U003,Club Football,Which club finished second in La Liga in the 2021–22 season?,entity,Barcelona,,,Real Sociedad or Barcelona (depending on the final standings),0,ambiguous_answer,Barcelona finished second. Naming Real Sociedad as an alternative prevents this from being a fully correct answer.
+bc7d3f9d3339cb18,TN-U016,Tennis,Who had the best return games won percentage on the WTA Tour in 2023?,entity,Iga Świątek,,,Serena Williams had the best return games won percentage on the WTA Tour in 2023 with 68.3%.,0,wrong_entity,"The supplied return-games leader is Iga Swiatek. Serena Williams did not compete on the 2023 tour, and the 68.3% claim is false."
+41eca0141f0d6da0,IF-U017,International Football,How many yellow cards did Uruguay receive at the 2021 Copa America?,numeric,8,,,Uruguay received 7 yellow cards at the 2021 Copa America.,0,wrong_number,The returned figure does not equal the supplied target of 8.
+1d2c220f7a5b2cc5,BK-U018,Basketball,Which team made the most three-pointers per game in the 2022–23 NBA season?,entity,Golden State Warriors,16.6,,Golden State Warriors (15.8 three-pointers made per game),0,false_supporting_fact,"Golden State is right. Its 2022-23 three-point average was 16.6 per game, not 15.8."
+bca2b3a9f1497c04,BK-U008,Basketball,What was Nikola Jokic's rebounds per game average in the 2022–23 NBA regular season?,numeric,11.8,,,12.4,0,wrong_number,The returned figure does not equal the supplied target of 11.8.
+a600b9482aae0573,IF-U020,International Football,Which team recorded the most crosses at UEFA Euro 2024?,entity,Spain,,,Data not available.>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>,0,no_answer,Declines to answer or asks for more information instead of supplying the requested result.
+d4daf4db8b1a4064,CF-U005,Club Football,Who kept the most clean sheets in Serie A in the 2021–22 season?,entity,Mike Maignan,17,,"The goalkeeper with the most clean sheets in Serie A during the 2021-22 season was Mike Maignan, with a total of 21 clean sheets for AC Milan.",0,false_supporting_fact,"Maignan is right, but his Serie A clean-sheet count was 17, not 21."
+b265520038ced6f6,OL-U012,Olympics,Which athlete won gold in the men's 100 meters at the 2020 Tokyo Olympics?,entity,Lamont Marcell Jacobs,,,"The athlete who won gold in the men's 100 meters at the 2020 Tokyo Olympics was Usain Bolt (this is assuming you're asking about the 2016 Olympics, as the 2020 Olympics have already taken place and the gold medal was won by Marcell Jacobs).",0,contradictory_answer,"The opening answer incorrectly names Bolt for Tokyo, then names Jacobs in parentheses. Changing the event to 2016 does not answer the query consistently."
+8582eb30d60c4c8c,F1-U018,Formula 1,Which driver recorded the most laps led in 2023?,entity,Max Verstappen,1003,,"Max Verstappen led the most laps in the 2023 Formula One season. [Reference: Statista, Formula One, Laps led by driver in the 2023 season]",1,none,"Identifies Max Verstappen, the requested entity."
+997fc04d33ca937a,BK-U011,Basketball,Which team had the highest offensive rating in the 2023–24 NBA regular season?,entity,Boston Celtics,123.2,,"The team with the highest offensive rating in the 2023–24 NBA regular season was the Boston Celtics, with a rating of 115.6.",0,false_supporting_fact,"Boston is right, but the 115.6 offensive rating is incorrect; the supplied statistic is 123.2."
+7587ba6a31670b09,IF-U004,International Football,What was Argentina's goal difference in the 2022 FIFA World Cup?,numeric,7,,,Argentina's goal difference in the 2022 FIFA World Cup was +5.,0,wrong_number,The returned figure does not equal the supplied target of 7.
+e8d550d26e00bafc,TN-U006,Tennis,List the top five WTA players by ranking points at the end of 2023.,list,Iga Świątek (9295); Aryna Sabalenka (8905); Coco Gauff (6580); Elena Rybakina (6365); Jessica Pegula (5975),,,"1. Iga Świątek
+2. Aryna Sabalenka
+3. Jessica Pegula
+4. Ons Jabeur
+5. Elina Svitolina",0,wrong_list,Includes incorrect names or omits required names. Reference list: Iga Świątek (9295); Aryna Sabalenka (8905); Coco Gauff (6580); Elena Rybakina (6365); Jessica Pegula (5975).
+165f575bf7429224,IF-U020,International Football,Which team recorded the most crosses at UEFA Euro 2024?,entity,Spain,,,Team A recorded 500 crosses at UEFA Euro 2024.,0,incomplete_answer,A placeholder is used instead of an actual player or team name.
+1519e88c6404e515,F1-U019,Formula 1,How many sprint race wins did Red Bull drivers collect in 2023?,numeric,4,,,0,0,wrong_number,The claimed sprint-win total is wrong. Red Bull won 5: four by Verstappen and one by Perez. The supplied gold of 4 omits Perez. Source: https://www.formula1points.com/season/2023
+3e2dd454beef14c2,CF-U010,Club Football,Compare the total points of Barcelona and Real Madrid in the 2023–24 La Liga season.,compare,85,95,,"Barcelona: 71, Real Madrid: 95",0,incorrect_comparison,"Madrid 95 is correct. Barcelona had 85 points, not 71."
+e54690b4d5d05ca6,IF-U004,International Football,What was Argentina's goal difference in the 2022 FIFA World Cup?,numeric,7,,,1,0,wrong_number,The returned figure does not equal the supplied target of 7.
+a859063fe49ca4d9,TN-U002,Tennis,How many aces did Aryna Sabalenka serve at the 2024 Australian Open?,numeric,31,,,No data available,0,no_answer,Declines to answer or asks for more information instead of supplying the requested result.
+ff83da009bc97be2,OL-U012,Olympics,Which athlete won gold in the men's 100 meters at the 2020 Tokyo Olympics?,entity,Lamont Marcell Jacobs,,,Usain Bolt,0,wrong_entity,Names the wrong entity. The supplied target is Lamont Marcell Jacobs.
+976fc251153ac96b,CF-U008,Club Football,What was Manchester City's goal difference in the 2021–22 Premier League season?,numeric,73,,,38,0,wrong_number,The returned figure does not equal the supplied target of 73.
+abba57dbc14a9a54,CF-U002,Club Football,How many goals did Erling Haaland score in the 2022–23 Premier League season?,numeric,36,,,14,0,wrong_number,The returned figure does not equal the supplied target of 36.
+33b6044283c54eff,BK-U013,Basketball,Who recorded the most blocks per game in the 2023 WNBA season?,entity,A'ja Wilson,2.2,,"The player with the most blocks per game in the 2023 WNBA season was Brittney Griner, averaging 3.5 blocks per game.",0,wrong_entity,Names the wrong entity. The supplied target is A'ja Wilson.
+bfb4e5e0485365f9,OL-U003,Olympics,Which country finished second in the gold medal table at the 2016 Rio Olympics?,entity,Great Britain,,,China,0,wrong_entity,Names the wrong entity. The supplied target is Great Britain.
+301ea2c47eace7cb,CF-U020,Club Football,How many yellow cards did Real Madrid receive in La Liga in the 2021–22 season?,numeric,89,,,73,0,wrong_number,The response (73) is incorrect. Published 2021-22 La Liga data give Real Madrid 76 yellow cards; the supplied gold of 89 is also inconsistent. Source: https://www.statmuse.com/fc/ask/real-madrid-yellow-cards-since-2000?l=laliga
+78b6ccdd33065324,TN-U010,Tennis,What was Coco Gauff's win-loss record at Grand Slams in 2023?,numeric,14-3,,,4-Jan,0,wrong_number,The returned figure does not equal the supplied target of 14-3.
+f996829d5126728a,BK-U006,Basketball,Which team allowed the fewest points per game in the 2021–22 NBA regular season?,entity,Boston Celtics,104.5,,"Phoenix Sunsthought
+Thinking Process:
+
+1.  **Identify the core request:** The user wants to know which team allowed the fewest points per game in the 2021–22 NBA regular season.
+2.  **Determine the required data:** I need the defensive points per game (PPG allowed) for all NBA teams during the 2021-2022 season.
+3.  **Recall/Search the data (Internal",0,wrong_entity,Names the wrong entity. The supplied target is Boston Celtics.
+b3d8039607998b43,TN-U020,Tennis,Which player had the highest ATP ranking at the end of 2022?,entity,Carlos Alcaraz,,,Novak Djokovic>,0,wrong_entity,Names the wrong entity. The supplied target is Carlos Alcaraz.
+ce7ea1919af82875,CF-U015,Club Football,Which club had the highest average possession in La Liga in the 2022–23 season?,entity,Barcelona,64.90%,,Sevilla FC,0,wrong_entity,Names the wrong entity. The supplied target is Barcelona.
+e811a1da13dee623,F1-U006,Formula 1,Which driver scored the most podiums in 2023?,entity,Max Verstappen,21,,Max Verstappen scored the most podiums in 2023 with a total of 12 podium finishes.,0,false_supporting_fact,"Verstappen is right, but he had 21 podiums in 2023, not 12."
+59a11dbee197763e,BK-U020,Basketball,How many rebounds did the United States average per game in men's basketball at the 2020 Olympics?,numeric,41.2,,,31.7,0,wrong_number,The returned figure does not equal the supplied target of 41.2.
+5c778bbaf47e4fd8,TN-U013,Tennis,How many titles did Iga Swiatek win in 2022?,numeric,8,,,Iga Swiatek won 1 title in 2022.,0,wrong_number,The returned figure does not equal the supplied target of 8.
+1c65e1c91ebc64bd,BK-U004,Basketball,What was the Boston Celtics' win total in the 2023–24 regular season?,numeric,64,,,64,1,none,"Gives the requested value, 64."
+89460f4277f57262,OL-U019,Olympics,How many medals did Canada win in rowing at the 2008 Beijing Olympics?,numeric,4,,,The Canadian rowing team won a total of 3 medals at the 2008 Beijing Olympics.,0,wrong_number,The returned figure does not equal the supplied target of 4.
+45f17548155512d0,TN-U005,Tennis,Who recorded the most match wins on ATP clay courts in 2022?,entity,Casper Ruud,,,"The player with the most match wins on ATP clay courts in 2022 is Carlos Alcaraz, with a total of 27 wins.",0,wrong_entity,"Alcaraz had 27 clay wins, but the supplied 2022 leader is Ruud. The correct supporting count does not make the named leader correct."
+a695bf4e6970f390,IF-U013,International Football,How many clean sheets did England keep at UEFA Euro 2020?,numeric,5,,,Six clean sheets were kept by England at UEFA Euro 2020.,0,wrong_number,The returned figure does not equal the supplied target of 5.
+50252c9365071f71,F1-U006,Formula 1,Which driver scored the most podiums in 2023?,entity,Max Verstappen,21,,Max Verstappen,1,none,"Identifies Max Verstappen, the requested entity."
+b0c45c106ec3c74c,OL-U003,Olympics,Which country finished second in the gold medal table at the 2016 Rio Olympics?,entity,Great Britain,,,"China
+
+(Note: China finished with a total of 70 gold medals at the 2016 Rio Olympics, second only to the United States with 121 gold medals.)",0,wrong_entity,"Great Britain was second by golds with 27. China 70 and USA 121 are total medals, not gold counts."

@@ -1,0 +1,25 @@
+model,subdomain,count,mean
+Gemma-4-E4B-it,Basketball,20,0.725
+Gemma-4-E4B-it,Club Football,20,0.716666666666667
+Gemma-4-E4B-it,Formula 1,20,0.5
+Gemma-4-E4B-it,International Football,20,0.658333333333333
+Gemma-4-E4B-it,Olympics,20,0.775
+Gemma-4-E4B-it,Tennis,20,0.541666666666667
+Heuristic-Baseline,Basketball,20,0.341666666666667
+Heuristic-Baseline,Club Football,20,0.341666666666667
+Heuristic-Baseline,Formula 1,20,0.333333333333333
+Heuristic-Baseline,International Football,20,0.341666666666667
+Heuristic-Baseline,Olympics,20,0.341666666666667
+Heuristic-Baseline,Tennis,20,0.333333333333333
+Mistral-7B-Instruct-v0.2,Basketball,20,0.666666666666667
+Mistral-7B-Instruct-v0.2,Club Football,20,0.666666666666667
+Mistral-7B-Instruct-v0.2,Formula 1,20,0.516666666666667
+Mistral-7B-Instruct-v0.2,International Football,20,0.666666666666667
+Mistral-7B-Instruct-v0.2,Olympics,20,0.791666666666667
+Mistral-7B-Instruct-v0.2,Tennis,20,0.683333333333333
+Qwen2.5-7B-Instruct,Basketball,20,0.65
+Qwen2.5-7B-Instruct,Club Football,20,0.666666666666667
+Qwen2.5-7B-Instruct,Formula 1,20,0.591666666666667
+Qwen2.5-7B-Instruct,International Football,20,0.625
+Qwen2.5-7B-Instruct,Olympics,20,0.758333333333333
+Qwen2.5-7B-Instruct,Tennis,20,0.708333333333333

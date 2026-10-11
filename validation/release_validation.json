@@ -1,0 +1,16 @@
+{
+  "technical_checks_passed": true,
+  "checks": [
+    "360-query release, supplied field preservation, workbook/dictionary, 120-source audit",
+    "Blinded response association, raw/checkpoint equality, primary master, eight export discrepancies",
+    "480 cooperative records, 1440 action records, constant-clarify penalty, paired non-significance",
+    "Clean notebooks, Python syntax, anonymous file metadata, six identical paper figures, three compiled documents",
+    "Fresh reproduction: 23 tables and 12 figure files match"
+  ],
+  "reproduced_tables_compared": 23,
+  "independent_human_validation_completed": false,
+  "independent_factual_validation_completed": false,
+  "source_review_flags": 6,
+  "historical_checkpoint_shas_recovered": false,
+  "public_repository_url_added": false
+}

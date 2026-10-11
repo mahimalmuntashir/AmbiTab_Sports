@@ -1,0 +1,43 @@
+{
+  "technical_scope": "Saved-evidence reproduction, structural/file integrity, notebook Python code cells, and document compilation; not independent human/factual validation.",
+  "fresh_extraction_reproduction": {
+    "command_succeeded": true,
+    "regenerated_csv_tables": 23,
+    "exact_figure_files": 12,
+    "network_or_gpu_used": false
+  },
+  "canonical_notebook": {
+    "code_cells_executed": 4,
+    "method": "Sequential Python execution of the unmodified code cells from the extracted notebooks directory; Jupyter GUI/kernel integration was not tested.",
+    "model_downloads_or_new_ratings": false
+  },
+  "latex_compilation": {
+    "ambitab_sports_revised": {
+      "exit_code": 0,
+      "pages": 17,
+      "layout_or_reference_warnings": []
+    },
+    "response_to_reviewers": {
+      "exit_code": 0,
+      "pages": 8,
+      "layout_or_reference_warnings": []
+    },
+    "revision_cover_letter": {
+      "exit_code": 0,
+      "pages": 1,
+      "layout_or_reference_warnings": []
+    }
+  },
+  "blinded_response_association_regressions": {
+    "tests_passed": 3
+  },
+  "input_preservation": {
+    "all_construction_workbook_cells_preserved": true,
+    "cooperative_score_and_response_sheets_preserved": true,
+    "raw_and_rating_source_files_byte_identical": 14
+  },
+  "anonymous_content_and_metadata_scan_passed": true,
+  "independent_human_review_verified": false,
+  "full_gold_reference_audit_completed": false,
+  "repository_url": "To be supplied by author"
+}

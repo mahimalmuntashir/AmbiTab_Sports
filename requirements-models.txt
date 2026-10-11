@@ -1,0 +1,8 @@
+# Optional new model inference. Historical package versions/SHAs are incomplete.
+-r requirements.txt
+torch>=2.10.0
+transformers>=5.5.0
+accelerate>=1.0.0
+bitsandbytes>=0.45.0
+sentencepiece>=0.2.0
+huggingface-hub>=0.25.0

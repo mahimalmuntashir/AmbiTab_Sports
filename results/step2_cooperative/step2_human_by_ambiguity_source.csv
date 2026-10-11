@@ -1,0 +1,17 @@
+model,final_primary_ambiguity_source,count,mean
+Gemma-4-E4B-it,domain,14,0.5
+Gemma-4-E4B-it,methodology,86,0.676356589147287
+Gemma-4-E4B-it,mixed,1,0.5
+Gemma-4-E4B-it,temporal,19,0.666666666666667
+Heuristic-Baseline,domain,14,0.345238095238095
+Heuristic-Baseline,methodology,86,0.339147286821705
+Heuristic-Baseline,mixed,1,0.333333333333333
+Heuristic-Baseline,temporal,19,0.333333333333333
+Mistral-7B-Instruct-v0.2,domain,14,0.69047619047619
+Mistral-7B-Instruct-v0.2,methodology,86,0.672480620155039
+Mistral-7B-Instruct-v0.2,mixed,1,0.666666666666667
+Mistral-7B-Instruct-v0.2,temporal,19,0.614035087719298
+Qwen2.5-7B-Instruct,domain,14,0.678571428571429
+Qwen2.5-7B-Instruct,methodology,86,0.680232558139535
+Qwen2.5-7B-Instruct,mixed,1,0.833333333333333
+Qwen2.5-7B-Instruct,temporal,19,0.587719298245614

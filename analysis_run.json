@@ -1,0 +1,27 @@
+{
+  "benchmark_queries": 360,
+  "execution_ratings": 360,
+  "cooperative_ratings": 480,
+  "action_outputs": 1440,
+  "execution_correct": {
+    "Gemma-4-E4B-it": 43,
+    "Qwen2.5-7B-Instruct": 22,
+    "Mistral-7B-Instruct-v0.2": 19
+  },
+  "bootstrap_resamples": 5000,
+  "permutation_resamples": 10000,
+  "seed": 42,
+  "ordering": "Archived CSV row order is retained; groups preserve within-group row order.",
+  "execution_response_export_normalizations": 1,
+  "independent_human_review_verified": false,
+  "factual_gold_independently_verified": false,
+  "fresh_model_inference_run": false,
+  "analysis_environment": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "openpyxl": "3.1.5"
+  }
+}

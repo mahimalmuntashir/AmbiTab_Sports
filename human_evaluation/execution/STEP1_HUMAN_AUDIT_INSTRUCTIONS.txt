@@ -1,0 +1,58 @@
+
+STEP-1 EXECUTION HUMAN EVALUATION
+
+Your task is to judge whether the model response correctly
+answers the user query.
+
+Assign:
+
+human_correct = 1
+ONLY when the answer is fully correct.
+
+Assign:
+
+human_correct = 0
+when:
+- wrong entity/person/team/country
+- wrong number/statistic
+- incomplete answer
+- missing requested items
+- incorrect comparison
+- contains a major false factual claim
+
+Important:
+
+1. Do not judge writing style.
+2. Ignore capitalization and formatting.
+3. Accept equivalent names.
+4. Do not require exact wording.
+5. If the model gives the correct answer but adds a
+   false supporting fact, mark incorrect.
+
+Examples:
+
+Question:
+Which team won the NBA championship?
+
+Response:
+Boston Celtics.
+
+Correct = 1
+
+
+Question:
+Which team won the NBA championship?
+
+Response:
+Boston Celtics with 150 points.
+
+If the added claim is false:
+Correct = 0.
+
+
+For numerical questions:
+The requested value must be correct.
+
+For list questions:
+All requested items must be correct.
+

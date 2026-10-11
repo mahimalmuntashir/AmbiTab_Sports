@@ -1,0 +1,126 @@
+experiment:
+  mode: zero_shot
+  deterministic_generation: true
+  seed: 42
+  benchmark_size: 360
+  tracks:
+    unambiguous: 120
+    cooperative_ambiguous: 120
+    uncooperative: 120
+generation:
+  do_sample: false
+  temperature: 0.0
+  max_input_tokens: 2048
+  tokenizers_parallelism: false
+  checkpoint_every_n_queries: 10
+  max_new_tokens:
+    step1_execution: 100
+    step3_unified_action_selection: 140
+    step3_legacy_robustness_sensitivity: 80
+step1_execution:
+  query_count: 120
+  primary_evaluation: recorded_blinded_binary_correctness
+  secondary_evaluation: precision_aware_task_aware_automatic_scoring
+  human_labels:
+    correct: 1
+    incorrect: 0
+  automatic_numeric_policy:
+    integer_counts: exact
+    decimal_values: half_unit_of_last_reported_decimal_place
+    percentages: half_unit_of_last_reported_percentage_precision
+  statistical_analysis:
+    bootstrap_resamples: 5000
+    confidence_level: 0.95
+    pairwise_test: exact_mcnemar
+    multiple_comparison_correction: holm
+    effect_size: matched_odds_ratio
+step2_cooperative:
+  query_count: 120
+  systems_per_query: 4
+  evaluated_responses: 480
+  primary_evaluation: recorded_rubric_with_supplied_adjudication
+  rubric:
+    interpretation_validity:
+      min: 0
+      max: 2
+    assumption_quality:
+      min: 0
+      max: 2
+    answer_usefulness:
+      min: 0
+      max: 2
+  total_score:
+    min: 0
+    max: 6
+    normalized_range:
+      min: 0.0
+      max: 1.0
+  statistical_analysis:
+    bootstrap_resamples: 5000
+    confidence_level: 0.95
+    pairwise_test: paired_permutation
+    permutation_resamples: 10000
+    multiple_comparison_correction: holm
+    effect_size: paired_cohens_dz
+step3_action_selection:
+  query_count: 360
+  prompt_policy: same_prompt_for_all_tracks
+  model_visible_track_label: false
+  allowed_actions:
+  - ANSWER
+  - INTERPRET
+  - CLARIFY
+  expected_action_mapping:
+    unambiguous: ANSWER
+    cooperative_ambiguous: INTERPRET
+    uncooperative: CLARIFY
+  baseline:
+    name: Always-Clarify-Baseline
+    action: CLARIFY
+  primary_metrics:
+  - action_accuracy
+  - balanced_accuracy
+  - macro_f1
+  - appropriate_clarification_rate_X
+  - over_clarification_rate_UC
+  - unsafe_answer_or_interpret_rate_X
+  - invalid_action_format_rate
+  statistical_analysis:
+    bootstrap_resamples: 5000
+    confidence_level: 0.95
+    pairwise_test: exact_mcnemar
+    multiple_comparison_correction: holm
+    effect_size: matched_odds_ratio
+legacy_robustness_sensitivity:
+  track: uncooperative
+  query_count: 120
+  clarification_score: 1.0
+  other_score: 0.0
+  abstention_weights:
+  - 0.0
+  - 0.25
+  - 0.5
+  - 0.75
+  - 1.0
+step4_grounding_scope:
+  fabricate_missing_tables: false
+  grounded_condition_requires_authentic_table_evidence: true
+  minimum_table_evidence_coverage_for_grounded_condition: 0.95
+  fallback_scope: pre-retrieval interaction decisions for table-oriented sports question
+    answering
+runtime:
+  recommended_platform: Kaggle
+  recommended_accelerator: T4 x2
+  internet_required_for_model_download: true
+  pytorch_cuda_alloc_conf: expandable_segments:True
+reproducibility:
+  save_raw_outputs: true
+  save_model_manifest: true
+  save_pairwise_statistics: true
+  save_confusion_matrix_data: true
+  save_human_gold_labels: true
+  retain_private_blinding_keys_in_public_repository: false
+provenance:
+  independent_human_review_verified: false
+  factual_reference_validation_complete: false
+  historical_hf_revision_shas: not_recorded

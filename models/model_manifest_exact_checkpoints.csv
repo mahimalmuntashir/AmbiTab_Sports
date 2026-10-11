@@ -1,0 +1,4 @@
+display_name,model_id,preprocessor_kind,model_family,historical_revision_sha,parameter_count_note,model_card_url
+Qwen2.5-7B-Instruct,Qwen/Qwen2.5-7B-Instruct,tokenizer,causal_lm,not_recorded,7B-class instruction checkpoint,https://huggingface.co/Qwen/Qwen2.5-7B-Instruct
+Gemma-4-E4B-it,google/gemma-4-E4B-it,processor,multimodal_lm,not_recorded,4.5B effective; 8B with embeddings (official Gemma 4 model card),https://huggingface.co/google/gemma-4-E4B-it
+Mistral-7B-Instruct-v0.2,mistralai/Mistral-7B-Instruct-v0.2,tokenizer,causal_lm,not_recorded,7B-class instruction v0.2 checkpoint,https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2

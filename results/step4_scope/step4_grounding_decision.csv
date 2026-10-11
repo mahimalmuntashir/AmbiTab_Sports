@@ -1,0 +1,2 @@
+total_queries,external_table_evidence_found,table_evidence_coverage,grounded_condition_available,decision,recommended_scope,reason
+360,False,0,False,RECAST_PRE_RETRIEVAL,pre-retrieval interaction decisions in sports-data question answering,The archived experiments supplied no authentic source tables to the models; reference URLs are not model evidence inputs.

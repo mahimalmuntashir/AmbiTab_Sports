@@ -1,0 +1,89 @@
+model,query_id,raw_response,query_text,subdomain,gold_answer_1,gold_answer_2,gold_answer_3,task_type,task_aware_correct,match_reason
+Qwen2.5-7B-Instruct,CF-U001,Manchester City,Who won the 2023–24 English Premier League?,Club Football,Manchester City,,,entity,1,entity_match
+Qwen2.5-7B-Instruct,CF-U013,Bayern Munich,Which team scored the most goals in the 2023–24 Bundesliga season?,Club Football,Bayern Munich,94,,entity,1,entity_match
+Qwen2.5-7B-Instruct,CF-U014,4,What was Juventus's league position in Serie A in the 2020–21 season?,Club Football,4th,,,numeric,1,numeric_match
+Qwen2.5-7B-Instruct,CF-U016,15,How many home wins did Inter Milan have in Serie A in the 2023–24 season?,Club Football,15,,,numeric,1,numeric_match
+Qwen2.5-7B-Instruct,CF-U017,Manchester City,Which club earned the most points away from home in the Premier League in the 2021–22 season?,Club Football,Manchester City,45,,entity,1,entity_match
+Qwen2.5-7B-Instruct,CF-U019,Manchester City,Which club had the fewest losses in the 2023–24 Premier League?,Club Football,Manchester City,3,,entity,1,entity_match
+Qwen2.5-7B-Instruct,IF-U002,France,Which team won the 2018 FIFA World Cup?,International Football,France,,,entity,1,entity_match
+Qwen2.5-7B-Instruct,IF-U008,3,How many wins did Brazil record in the 2014 FIFA World Cup?,International Football,3,,,numeric,1,numeric_match
+Qwen2.5-7B-Instruct,IF-U010,Spain,Which country had the highest points total in the UEFA Euro 2024 group stage?,International Football,Spain,9,,entity,1,entity_match
+Qwen2.5-7B-Instruct,OL-U007,"China: 88 medals  
+United States: 113 medals",Compare the total medals of China and the United States at the 2020 Tokyo Olympics.,Olympics,88,113,,compare,1,comparison_match
+Qwen2.5-7B-Instruct,OL-U014,Japan,Which country won the most medals in judo at the 2020 Tokyo Olympics?,Olympics,Japan,,,entity,1,entity_match
+Qwen2.5-7B-Instruct,OL-U018,United States,Which country won the men's basketball gold medal at the 2012 London Olympics?,Olympics,United States,,,entity,1,entity_match
+Qwen2.5-7B-Instruct,BK-U001,Boston Celtics,Who won the 2023–24 NBA championship?,Basketball,Boston Celtics,,,entity,1,entity_match
+Qwen2.5-7B-Instruct,BK-U014,Boston Celtics,Which team had the best point differential in the 2023–24 NBA season?,Basketball,Boston Celtics,+11.34,,entity,1,entity_match
+Qwen2.5-7B-Instruct,BK-U018,Golden State Warriors,Which team made the most three-pointers per game in the 2022–23 NBA season?,Basketball,Golden State Warriors,16.6,,entity,1,entity_match
+Qwen2.5-7B-Instruct,TN-U012,Novak Djokovic,Which player spent the most weeks at world No. 1 in the 2023 ATP season?,Tennis,Novak Djokovic,32 weeks,,entity,1,entity_match
+Qwen2.5-7B-Instruct,F1-U005,Max Verstappen,Who set the most fastest laps in the 2022 season?,Formula 1,Max Verstappen,,,entity,1,entity_match
+Qwen2.5-7B-Instruct,F1-U006,Max Verstappen,Which driver scored the most podiums in 2023?,Formula 1,Max Verstappen,21,,entity,1,entity_match
+Qwen2.5-7B-Instruct,F1-U008,Red Bull Racing,Which team had the fastest pit-stop average in the 2023 Formula 1 season?,Formula 1,Red Bull Racing,,,entity,1,entity_match
+Qwen2.5-7B-Instruct,F1-U014,Max Verstappen,Which driver achieved the highest average qualifying position in 2023?,Formula 1,Max Verstappen,,,entity,1,entity_match
+Qwen2.5-7B-Instruct,F1-U018,Max Verstappen,Which driver recorded the most laps led in 2023?,Formula 1,Max Verstappen,1003,,entity,1,entity_match
+Qwen2.5-7B-Instruct,F1-U020,Red Bull Racing,Which team had the best average qualifying result in 2022?,Formula 1,Red Bull Racing,,,entity,1,entity_match
+Gemma-4-E4B-it,CF-U001,Manchester City,Who won the 2023–24 English Premier League?,Club Football,Manchester City,,,entity,1,entity_match
+Gemma-4-E4B-it,CF-U002,36,How many goals did Erling Haaland score in the 2022–23 Premier League season?,Club Football,36,,,numeric,1,numeric_match
+Gemma-4-E4B-it,CF-U004,89,What was Arsenal's total points tally in the 2023–24 Premier League season?,Club Football,89,,,numeric,1,numeric_match
+Gemma-4-E4B-it,CF-U009,Lens,Which team conceded the fewest goals in Ligue 1 in the 2022–23 season?,Club Football,Lens,29,,entity,1,entity_match
+Gemma-4-E4B-it,CF-U011,Real Madrid,Which club won the 2021–22 UEFA Champions League?,Club Football,Real Madrid,,,entity,1,entity_match
+Gemma-4-E4B-it,CF-U012,16,How many assists did Kevin De Bruyne record in the 2022–23 Premier League season?,Club Football,16,,,numeric,1,numeric_match
+Gemma-4-E4B-it,CF-U015,Barcelona,Which club had the highest average possession in La Liga in the 2022–23 season?,Club Football,Barcelona,64.9%,,entity,1,entity_match
+Gemma-4-E4B-it,IF-U001,Kylian Mbappé,Who scored the most goals in the 2022 FIFA World Cup?,International Football,Kylian Mbappé,8,,entity,1,entity_match
+Gemma-4-E4B-it,IF-U002,France,Which team won the 2018 FIFA World Cup?,International Football,France,,,entity,1,entity_match
+Gemma-4-E4B-it,IF-U007,Third-place team was Croatia.,Which team finished third in the 2022 FIFA World Cup?,International Football,Croatia,,,entity,1,entity_match
+Gemma-4-E4B-it,IF-U011,Lionel Messi,Who provided the most assists at the 2021 Copa America?,International Football,Lionel Messi,5,,entity,1,entity_match
+Gemma-4-E4B-it,IF-U014,Argentina,Which country won the 2021 Copa America final?,International Football,Argentina,,,entity,1,entity_match
+Gemma-4-E4B-it,OL-U001,United States,Which country won the most gold medals at the 2020 Tokyo Olympics?,Olympics,United States,,,entity,1,entity_match
+Gemma-4-E4B-it,OL-U004,46,How many gold medals did the United States win at the 2012 London Olympics?,Olympics,46,,,numeric,1,numeric_match
+Gemma-4-E4B-it,OL-U005,"Michael Phelpsthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants to know which athlete won the most medals at the 2008 Beijing Olympics.
+2.  **Identify the Key Information Needed:** Athlete name, 2008 Beijing Olympics, most medals.
+3.  **Recall/Search Knowledge (Internal Knowledge Base):** Michael Phelps dominated the 2008 Beijing Olympics, winning 8 gold medals and",Which athlete won the most medals at the 2008 Beijing Olympics?,Olympics,Michael Phelps,8,,entity,1,entity_match
+Gemma-4-E4B-it,OL-U011,11,How many medals did Jamaica win in athletics at the 2016 Rio Olympics?,Olympics,11,,,numeric,1,numeric_match
+Gemma-4-E4B-it,OL-U014,Japan,Which country won the most medals in judo at the 2020 Tokyo Olympics?,Olympics,Japan,,,entity,1,entity_match
+Gemma-4-E4B-it,BK-U002,33.9,How many points per game did Luka Doncic average in the 2023–24 NBA regular season?,Basketball,33.9,,,numeric,1,numeric_match
+Gemma-4-E4B-it,BK-U004,64,What was the Boston Celtics' win total in the 2023–24 regular season?,Basketball,64,,,numeric,1,numeric_match
+Gemma-4-E4B-it,BK-U009,United States,Which country won gold in men's basketball at the 2020 Tokyo Olympics?,Basketball,United States,,,entity,1,entity_match
+Gemma-4-E4B-it,BK-U011,Boston Celtics,Which team had the highest offensive rating in the 2023–24 NBA regular season?,Basketball,Boston Celtics,123.2,,entity,1,entity_match
+Gemma-4-E4B-it,BK-U013,A'ja Wilson>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>,Who recorded the most blocks per game in the 2023 WNBA season?,Basketball,A'ja Wilson,2.2,,entity,1,entity_match
+Gemma-4-E4B-it,TN-U001,Carlos Alcaraz>,Who won the men's singles title at Wimbledon 2023?,Tennis,Carlos Alcaraz,,,entity,1,entity_match
+Gemma-4-E4B-it,TN-U004,66.7%,What was Carlos Alcaraz's first-serve percentage in the 2023 Wimbledon final?,Tennis,67%,,,numeric,1,numeric_match
+Gemma-4-E4B-it,F1-U001,Max Verstappen>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>,Who won the 2023 Formula 1 Drivers' Championship?,Formula 1,Max Verstappen,,,entity,1,entity_match
+Gemma-4-E4B-it,F1-U002,15,How many wins did Max Verstappen record in the 2022 Formula 1 season?,Formula 1,15,,,numeric,1,numeric_match
+Gemma-4-E4B-it,F1-U003,Mercedes,Which team finished second in the 2023 Constructors' Championship?,Formula 1,Mercedes,,,entity,1,entity_match
+Gemma-4-E4B-it,F1-U006,Max Verstappen,Which driver scored the most podiums in 2023?,Formula 1,Max Verstappen,21,,entity,1,entity_match
+Gemma-4-E4B-it,F1-U014,Max Verstappen,Which driver achieved the highest average qualifying position in 2023?,Formula 1,Max Verstappen,,,entity,1,entity_match
+Gemma-4-E4B-it,F1-U018,Max Verstappen,Which driver recorded the most laps led in 2023?,Formula 1,Max Verstappen,1003,,entity,1,entity_match
+Mistral-7B-Instruct-v0.2,CF-U001,Manchester City won the 2023-24 English Premier League.,Who won the 2023–24 English Premier League?,Club Football,Manchester City,,,entity,1,entity_match
+Mistral-7B-Instruct-v0.2,CF-U003,Real Sociedad or Barcelona (depending on the final standings),Which club finished second in La Liga in the 2021–22 season?,Club Football,Barcelona,,,entity,1,entity_match
+Mistral-7B-Instruct-v0.2,CF-U005,"The goalkeeper with the most clean sheets in Serie A during the 2021-22 season was Mike Maignan, with a total of 21 clean sheets for AC Milan.",Who kept the most clean sheets in Serie A in the 2021–22 season?,Club Football,Mike Maignan,17,,entity,1,entity_match
+Mistral-7B-Instruct-v0.2,CF-U011,The club that won the 2021–22 UEFA Champions League is Real Madrid.,Which club won the 2021–22 UEFA Champions League?,Club Football,Real Madrid,,,entity,1,entity_match
+Mistral-7B-Instruct-v0.2,CF-U015,"Barcelona, with an average possession of 61.3% in La Liga 2022–23 season.",Which club had the highest average possession in La Liga in the 2022–23 season?,Club Football,Barcelona,64.9%,,entity,1,entity_match
+Mistral-7B-Instruct-v0.2,CF-U017,Manchester City earned the most points away from home in the Premier League 2021-22 season with a total of 36 points.,Which club earned the most points away from home in the Premier League in the 2021–22 season?,Club Football,Manchester City,45,,entity,1,entity_match
+Mistral-7B-Instruct-v0.2,CF-U019,Manchester City (had the fewest losses in the 2023-24 Premier League),Which club had the fewest losses in the 2023–24 Premier League?,Club Football,Manchester City,3,,entity,1,entity_match
+Mistral-7B-Instruct-v0.2,IF-U002,The team that won the 2018 FIFA World Cup was France.,Which team won the 2018 FIFA World Cup?,International Football,France,,,entity,1,entity_match
+Mistral-7B-Instruct-v0.2,IF-U007,Croatia,Which team finished third in the 2022 FIFA World Cup?,International Football,Croatia,,,entity,1,entity_match
+Mistral-7B-Instruct-v0.2,IF-U014,Argentina won the 2021 Copa America final.,Which country won the 2021 Copa America final?,International Football,Argentina,,,entity,1,entity_match
+Mistral-7B-Instruct-v0.2,IF-U018,"Argentina, with a goal difference of +6.",Which nation had the best goal difference in the 2016 Copa America Centenario group stage?,International Football,Argentina,10,,entity,1,entity_match
+Mistral-7B-Instruct-v0.2,OL-U002,The total number of medals won by Japan at the 2020 Tokyo Olympics was 58.,How many total medals did Japan win at the 2020 Tokyo Olympics?,Olympics,58,,,numeric,1,numeric_match
+Mistral-7B-Instruct-v0.2,OL-U004,The United States won a total of 46 gold medals at the 2012 London Olympics.,How many gold medals did the United States win at the 2012 London Olympics?,Olympics,46,,,numeric,1,numeric_match
+Mistral-7B-Instruct-v0.2,OL-U005,"Michael Phelps won the most medals at the 2008 Beijing Olympics, with a total of 8 gold medals.",Which athlete won the most medals at the 2008 Beijing Olympics?,Olympics,Michael Phelps,8,,entity,1,entity_match
+Mistral-7B-Instruct-v0.2,OL-U006,Kenya won a total of 13 medals at the 2016 Rio Olympics.,What was Kenya's total medal count at the 2016 Rio Olympics?,Olympics,13,,,numeric,1,numeric_match
+Mistral-7B-Instruct-v0.2,OL-U013,The total number of medals won by Great Britain at the 2012 London Olympics was 65.,What was Great Britain's total medal count at the 2012 London Olympics?,Olympics,65,,,numeric,1,numeric_match
+Mistral-7B-Instruct-v0.2,OL-U014,"Japan won the most medals in judo at the 2020 Tokyo Olympics, with a total of 14 medals (6 gold, 4 silver, 4 bronze).",Which country won the most medals in judo at the 2020 Tokyo Olympics?,Olympics,Japan,,,entity,1,entity_match
+Mistral-7B-Instruct-v0.2,OL-U018,The United States won the men's basketball gold medal at the 2012 London Olympics.,Which country won the men's basketball gold medal at the 2012 London Olympics?,Olympics,United States,,,entity,1,entity_match
+Mistral-7B-Instruct-v0.2,OL-U020,United States,Which nation led the athletics medal table at the 2020 Tokyo Olympics?,Olympics,United States,,,entity,1,entity_match
+Mistral-7B-Instruct-v0.2,BK-U006,"The Boston Celtics allowed the fewest points per game in the 2021–22 NBA regular season, with an average of 103.9 points allowed per game.",Which team allowed the fewest points per game in the 2021–22 NBA regular season?,Basketball,Boston Celtics,104.5,,entity,1,entity_match
+Mistral-7B-Instruct-v0.2,BK-U009,United States,Which country won gold in men's basketball at the 2020 Tokyo Olympics?,Basketball,United States,,,entity,1,entity_match
+Mistral-7B-Instruct-v0.2,BK-U011,"The team with the highest offensive rating in the 2023–24 NBA regular season was the Boston Celtics, with a rating of 115.6.",Which team had the highest offensive rating in the 2023–24 NBA regular season?,Basketball,Boston Celtics,123.2,,entity,1,entity_match
+Mistral-7B-Instruct-v0.2,BK-U018,Golden State Warriors (15.8 three-pointers made per game),Which team made the most three-pointers per game in the 2022–23 NBA season?,Basketball,Golden State Warriors,16.6,,entity,1,entity_match
+Mistral-7B-Instruct-v0.2,TN-U003,The player who reached the women's singles final at the 2022 US Open against Iga Swiatek is Ons Jabeur.,Which player reached the women's singles final at the 2022 US Open against Iga Swiatek?,Tennis,Ons Jabeur,,,entity,1,entity_match
+Mistral-7B-Instruct-v0.2,F1-U001,Max Verstappen won the 2023 Formula 1 Drivers' Championship.,Who won the 2023 Formula 1 Drivers' Championship?,Formula 1,Max Verstappen,,,entity,1,entity_match
+Mistral-7B-Instruct-v0.2,F1-U002,Max Verstappen recorded 15 wins in the 2022 Formula 1 season.,How many wins did Max Verstappen record in the 2022 Formula 1 season?,Formula 1,15,,,numeric,1,numeric_match
+Mistral-7B-Instruct-v0.2,F1-U005,Max Verstappen set the most fastest laps in the 2022 Formula 1 season with a total of 17.,Who set the most fastest laps in the 2022 season?,Formula 1,Max Verstappen,,,entity,1,entity_match
+Mistral-7B-Instruct-v0.2,F1-U006,Max Verstappen scored the most podiums in 2023 with a total of 12 podium finishes.,Which driver scored the most podiums in 2023?,Formula 1,Max Verstappen,21,,entity,1,entity_match
+Mistral-7B-Instruct-v0.2,F1-U014,Max Verstappen (2023: 1.1),Which driver achieved the highest average qualifying position in 2023?,Formula 1,Max Verstappen,,,entity,1,entity_match
+Mistral-7B-Instruct-v0.2,F1-U018,"Max Verstappen led the most laps in the 2023 Formula One season. [Reference: Statista, Formula One, Laps led by driver in the 2023 season]",Which driver recorded the most laps led in 2023?,Formula 1,Max Verstappen,1003,,entity,1,entity_match

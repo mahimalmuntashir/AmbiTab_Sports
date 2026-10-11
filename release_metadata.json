@@ -1,0 +1,18 @@
+{
+  "release": "anonymous-review-repair-2026-10-03",
+  "benchmark_queries": 360,
+  "historical_input_files_preserved": "All substantive supplied data, records, scripts, notebooks, results, figures, and documentation are included or explicitly archived; caches/build debris are excluded.",
+  "canonical_analysis": "code/reproduce.py",
+  "canonical_notebook": "notebooks/AmbiTab_Sports_Full_Reproduction_Notebook.ipynb",
+  "paper_pdf_pages": {
+    "manuscript": 17,
+    "reviewer_response": 8,
+    "cover_letter_draft": 1
+  },
+  "historical_model_revision_shas": "not recorded",
+  "public_repository_url": null,
+  "independent_response_annotation_validation_completed": false,
+  "independent_factual_gold_validation_completed": false,
+  "execution_sources_flagged_for_review": 6,
+  "submission_status": "Technical repository repaired and tested; scientific provenance/reference review and author-supplied public URL remain outstanding."
+}

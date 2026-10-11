@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+reproduced/
+*.log
+*.fls
+*.fdb_latexmk
+*.out
+*.synctex.gz

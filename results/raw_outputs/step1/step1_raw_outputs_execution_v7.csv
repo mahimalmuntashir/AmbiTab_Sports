@@ -1,0 +1,753 @@
+model,query_id,subdomain,query_text,raw_response
+Qwen2.5-7B-Instruct,CF-U001,Club Football,Who won the 2023–24 English Premier League?,Manchester City
+Qwen2.5-7B-Instruct,CF-U002,Club Football,How many goals did Erling Haaland score in the 2022–23 Premier League season?,14
+Qwen2.5-7B-Instruct,CF-U003,Club Football,Which club finished second in La Liga in the 2021–22 season?,Atlético Madrid
+Qwen2.5-7B-Instruct,CF-U004,Club Football,What was Arsenal's total points tally in the 2023–24 Premier League season?,61
+Qwen2.5-7B-Instruct,CF-U005,Club Football,Who kept the most clean sheets in Serie A in the 2021–22 season?,Gianluigi Donnarumma
+Qwen2.5-7B-Instruct,CF-U006,Club Football,What was the average attendance of Liverpool home matches in the 2022–23 Premier League season?,39618
+Qwen2.5-7B-Instruct,CF-U007,Club Football,List the top five scorers in the 2023–24 Bundesliga by total goals.,"1. Robert Lewandowski - 25 goals
+2. Erling Haaland - 23 goals
+3. Timo Werner - 18 goals
+4. Julian Brandt - 17 goals
+5. Kevin Volland - 16 goals"
+Qwen2.5-7B-Instruct,CF-U008,Club Football,What was Manchester City's goal difference in the 2021–22 Premier League season?,+38
+Qwen2.5-7B-Instruct,CF-U009,Club Football,Which team conceded the fewest goals in Ligue 1 in the 2022–23 season?,Paris Saint-Germain
+Qwen2.5-7B-Instruct,CF-U010,Club Football,Compare the total points of Barcelona and Real Madrid in the 2023–24 La Liga season.,"Barcelona: 81
+Real Madrid: 79"
+Qwen2.5-7B-Instruct,CF-U011,Club Football,Which club won the 2021–22 UEFA Champions League?,Manchester City
+Qwen2.5-7B-Instruct,CF-U012,Club Football,How many assists did Kevin De Bruyne record in the 2022–23 Premier League season?,14
+Qwen2.5-7B-Instruct,CF-U013,Club Football,Which team scored the most goals in the 2023–24 Bundesliga season?,Bayern Munich
+Qwen2.5-7B-Instruct,CF-U014,Club Football,What was Juventus's league position in Serie A in the 2020–21 season?,4
+Qwen2.5-7B-Instruct,CF-U015,Club Football,Which club had the highest average possession in La Liga in the 2022–23 season?,Sevilla FC
+Qwen2.5-7B-Instruct,CF-U016,Club Football,How many home wins did Inter Milan have in Serie A in the 2023–24 season?,15
+Qwen2.5-7B-Instruct,CF-U017,Club Football,Which club earned the most points away from home in the Premier League in the 2021–22 season?,Manchester City
+Qwen2.5-7B-Instruct,CF-U018,Club Football,What was the median number of goals per match in the 2022–23 Ligue 1 season?,2.6
+Qwen2.5-7B-Instruct,CF-U019,Club Football,Which club had the fewest losses in the 2023–24 Premier League?,Manchester City
+Qwen2.5-7B-Instruct,CF-U020,Club Football,How many yellow cards did Real Madrid receive in La Liga in the 2021–22 season?,54
+Qwen2.5-7B-Instruct,IF-U001,International Football,Who scored the most goals in the 2022 FIFA World Cup?,Mohamed Salah
+Qwen2.5-7B-Instruct,IF-U002,International Football,Which team won the 2018 FIFA World Cup?,France
+Qwen2.5-7B-Instruct,IF-U003,International Football,How many goals did Kylian Mbappe score in the 2022 FIFA World Cup?,3
+Qwen2.5-7B-Instruct,IF-U004,International Football,What was Argentina's goal difference in the 2022 FIFA World Cup?,-2
+Qwen2.5-7B-Instruct,IF-U005,International Football,Which country conceded the fewest goals in UEFA Euro 2020?,Sweden
+Qwen2.5-7B-Instruct,IF-U006,International Football,What was the median number of goals per match in the 2018 FIFA World Cup?,2.71
+Qwen2.5-7B-Instruct,IF-U007,International Football,Which team finished third in the 2022 FIFA World Cup?,Argentina
+Qwen2.5-7B-Instruct,IF-U008,International Football,How many wins did Brazil record in the 2014 FIFA World Cup?,3
+Qwen2.5-7B-Instruct,IF-U009,International Football,Compare the total goals of France and Argentina in the 2022 FIFA World Cup.,"France: 8  
+Argentina: 7"
+Qwen2.5-7B-Instruct,IF-U010,International Football,Which country had the highest points total in the UEFA Euro 2024 group stage?,Spain
+Qwen2.5-7B-Instruct,IF-U011,International Football,Who provided the most assists at the 2021 Copa America?,Angel Di Maria
+Qwen2.5-7B-Instruct,IF-U012,International Football,Which team had the fewest shots on target against them at the 2022 World Cup?,Argentina
+Qwen2.5-7B-Instruct,IF-U013,International Football,How many clean sheets did England keep at UEFA Euro 2020?,4
+Qwen2.5-7B-Instruct,IF-U014,International Football,Which country won the 2021 Copa America final?,Brazil
+Qwen2.5-7B-Instruct,IF-U015,International Football,What was Portugal's average possession at the 2022 FIFA World Cup?,43.5%
+Qwen2.5-7B-Instruct,IF-U016,International Football,Which team scored first most often at UEFA Euro 2024?,Germany
+Qwen2.5-7B-Instruct,IF-U017,International Football,How many yellow cards did Uruguay receive at the 2021 Copa America?,4
+Qwen2.5-7B-Instruct,IF-U018,International Football,Which nation had the best goal difference in the 2016 Copa America Centenario group stage?,Uruguay
+Qwen2.5-7B-Instruct,IF-U019,International Football,Who attempted the most shots at the 2022 FIFA World Cup?,Lionel Messi
+Qwen2.5-7B-Instruct,IF-U020,International Football,Which team recorded the most crosses at UEFA Euro 2024?,Belgium
+Qwen2.5-7B-Instruct,OL-U001,Olympics,Which country won the most gold medals at the 2020 Tokyo Olympics?,China
+Qwen2.5-7B-Instruct,OL-U002,Olympics,How many total medals did Japan win at the 2020 Tokyo Olympics?,27
+Qwen2.5-7B-Instruct,OL-U003,Olympics,Which country finished second in the gold medal table at the 2016 Rio Olympics?,China
+Qwen2.5-7B-Instruct,OL-U004,Olympics,How many gold medals did the United States win at the 2012 London Olympics?,104
+Qwen2.5-7B-Instruct,OL-U005,Olympics,Which athlete won the most medals at the 2008 Beijing Olympics?,Yang Yang
+Qwen2.5-7B-Instruct,OL-U006,Olympics,What was Kenya's total medal count at the 2016 Rio Olympics?,3
+Qwen2.5-7B-Instruct,OL-U007,Olympics,Compare the total medals of China and the United States at the 2020 Tokyo Olympics.,"China: 88 medals  
+United States: 113 medals"
+Qwen2.5-7B-Instruct,OL-U008,Olympics,Which country won the most silver medals at the 2020 Tokyo Olympics?,China
+Qwen2.5-7B-Instruct,OL-U009,Olympics,How many medals did Australia win in swimming at the 2020 Tokyo Olympics?,16
+Qwen2.5-7B-Instruct,OL-U010,Olympics,Which country had the highest total medal count at the 2004 Athens Olympics?,China
+Qwen2.5-7B-Instruct,OL-U011,Olympics,How many medals did Jamaica win in athletics at the 2016 Rio Olympics?,7
+Qwen2.5-7B-Instruct,OL-U012,Olympics,Which athlete won gold in the men's 100 meters at the 2020 Tokyo Olympics?,Usain Bolt
+Qwen2.5-7B-Instruct,OL-U013,Olympics,What was Great Britain's total medal count at the 2012 London Olympics?,29
+Qwen2.5-7B-Instruct,OL-U014,Olympics,Which country won the most medals in judo at the 2020 Tokyo Olympics?,Japan
+Qwen2.5-7B-Instruct,OL-U015,Olympics,How many bronze medals did India win at the 2020 Tokyo Olympics?,1
+Qwen2.5-7B-Instruct,OL-U016,Olympics,Which delegation recorded the most medals in track cycling at the 2016 Rio Olympics?,China
+Qwen2.5-7B-Instruct,OL-U017,Olympics,Who won the women's singles tennis gold medal at the 2020 Tokyo Olympics?,Iga Ujifusa
+Qwen2.5-7B-Instruct,OL-U018,Olympics,Which country won the men's basketball gold medal at the 2012 London Olympics?,United States
+Qwen2.5-7B-Instruct,OL-U019,Olympics,How many medals did Canada win in rowing at the 2008 Beijing Olympics?,14
+Qwen2.5-7B-Instruct,OL-U020,Olympics,Which nation led the athletics medal table at the 2020 Tokyo Olympics?,China
+Qwen2.5-7B-Instruct,BK-U001,Basketball,Who won the 2023–24 NBA championship?,Boston Celtics
+Qwen2.5-7B-Instruct,BK-U002,Basketball,How many points per game did Luka Doncic average in the 2023–24 NBA regular season?,27.5
+Qwen2.5-7B-Instruct,BK-U003,Basketball,Which team finished with the best regular-season record in the 2022–23 NBA season?,Miami Heat
+Qwen2.5-7B-Instruct,BK-U004,Basketball,What was the Boston Celtics' win total in the 2023–24 regular season?,51
+Qwen2.5-7B-Instruct,BK-U005,Basketball,Who led the WNBA in assists per game in 2023?,Ade Ayepinko
+Qwen2.5-7B-Instruct,BK-U006,Basketball,Which team allowed the fewest points per game in the 2021–22 NBA regular season?,Denver Nuggets
+Qwen2.5-7B-Instruct,BK-U007,Basketball,List the top five scorers in the 2023 FIBA Basketball World Cup by total points.,"Giannis Antetokounmpo, Luka Dončić, Nikola Jokić, Evan Turner, Franz Wagner"
+Qwen2.5-7B-Instruct,BK-U008,Basketball,What was Nikola Jokic's rebounds per game average in the 2022–23 NBA regular season?,13.9
+Qwen2.5-7B-Instruct,BK-U009,Basketball,Which country won gold in men's basketball at the 2020 Tokyo Olympics?,USA
+Qwen2.5-7B-Instruct,BK-U010,Basketball,How many three-pointers did Stephen Curry make in the 2021–22 NBA regular season?,270
+Qwen2.5-7B-Instruct,BK-U011,Basketball,Which team had the highest offensive rating in the 2023–24 NBA regular season?,Milwaukee Bucks
+Qwen2.5-7B-Instruct,BK-U012,Basketball,Compare the regular-season win totals of the Bucks and Celtics in 2022–23.,"Bucks: 54  
+Celtics: 51"
+Qwen2.5-7B-Instruct,BK-U013,Basketball,Who recorded the most blocks per game in the 2023 WNBA season?,Breanna Stewart
+Qwen2.5-7B-Instruct,BK-U014,Basketball,Which team had the best point differential in the 2023–24 NBA season?,Boston Celtics
+Qwen2.5-7B-Instruct,BK-U015,Basketball,How many assists did LeBron James average in the 2020–21 NBA regular season?,6.2
+Qwen2.5-7B-Instruct,BK-U016,Basketball,Which club won the 2024 EuroLeague title?,None
+Qwen2.5-7B-Instruct,BK-U017,Basketball,What was the average margin of victory in the 2023 FIBA World Cup knockout stage?,15.2
+Qwen2.5-7B-Instruct,BK-U018,Basketball,Which team made the most three-pointers per game in the 2022–23 NBA season?,Golden State Warriors
+Qwen2.5-7B-Instruct,BK-U019,Basketball,Which player had the highest free-throw percentage in the 2023 WNBA season among qualified players?,Breanna Stewart
+Qwen2.5-7B-Instruct,BK-U020,Basketball,How many rebounds did the United States average per game in men's basketball at the 2020 Olympics?,31.7
+Qwen2.5-7B-Instruct,TN-U001,Tennis,Who won the men's singles title at Wimbledon 2023?,Taylor Fritz
+Qwen2.5-7B-Instruct,TN-U002,Tennis,How many aces did Aryna Sabalenka serve at the 2024 Australian Open?,12
+Qwen2.5-7B-Instruct,TN-U003,Tennis,Which player reached the women's singles final at the 2022 US Open against Iga Swiatek?,Rebecca Marino
+Qwen2.5-7B-Instruct,TN-U004,Tennis,What was Carlos Alcaraz's first-serve percentage in the 2023 Wimbledon final?,71%
+Qwen2.5-7B-Instruct,TN-U005,Tennis,Who recorded the most match wins on ATP clay courts in 2022?,Rafael Nadal
+Qwen2.5-7B-Instruct,TN-U006,Tennis,List the top five WTA players by ranking points at the end of 2023.,"1. Iga Świątek
+2. Aryna Sabalenka
+3. Jessica Pegula
+4. Ons Jabeur
+5. Elina Svitolina"
+Qwen2.5-7B-Instruct,TN-U007,Tennis,Which player won the most ATP titles in 2021?,Daniil Medvedev
+Qwen2.5-7B-Instruct,TN-U008,Tennis,How many break points did Novak Djokovic save in the 2023 Roland Garros final?,11
+Qwen2.5-7B-Instruct,TN-U009,Tennis,Which country won the 2023 Davis Cup?,Argentina
+Qwen2.5-7B-Instruct,TN-U010,Tennis,What was Coco Gauff's win-loss record at Grand Slams in 2023?,1-4
+Qwen2.5-7B-Instruct,TN-U011,Tennis,Who had the highest ace count in men's singles at the 2024 Australian Open?,Novak Djokovic
+Qwen2.5-7B-Instruct,TN-U012,Tennis,Which player spent the most weeks at world No. 1 in the 2023 ATP season?,Novak Djokovic
+Qwen2.5-7B-Instruct,TN-U013,Tennis,How many titles did Iga Swiatek win in 2022?,5
+Qwen2.5-7B-Instruct,TN-U014,Tennis,Which player won the women's singles gold medal at the 2020 Tokyo Olympics?,Daniela Osorio Salazar
+Qwen2.5-7B-Instruct,TN-U015,Tennis,Compare the 2023 match-win totals of Jannik Sinner and Daniil Medvedev.,"Jannik Sinner: 15
+Daniil Medvedev: 18"
+Qwen2.5-7B-Instruct,TN-U016,Tennis,Who had the best return games won percentage on the WTA Tour in 2023?,Iga Scheepers
+Qwen2.5-7B-Instruct,TN-U017,Tennis,What was the average duration of men's singles matches at Wimbledon 2022?,3 hours 5 minutes
+Qwen2.5-7B-Instruct,TN-U018,Tennis,Which player won the 2024 Miami Open men's singles title?,Novak Djokovic
+Qwen2.5-7B-Instruct,TN-U019,Tennis,How many double faults did Elena Rybakina average per match at the 2023 Wimbledon Championships?,2.1
+Qwen2.5-7B-Instruct,TN-U020,Tennis,Which player had the highest ATP ranking at the end of 2022?,Novak Djokovic
+Qwen2.5-7B-Instruct,F1-U001,Formula 1,Who won the 2023 Formula 1 Drivers' Championship?,Carlos Sainz
+Qwen2.5-7B-Instruct,F1-U002,Formula 1,How many wins did Max Verstappen record in the 2022 Formula 1 season?,5
+Qwen2.5-7B-Instruct,F1-U003,Formula 1,Which team finished second in the 2023 Constructors' Championship?,Red Bull Racing
+Qwen2.5-7B-Instruct,F1-U004,Formula 1,What was Lewis Hamilton's average finishing position in the 2021 Formula 1 season?,5.38
+Qwen2.5-7B-Instruct,F1-U005,Formula 1,Who set the most fastest laps in the 2022 season?,Max Verstappen
+Qwen2.5-7B-Instruct,F1-U006,Formula 1,Which driver scored the most podiums in 2023?,Max Verstappen
+Qwen2.5-7B-Instruct,F1-U007,Formula 1,List the top five drivers by points after the 2024 Bahrain Grand Prix.,"Max Verstappen  
+Charles Leclerc  
+Lando Norris  
+Carlos Sainz  
+Valtteri Bottas"
+Qwen2.5-7B-Instruct,F1-U008,Formula 1,Which team had the fastest pit-stop average in the 2023 Formula 1 season?,Red Bull Racing
+Qwen2.5-7B-Instruct,F1-U009,Formula 1,How many pole positions did Charles Leclerc win in 2022?,3
+Qwen2.5-7B-Instruct,F1-U010,Formula 1,Which driver gained the most positions on lap one across the 2023 season?,Max Verstappen
+Qwen2.5-7B-Instruct,F1-U011,Formula 1,What was McLaren's total points tally in the 2023 Constructors' Championship?,105
+Qwen2.5-7B-Instruct,F1-U012,Formula 1,Which constructor scored the fewest points in 2022?,Alfa Romeo
+Qwen2.5-7B-Instruct,F1-U013,Formula 1,How many retirements did Fernando Alonso have in the 2021 Formula 1 season?,3
+Qwen2.5-7B-Instruct,F1-U014,Formula 1,Which driver achieved the highest average qualifying position in 2023?,Max Verstappen
+Qwen2.5-7B-Instruct,F1-U015,Formula 1,Compare the points totals of Ferrari and Mercedes in the 2022 Constructors' Championship.,"Ferrari: 183
+Mercedes: 174"
+Qwen2.5-7B-Instruct,F1-U016,Formula 1,Who won the 2024 Monaco Grand Prix?,Valtteri Bottas
+Qwen2.5-7B-Instruct,F1-U017,Formula 1,What was the median number of overtakes per race in the 2023 Formula 1 season?,4
+Qwen2.5-7B-Instruct,F1-U018,Formula 1,Which driver recorded the most laps led in 2023?,Max Verstappen
+Qwen2.5-7B-Instruct,F1-U019,Formula 1,How many sprint race wins did Red Bull drivers collect in 2023?,15
+Qwen2.5-7B-Instruct,F1-U020,Formula 1,Which team had the best average qualifying result in 2022?,Red Bull Racing
+Gemma-4-E4B-it,CF-U001,Club Football,Who won the 2023–24 English Premier League?,Manchester City
+Gemma-4-E4B-it,CF-U002,Club Football,How many goals did Erling Haaland score in the 2022–23 Premier League season?,36
+Gemma-4-E4B-it,CF-U003,Club Football,Which club finished second in La Liga in the 2021–22 season?,"Real Madridthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user is asking for the club that finished second in La Liga during the 2021–22 season.
+2.  **Identify Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain reasoning.
+    *   Do not invent an answer if uncertain.
+    *   Return *only* the requested final answer.
+3."
+Gemma-4-E4B-it,CF-U004,Club Football,What was Arsenal's total points tally in the 2023–24 Premier League season?,89
+Gemma-4-E4B-it,CF-U005,Club Football,Who kept the most clean sheets in Serie A in the 2021–22 season?,"Juventusthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants to know which goalkeeper kept the most clean sheets in Serie A during the 2021–22 season.
+2.  **Identify the Role:** I am a sports statistics assistant.
+3.  **Determine the Output Format:** Answer directly and briefly, no explanation, no invention.
+4.  **Recall/Search Data (Internal Knowledge Check for 20"
+Gemma-4-E4B-it,CF-U006,Club Football,What was the average attendance of Liverpool home matches in the 2022–23 Premier League season?,"54,141"
+Gemma-4-E4B-it,CF-U007,Club Football,List the top five scorers in the 2023–24 Bundesliga by total goals.,"1. Harry Kane
+2. Serhou Guirassy
+3. Loïs Openda
+4. Richarlison
+5. Julian Brandt"
+Gemma-4-E4B-it,CF-U008,Club Football,What was Manchester City's goal difference in the 2021–22 Premier League season?,+58
+Gemma-4-E4B-it,CF-U009,Club Football,Which team conceded the fewest goals in Ligue 1 in the 2022–23 season?,Lens
+Gemma-4-E4B-it,CF-U010,Club Football,Compare the total points of Barcelona and Real Madrid in the 2023–24 La Liga season.,"Barcelona: 71, Real Madrid: 95"
+Gemma-4-E4B-it,CF-U011,Club Football,Which club won the 2021–22 UEFA Champions League?,Real Madrid
+Gemma-4-E4B-it,CF-U012,Club Football,How many assists did Kevin De Bruyne record in the 2022–23 Premier League season?,16
+Gemma-4-E4B-it,CF-U013,Club Football,Which team scored the most goals in the 2023–24 Bundesliga season?,"Bayer Leverkusenthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user is asking for the team that scored the most goals in the 2023–24 Bundesliga season.
+2.  **Identify the Role:** I am a sports statistics assistant.
+3.  **Determine Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain reasoning.
+    *   Do not invent an answer if uncertain."
+Gemma-4-E4B-it,CF-U014,Club Football,What was Juventus's league position in Serie A in the 2020–21 season?,1
+Gemma-4-E4B-it,CF-U015,Club Football,Which club had the highest average possession in La Liga in the 2022–23 season?,Barcelona
+Gemma-4-E4B-it,CF-U016,Club Football,How many home wins did Inter Milan have in Serie A in the 2023–24 season?,13
+Gemma-4-E4B-it,CF-U017,Club Football,Which club earned the most points away from home in the Premier League in the 2021–22 season?,"Manchester Citythought
+Thinking Process:
+
+1.  **Identify the Goal:** The user wants to know which Premier League club earned the most points away from home during the 2021–22 season.
+2.  **Determine Necessary Data:** I need the away points total for every Premier League club in the 2021-2022 season.
+3.  **Recall/Search Data (Internal Knowledge Check for 20"
+Gemma-4-E4B-it,CF-U018,Club Football,What was the median number of goals per match in the 2022–23 Ligue 1 season?,1.5
+Gemma-4-E4B-it,CF-U019,Club Football,Which club had the fewest losses in the 2023–24 Premier League?,"Manchester Citythought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants to know which club had the fewest losses in the 2023–24 Premier League season.
+2.  **Identify the Data Needed:** Premier League 2023-2024 season results, specifically the number of losses for each team.
+3.  **Determine the Answer:** I need to recall or access the final standings/records"
+Gemma-4-E4B-it,CF-U020,Club Football,How many yellow cards did Real Madrid receive in La Liga in the 2021–22 season?,73
+Gemma-4-E4B-it,IF-U001,International Football,Who scored the most goals in the 2022 FIFA World Cup?,Kylian Mbappé
+Gemma-4-E4B-it,IF-U002,International Football,Which team won the 2018 FIFA World Cup?,France
+Gemma-4-E4B-it,IF-U003,International Football,How many goals did Kylian Mbappe score in the 2022 FIFA World Cup?,0
+Gemma-4-E4B-it,IF-U004,International Football,What was Argentina's goal difference in the 2022 FIFA World Cup?,+1
+Gemma-4-E4B-it,IF-U005,International Football,Which country conceded the fewest goals in UEFA Euro 2020?,"Italythought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants to know which country conceded the fewest goals in UEFA Euro 2020.
+2.  **Identify the Event:** UEFA Euro 2020.
+3.  **Identify the Metric:** Fewest goals conceded (lowest goals against).
+4.  **Recall/Search Data (Internal Knowledge Check for Euro 2020):** I need the"
+Gemma-4-E4B-it,IF-U006,International Football,What was the median number of goals per match in the 2018 FIFA World Cup?,2.3
+Gemma-4-E4B-it,IF-U007,International Football,Which team finished third in the 2022 FIFA World Cup?,Third-place team was Croatia.
+Gemma-4-E4B-it,IF-U008,International Football,How many wins did Brazil record in the 2014 FIFA World Cup?,7
+Gemma-4-E4B-it,IF-U009,International Football,Compare the total goals of France and Argentina in the 2022 FIFA World Cup.,"France: 6, Argentina: 3"
+Gemma-4-E4B-it,IF-U010,International Football,Which country had the highest points total in the UEFA Euro 2024 group stage?,Germany
+Gemma-4-E4B-it,IF-U011,International Football,Who provided the most assists at the 2021 Copa America?,Lionel Messi
+Gemma-4-E4B-it,IF-U012,International Football,Which team had the fewest shots on target against them at the 2022 World Cup?,Iran
+Gemma-4-E4B-it,IF-U013,International Football,How many clean sheets did England keep at UEFA Euro 2020?,0
+Gemma-4-E4B-it,IF-U014,International Football,Which country won the 2021 Copa America final?,Argentina
+Gemma-4-E4B-it,IF-U015,International Football,What was Portugal's average possession at the 2022 FIFA World Cup?,48.1%
+Gemma-4-E4B-it,IF-U016,International Football,Which team scored first most often at UEFA Euro 2024?,No data available.>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Gemma-4-E4B-it,IF-U017,International Football,How many yellow cards did Uruguay receive at the 2021 Copa America?,11
+Gemma-4-E4B-it,IF-U018,International Football,Which nation had the best goal difference in the 2016 Copa America Centenario group stage?,"Brazilthought
+Thinking Process:
+
+1.  **Identify the core request:** The user wants to know which nation had the best goal difference in the 2016 Copa America Centenario group stage.
+2.  **Determine the required output format:** Return only the requested final answer (the nation's name).
+3.  **Recall/Search knowledge (2016 Copa America Centenario group stage goal differences):**
+    *   Brazil:"
+Gemma-4-E4B-it,IF-U019,International Football,Who attempted the most shots at the 2022 FIFA World Cup?,"Lionel Messithought
+Thinking Process:
+
+1.  **Analyze the Request:** The user is asking for the player who attempted the most shots at the 2022 FIFA World Cup.
+2.  **Identify the Role:** I am a sports statistics assistant.
+3.  **Determine Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain reasoning.
+    *   Do not invent an answer if uncertain."
+Gemma-4-E4B-it,IF-U020,International Football,Which team recorded the most crosses at UEFA Euro 2024?,Data not available.>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Gemma-4-E4B-it,OL-U001,Olympics,Which country won the most gold medals at the 2020 Tokyo Olympics?,United States
+Gemma-4-E4B-it,OL-U002,Olympics,How many total medals did Japan win at the 2020 Tokyo Olympics?,27
+Gemma-4-E4B-it,OL-U003,Olympics,Which country finished second in the gold medal table at the 2016 Rio Olympics?,"United Statesthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants to know which country finished second in the gold medal table at the 2016 Rio Olympics.
+2.  **Identify Key Information:** Event = 2016 Rio Olympics; Metric = Gold Medal Table; Rank = Second.
+3.  **Retrieve Knowledge (Internal Search/Verification):** Access data regarding the medal standings of the 2016"
+Gemma-4-E4B-it,OL-U004,Olympics,How many gold medals did the United States win at the 2012 London Olympics?,46
+Gemma-4-E4B-it,OL-U005,Olympics,Which athlete won the most medals at the 2008 Beijing Olympics?,"Michael Phelpsthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants to know which athlete won the most medals at the 2008 Beijing Olympics.
+2.  **Identify the Key Information Needed:** Athlete name, 2008 Beijing Olympics, most medals.
+3.  **Recall/Search Knowledge (Internal Knowledge Base):** Michael Phelps dominated the 2008 Beijing Olympics, winning 8 gold medals and"
+Gemma-4-E4B-it,OL-U006,Olympics,What was Kenya's total medal count at the 2016 Rio Olympics?,1
+Gemma-4-E4B-it,OL-U007,Olympics,Compare the total medals of China and the United States at the 2020 Tokyo Olympics.,"China: 38, United States: 39"
+Gemma-4-E4B-it,OL-U008,Olympics,Which country won the most silver medals at the 2020 Tokyo Olympics?,"United Statesthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants to know which country won the most silver medals at the 2020 Tokyo Olympics.
+2.  **Identify the Data Needed:** Silver medal counts for all participating countries at the 2020 Tokyo Olympics.
+3.  **Determine the Winner:** Recall/Search the official medal table for the 2020 Tokyo Olympics (held in 20"
+Gemma-4-E4B-it,OL-U009,Olympics,How many medals did Australia win in swimming at the 2020 Tokyo Olympics?,1
+Gemma-4-E4B-it,OL-U010,Olympics,Which country had the highest total medal count at the 2004 Athens Olympics?,"United Statesthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants to know which country had the highest total medal count at the 2004 Athens Olympics.
+2.  **Identify Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain reasoning.
+    *   Do not invent an answer if uncertain.
+    *   Return *only* the requested final answer.
+3.  **Retrieve"
+Gemma-4-E4B-it,OL-U011,Olympics,How many medals did Jamaica win in athletics at the 2016 Rio Olympics?,11
+Gemma-4-E4B-it,OL-U012,Olympics,Which athlete won gold in the men's 100 meters at the 2020 Tokyo Olympics?,"Noah Lylesthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user is asking for the winner of the men's 100 meters at the 2020 Tokyo Olympics.
+2.  **Identify the Role:** I am a sports statistics assistant.
+3.  **Determine Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain reasoning.
+    *   Do not invent an answer if"
+Gemma-4-E4B-it,OL-U013,Olympics,What was Great Britain's total medal count at the 2012 London Olympics?,46
+Gemma-4-E4B-it,OL-U014,Olympics,Which country won the most medals in judo at the 2020 Tokyo Olympics?,Japan
+Gemma-4-E4B-it,OL-U015,Olympics,How many bronze medals did India win at the 2020 Tokyo Olympics?,7
+Gemma-4-E4B-it,OL-U016,Olympics,Which delegation recorded the most medals in track cycling at the 2016 Rio Olympics?,"United Statesthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants to know which delegation recorded the most medals in track cycling at the 2016 Rio Olympics.
+2.  **Identify Key Information Needed:** Sport (Track Cycling), Event (2016 Rio Olympics), Metric (Most Medals), Output (Delegation Name).
+3.  **Search/Recall Data (Simulated Knowledge Retrieval):** I need data on"
+Gemma-4-E4B-it,OL-U017,Olympics,Who won the women's singles tennis gold medal at the 2020 Tokyo Olympics?,"Simona Halepthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user is asking for the winner of the women's singles tennis gold medal at the 2020 Tokyo Olympics.
+2.  **Identify Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain reasoning.
+    *   Do not invent an answer if uncertain.
+    *   Return *only* the requested final answer."
+Gemma-4-E4B-it,OL-U018,Olympics,Which country won the men's basketball gold medal at the 2012 London Olympics?,USA
+Gemma-4-E4B-it,OL-U019,Olympics,How many medals did Canada win in rowing at the 2008 Beijing Olympics?,1
+Gemma-4-E4B-it,OL-U020,Olympics,Which nation led the athletics medal table at the 2020 Tokyo Olympics?,"United Statesthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user is asking for the nation that led the athletics medal table at the 2020 Tokyo Olympics.
+2.  **Identify the Role:** I am a sports statistics assistant.
+3.  **Determine Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain reasoning.
+    *   Do not invent an answer if uncertain.
+    *"
+Gemma-4-E4B-it,BK-U001,Basketball,Who won the 2023–24 NBA championship?,Denver Nuggets
+Gemma-4-E4B-it,BK-U002,Basketball,How many points per game did Luka Doncic average in the 2023–24 NBA regular season?,33.9
+Gemma-4-E4B-it,BK-U003,Basketball,Which team finished with the best regular-season record in the 2022–23 NBA season?,Boston Celtics
+Gemma-4-E4B-it,BK-U004,Basketball,What was the Boston Celtics' win total in the 2023–24 regular season?,64
+Gemma-4-E4B-it,BK-U005,Basketball,Who led the WNBA in assists per game in 2023?,Jewell Loyd
+Gemma-4-E4B-it,BK-U006,Basketball,Which team allowed the fewest points per game in the 2021–22 NBA regular season?,"Phoenix Sunsthought
+Thinking Process:
+
+1.  **Identify the core request:** The user wants to know which team allowed the fewest points per game in the 2021–22 NBA regular season.
+2.  **Determine the required data:** I need the defensive points per game (PPG allowed) for all NBA teams during the 2021-2022 season.
+3.  **Recall/Search the data (Internal"
+Gemma-4-E4B-it,BK-U007,Basketball,List the top five scorers in the 2023 FIBA Basketball World Cup by total points.,"1. Nikola Jokic
+2. Luka Doncic
+3. Victor Wembanyama
+4. Shai Gilgeous-Alexander
+5. Giannis Antetokounmpo"
+Gemma-4-E4B-it,BK-U008,Basketball,What was Nikola Jokic's rebounds per game average in the 2022–23 NBA regular season?,12.4
+Gemma-4-E4B-it,BK-U009,Basketball,Which country won gold in men's basketball at the 2020 Tokyo Olympics?,United States
+Gemma-4-E4B-it,BK-U010,Basketball,How many three-pointers did Stephen Curry make in the 2021–22 NBA regular season?,402
+Gemma-4-E4B-it,BK-U011,Basketball,Which team had the highest offensive rating in the 2023–24 NBA regular season?,Boston Celtics
+Gemma-4-E4B-it,BK-U012,Basketball,Compare the regular-season win totals of the Bucks and Celtics in 2022–23.,"Bucks: 55, Celtics: 57"
+Gemma-4-E4B-it,BK-U013,Basketball,Who recorded the most blocks per game in the 2023 WNBA season?,A'ja Wilson>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Gemma-4-E4B-it,BK-U014,Basketball,Which team had the best point differential in the 2023–24 NBA season?,"Boston Celticsthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants to know which team had the best point differential in the 2023–24 NBA season.
+2.  **Identify Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain reasoning.
+    *   Do not invent an answer if uncertain.
+    *   Return *only* the requested final answer.
+3."
+Gemma-4-E4B-it,BK-U015,Basketball,How many assists did LeBron James average in the 2020–21 NBA regular season?,6.2
+Gemma-4-E4B-it,BK-U016,Basketball,Which club won the 2024 EuroLeague title?,Olympiacos>
+Gemma-4-E4B-it,BK-U017,Basketball,What was the average margin of victory in the 2023 FIBA World Cup knockout stage?,11.2
+Gemma-4-E4B-it,BK-U018,Basketball,Which team made the most three-pointers per game in the 2022–23 NBA season?,"Golden State Warriorsthought
+Thinking Process:
+
+1.  **Identify the core request:** The user wants to know which team had the most three-pointers per game in the 2022–23 NBA season.
+2.  **Determine the required output format:** Return only the requested final answer (the team name).
+3.  **Access/Recall knowledge (2022-2023 NBA season 3P/G leaders):"
+Gemma-4-E4B-it,BK-U019,Basketball,Which player had the highest free-throw percentage in the 2023 WNBA season among qualified players?,"Jewell Loydthought
+Thinking Process:
+
+1.  **Identify the Goal:** The user wants to know the player with the highest free-throw percentage in the 2023 WNBA season among qualified players.
+2.  **Determine the Required Output Format:** Return only the requested final answer (the player's name).
+3.  **Information Retrieval (Simulated Knowledge Check):** I need the 2023 WNBA free-"
+Gemma-4-E4B-it,BK-U020,Basketball,How many rebounds did the United States average per game in men's basketball at the 2020 Olympics?,24.1
+Gemma-4-E4B-it,TN-U001,Tennis,Who won the men's singles title at Wimbledon 2023?,Carlos Alcaraz>
+Gemma-4-E4B-it,TN-U002,Tennis,How many aces did Aryna Sabalenka serve at the 2024 Australian Open?,No data available
+Gemma-4-E4B-it,TN-U003,Tennis,Which player reached the women's singles final at the 2022 US Open against Iga Swiatek?,"Aryna Sabalenkathought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants to know which player reached the women's singles final at the 2022 US Open against Iga Swiatek.
+2.  **Identify Key Information:**
+    *   Tournament: 2022 US Open
+    *   Event: Women's Singles Final
+    *   Known Opponent: Iga Swiatek"
+Gemma-4-E4B-it,TN-U004,Tennis,What was Carlos Alcaraz's first-serve percentage in the 2023 Wimbledon final?,66.7%
+Gemma-4-E4B-it,TN-U005,Tennis,Who recorded the most match wins on ATP clay courts in 2022?,Rafael Nadal
+Gemma-4-E4B-it,TN-U006,Tennis,List the top five WTA players by ranking points at the end of 2023.,"1. Iga Świątek
+2. Aryna Sabalenka
+3. Coco Gauff
+4. Elena Rybakina
+5. Jessica Pegulathought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants a list of the top five WTA players by ranking points at the end of 2023.
+2.  **Analyze Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain"
+Gemma-4-E4B-it,TN-U007,Tennis,Which player won the most ATP titles in 2021?,Novak Djokovic
+Gemma-4-E4B-it,TN-U008,Tennis,How many break points did Novak Djokovic save in the 2023 Roland Garros final?,11
+Gemma-4-E4B-it,TN-U009,Tennis,Which country won the 2023 Davis Cup?,USA
+Gemma-4-E4B-it,TN-U010,Tennis,What was Coco Gauff's win-loss record at Grand Slams in 2023?,3-1
+Gemma-4-E4B-it,TN-U011,Tennis,Who had the highest ace count in men's singles at the 2024 Australian Open?,Jannik Sinner
+Gemma-4-E4B-it,TN-U012,Tennis,Which player spent the most weeks at world No. 1 in the 2023 ATP season?,"Novak Djokovicthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants to know which player spent the most weeks at world No. 1 in the 2023 ATP season.
+2.  **Identify the Role:** I am a sports statistics assistant.
+3.  **Determine Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain reasoning.
+    *   Do not invent an answer if"
+Gemma-4-E4B-it,TN-U013,Tennis,How many titles did Iga Swiatek win in 2022?,11
+Gemma-4-E4B-it,TN-U014,Tennis,Which player won the women's singles gold medal at the 2020 Tokyo Olympics?,"Simona Halepthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user is asking for the winner of the women's singles gold medal at the 2020 Tokyo Olympics.
+2.  **Identify the Role:** I am a sports statistics assistant.
+3.  **Determine Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain reasoning.
+    *   Do not invent an answer if uncertain"
+Gemma-4-E4B-it,TN-U015,Tennis,Compare the 2023 match-win totals of Jannik Sinner and Daniil Medvedev.,"Jannik Sinner: 15, Daniil Medvedev: 11"
+Gemma-4-E4B-it,TN-U016,Tennis,Who had the best return games won percentage on the WTA Tour in 2023?,I do not have the specific data to answer this question.
+Gemma-4-E4B-it,TN-U017,Tennis,What was the average duration of men's singles matches at Wimbledon 2022?,3.1 hours
+Gemma-4-E4B-it,TN-U018,Tennis,Which player won the 2024 Miami Open men's singles title?,"Carlos Alcarazthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user is asking for the winner of the 2024 Miami Open men's singles title.
+2.  **Identify the Role:** I am a sports statistics assistant.
+3.  **Determine Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain reasoning.
+    *   Do not invent an answer if uncertain."
+Gemma-4-E4B-it,TN-U019,Tennis,How many double faults did Elena Rybakina average per match at the 2023 Wimbledon Championships?,1.8
+Gemma-4-E4B-it,TN-U020,Tennis,Which player had the highest ATP ranking at the end of 2022?,Novak Djokovic>
+Gemma-4-E4B-it,F1-U001,Formula 1,Who won the 2023 Formula 1 Drivers' Championship?,Max Verstappen>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Gemma-4-E4B-it,F1-U002,Formula 1,How many wins did Max Verstappen record in the 2022 Formula 1 season?,15
+Gemma-4-E4B-it,F1-U003,Formula 1,Which team finished second in the 2023 Constructors' Championship?,Mercedes
+Gemma-4-E4B-it,F1-U004,Formula 1,What was Lewis Hamilton's average finishing position in the 2021 Formula 1 season?,2.71
+Gemma-4-E4B-it,F1-U005,Formula 1,Who set the most fastest laps in the 2022 season?,"Max Verstappenthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user is asking ""Who set the most fastest laps in the 2022 season?""
+2.  **Identify the Domain:** The context is sports statistics (specifically Formula 1, given the nature of ""fastest laps"" in a season context).
+3.  **Determine the Required Output Format:** The response must be direct, brief, and return only the requested final"
+Gemma-4-E4B-it,F1-U006,Formula 1,Which driver scored the most podiums in 2023?,Max Verstappen
+Gemma-4-E4B-it,F1-U007,Formula 1,List the top five drivers by points after the 2024 Bahrain Grand Prix.,"1. Max Verstappen
+2. Charles Leclerc
+3. Lando Norris
+4. Oscar Piastri
+5. Carlos SainzYou have not provided the necessary data for the 2024 Bahrain Grand Prix."
+Gemma-4-E4B-it,F1-U008,Formula 1,Which team had the fastest pit-stop average in the 2023 Formula 1 season?,"Red Bull Racingthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user is asking for the team with the fastest pit-stop average in the 2023 Formula 1 season.
+2.  **Identify Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain reasoning.
+    *   Do not invent an answer if uncertain.
+    *   Return *only* the requested final answer.
+3"
+Gemma-4-E4B-it,F1-U009,Formula 1,How many pole positions did Charles Leclerc win in 2022?,0
+Gemma-4-E4B-it,F1-U010,Formula 1,Which driver gained the most positions on lap one across the 2023 season?,"Max Verstappenthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants to know which driver gained the most positions on lap one across the 2023 Formula 1 season.
+2.  **Identify the Data Needed:** Lap 1 position gains for all drivers in the 2023 season.
+3.  **Determine the Answer Format:** Return only the requested final answer (the driver's name).
+4."
+Gemma-4-E4B-it,F1-U011,Formula 1,What was McLaren's total points tally in the 2023 Constructors' Championship?,159
+Gemma-4-E4B-it,F1-U012,Formula 1,Which constructor scored the fewest points in 2022?,"Haasthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants to know which constructor scored the fewest points in the 2022 Formula 1 season.
+2.  **Identify the Data Needed:** 2022 F1 Constructor Standings (Points).
+3.  **Recall/Verify Data (Internal Knowledge Check for 2022 F1 Constructors):**
+    *   Red Bull Racing: 8"
+Gemma-4-E4B-it,F1-U013,Formula 1,How many retirements did Fernando Alonso have in the 2021 Formula 1 season?,0
+Gemma-4-E4B-it,F1-U014,Formula 1,Which driver achieved the highest average qualifying position in 2023?,Max Verstappen
+Gemma-4-E4B-it,F1-U015,Formula 1,Compare the points totals of Ferrari and Mercedes in the 2022 Constructors' Championship.,"Ferrari: 319, Mercedes: 614thought
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants a comparison of the points totals for Ferrari and Mercedes in the 2022 Constructors' Championship.
+2.  **Identify Required Data:**
+    *   2022 Constructors' Championship points for Ferrari.
+    *   2022 Constructors' Championship points for Mercedes.
+3.  **"
+Gemma-4-E4B-it,F1-U016,Formula 1,Who won the 2024 Monaco Grand Prix?,"Charles Leclercthought
+Thinking Process:
+
+1.  **Analyze the Request:** The user is asking for the winner of the 2024 Monaco Grand Prix.
+2.  **Identify the Role:** I am a sports statistics assistant.
+3.  **Determine Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain reasoning.
+    *   Do not invent an answer if uncertain.
+    *   Return *only"
+Gemma-4-E4B-it,F1-U017,Formula 1,What was the median number of overtakes per race in the 2023 Formula 1 season?,"13.0thought
+Thinking Process:
+
+1.  **Analyze the Request:** The user is asking for the median number of overtakes per race in the 2023 Formula 1 season.
+2.  **Identify the Role:** I am a sports statistics assistant.
+3.  **Determine Constraints:**
+    *   Answer directly and briefly.
+    *   Do not explain reasoning.
+    *   Do not invent an answer if"
+Gemma-4-E4B-it,F1-U018,Formula 1,Which driver recorded the most laps led in 2023?,Max Verstappen
+Gemma-4-E4B-it,F1-U019,Formula 1,How many sprint race wins did Red Bull drivers collect in 2023?,0
+Gemma-4-E4B-it,F1-U020,Formula 1,Which team had the best average qualifying result in 2022?,I do not have the necessary data to answer this question.
+Mistral-7B-Instruct-v0.2,CF-U001,Club Football,Who won the 2023–24 English Premier League?,Manchester City won the 2023-24 English Premier League.
+Mistral-7B-Instruct-v0.2,CF-U002,Club Football,How many goals did Erling Haaland score in the 2022–23 Premier League season?,I'm unable to provide the exact number of goals Erling Haaland scored in the 2022–23 Premier League season as the season has not yet started. Please check back after the season for the updated information.
+Mistral-7B-Instruct-v0.2,CF-U003,Club Football,Which club finished second in La Liga in the 2021–22 season?,Real Sociedad or Barcelona (depending on the final standings)
+Mistral-7B-Instruct-v0.2,CF-U004,Club Football,What was Arsenal's total points tally in the 2023–24 Premier League season?,I'm unable to provide the answer to that question as the 2023-24 Premier League season has not yet taken place.
+Mistral-7B-Instruct-v0.2,CF-U005,Club Football,Who kept the most clean sheets in Serie A in the 2021–22 season?,"The goalkeeper with the most clean sheets in Serie A during the 2021-22 season was Mike Maignan, with a total of 21 clean sheets for AC Milan."
+Mistral-7B-Instruct-v0.2,CF-U006,Club Football,What was the average attendance of Liverpool home matches in the 2022–23 Premier League season?,The average attendance of Liverpool home matches in the 2022–23 Premier League season is not available yet as the season has not ended.
+Mistral-7B-Instruct-v0.2,CF-U007,Club Football,List the top five scorers in the 2023–24 Bundesliga by total goals.,"I. Muller (Bayern Munich) - 25 goals
+II. Haaland (Borussia Dortmund) - 23 goals
+III. Sane (Bayern Munich) - 21 goals
+IV. Werner (RB Leipzig) - 20 goals
+V. Gnabry (Bayern Munich) - 19 goals"
+Mistral-7B-Instruct-v0.2,CF-U008,Club Football,What was Manchester City's goal difference in the 2021–22 Premier League season?,Manchester City had a goal difference of +52 in the 2021–22 Premier League season.
+Mistral-7B-Instruct-v0.2,CF-U009,Club Football,Which team conceded the fewest goals in Ligue 1 in the 2022–23 season?,"The team that conceded the fewest goals in Ligue 1 during the 2022-23 season was Paris Saint-Germain, with a total of 22 goals conceded."
+Mistral-7B-Instruct-v0.2,CF-U010,Club Football,Compare the total points of Barcelona and Real Madrid in the 2023–24 La Liga season.,"Barcelona: ____ points
+Real Madrid: ____ points
+
+(I'm unable to provide the actual points without having access to the 2023–24 La Liga season statistics.)"
+Mistral-7B-Instruct-v0.2,CF-U011,Club Football,Which club won the 2021–22 UEFA Champions League?,The club that won the 2021–22 UEFA Champions League is Real Madrid.
+Mistral-7B-Instruct-v0.2,CF-U012,Club Football,How many assists did Kevin De Bruyne record in the 2022–23 Premier League season?,I'm unable to provide the answer to that question as the 2022-23 Premier League season has not yet started. Please check back after the season has ended for the updated statistics.
+Mistral-7B-Instruct-v0.2,CF-U013,Club Football,Which team scored the most goals in the 2023–24 Bundesliga season?,"The team that scored the most goals in the 2023–24 Bundesliga season is [Team Name]. [Replace ""Team Name"" with the actual name of the team that holds this record.]"
+Mistral-7B-Instruct-v0.2,CF-U014,Club Football,What was Juventus's league position in Serie A in the 2020–21 season?,Juventus finished 2nd in the 2020–21 Serie A season.
+Mistral-7B-Instruct-v0.2,CF-U015,Club Football,Which club had the highest average possession in La Liga in the 2022–23 season?,"Barcelona, with an average possession of 61.3% in La Liga 2022–23 season."
+Mistral-7B-Instruct-v0.2,CF-U016,Club Football,How many home wins did Inter Milan have in Serie A in the 2023–24 season?,"I'm an assistant and I don't have real-time access to sports statistics or databases. However, if the 2023-24 Serie A season has already ended and Inter Milan's home wins are known, I would return that number. For example, ""The answer is 12."" If the season is still in progress, I would need to wait for the final results before providing an answer."
+Mistral-7B-Instruct-v0.2,CF-U017,Club Football,Which club earned the most points away from home in the Premier League in the 2021–22 season?,Manchester City earned the most points away from home in the Premier League 2021-22 season with a total of 36 points.
+Mistral-7B-Instruct-v0.2,CF-U018,Club Football,What was the median number of goals per match in the 2022–23 Ligue 1 season?,The median number of goals per match in the 2022–23 Ligue 1 season was 2.5.
+Mistral-7B-Instruct-v0.2,CF-U019,Club Football,Which club had the fewest losses in the 2023–24 Premier League?,Manchester City (had the fewest losses in the 2023-24 Premier League)
+Mistral-7B-Instruct-v0.2,CF-U020,Club Football,How many yellow cards did Real Madrid receive in La Liga in the 2021–22 season?,The number of yellow cards Real Madrid received in La Liga during the 2021–22 season was 45.
+Mistral-7B-Instruct-v0.2,IF-U001,International Football,Who scored the most goals in the 2022 FIFA World Cup?,"Mbappé, Kylian (France) scored 8 goals in the 2022 FIFA World Cup."
+Mistral-7B-Instruct-v0.2,IF-U002,International Football,Which team won the 2018 FIFA World Cup?,The team that won the 2018 FIFA World Cup was France.
+Mistral-7B-Instruct-v0.2,IF-U003,International Football,How many goals did Kylian Mbappe score in the 2022 FIFA World Cup?,Kylian Mbappe did not score any goals in the 2022 FIFA World Cup.
+Mistral-7B-Instruct-v0.2,IF-U004,International Football,What was Argentina's goal difference in the 2022 FIFA World Cup?,Argentina's goal difference in the 2022 FIFA World Cup was +5.
+Mistral-7B-Instruct-v0.2,IF-U005,International Football,Which country conceded the fewest goals in UEFA Euro 2020?,"The country that conceded the fewest goals in UEFA Euro 2020 was Italy, with a total of 4 goals conceded in 7 matches."
+Mistral-7B-Instruct-v0.2,IF-U006,International Football,What was the median number of goals per match in the 2018 FIFA World Cup?,The median number of goals per match in the 2018 FIFA World Cup was 2.5.
+Mistral-7B-Instruct-v0.2,IF-U007,International Football,Which team finished third in the 2022 FIFA World Cup?,Croatia
+Mistral-7B-Instruct-v0.2,IF-U008,International Football,How many wins did Brazil record in the 2014 FIFA World Cup?,The Brazil national soccer team recorded 7 wins in the 2014 FIFA World Cup.
+Mistral-7B-Instruct-v0.2,IF-U009,International Football,Compare the total goals of France and Argentina in the 2022 FIFA World Cup.,"France: 8 goals
+Argentina: 6 goals"
+Mistral-7B-Instruct-v0.2,IF-U010,International Football,Which country had the highest points total in the UEFA Euro 2024 group stage?,The country with the highest points total in the UEFA Euro 2024 group stage is not yet determined as the tournament has not taken place.
+Mistral-7B-Instruct-v0.2,IF-U011,International Football,Who provided the most assists at the 2021 Copa America?,Artur Maurício (Brazil) provided the most assists at the 2021 Copa America with a total of 4 assists.
+Mistral-7B-Instruct-v0.2,IF-U012,International Football,Which team had the fewest shots on target against them at the 2022 World Cup?,"The team with the fewest shots on target against them at the 2022 World Cup was Morocco, with a total of 12 shots on target conceded."
+Mistral-7B-Instruct-v0.2,IF-U013,International Football,How many clean sheets did England keep at UEFA Euro 2020?,Six clean sheets were kept by England at UEFA Euro 2020.
+Mistral-7B-Instruct-v0.2,IF-U014,International Football,Which country won the 2021 Copa America final?,Argentina won the 2021 Copa America final.
+Mistral-7B-Instruct-v0.2,IF-U015,International Football,What was Portugal's average possession at the 2022 FIFA World Cup?,The average possession percentage for Portugal at the 2022 FIFA World Cup was 53.7%.
+Mistral-7B-Instruct-v0.2,IF-U016,International Football,Which team scored first most often at UEFA Euro 2024?,Team A scored first most frequently at UEFA Euro 2024. (Assuming Team A is the team you're referring to.)
+Mistral-7B-Instruct-v0.2,IF-U017,International Football,How many yellow cards did Uruguay receive at the 2021 Copa America?,Uruguay received 7 yellow cards at the 2021 Copa America.
+Mistral-7B-Instruct-v0.2,IF-U018,International Football,Which nation had the best goal difference in the 2016 Copa America Centenario group stage?,"Argentina, with a goal difference of +6."
+Mistral-7B-Instruct-v0.2,IF-U019,International Football,Who attempted the most shots at the 2022 FIFA World Cup?,"Neymar attempted the most shots at the 2022 FIFA World Cup, with a total of 23 shots."
+Mistral-7B-Instruct-v0.2,IF-U020,International Football,Which team recorded the most crosses at UEFA Euro 2024?,Team A recorded 500 crosses at UEFA Euro 2024.
+Mistral-7B-Instruct-v0.2,OL-U001,Olympics,Which country won the most gold medals at the 2020 Tokyo Olympics?,"China won the most gold medals at the 2020 Tokyo Olympics, with a total of 78 gold medals."
+Mistral-7B-Instruct-v0.2,OL-U002,Olympics,How many total medals did Japan win at the 2020 Tokyo Olympics?,The total number of medals won by Japan at the 2020 Tokyo Olympics was 58.
+Mistral-7B-Instruct-v0.2,OL-U003,Olympics,Which country finished second in the gold medal table at the 2016 Rio Olympics?,"China
+
+(Note: China finished with a total of 70 gold medals at the 2016 Rio Olympics, second only to the United States with 121 gold medals.)"
+Mistral-7B-Instruct-v0.2,OL-U004,Olympics,How many gold medals did the United States win at the 2012 London Olympics?,The United States won a total of 46 gold medals at the 2012 London Olympics.
+Mistral-7B-Instruct-v0.2,OL-U005,Olympics,Which athlete won the most medals at the 2008 Beijing Olympics?,"Michael Phelps won the most medals at the 2008 Beijing Olympics, with a total of 8 gold medals."
+Mistral-7B-Instruct-v0.2,OL-U006,Olympics,What was Kenya's total medal count at the 2016 Rio Olympics?,Kenya won a total of 13 medals at the 2016 Rio Olympics.
+Mistral-7B-Instruct-v0.2,OL-U007,Olympics,Compare the total medals of China and the United States at the 2020 Tokyo Olympics.,"China: 71 medals (36 gold, 21 silver, 14 bronze)
+United States: 113 medals (39 gold, 41 silver, 33 bronze)"
+Mistral-7B-Instruct-v0.2,OL-U008,Olympics,Which country won the most silver medals at the 2020 Tokyo Olympics?,"China won the most silver medals at the 2020 Tokyo Olympics, with a total of 71 silver medals."
+Mistral-7B-Instruct-v0.2,OL-U009,Olympics,How many medals did Australia win in swimming at the 2020 Tokyo Olympics?,The Australian swimming team won a total of 31 medals at the 2020 Tokyo Olympics.
+Mistral-7B-Instruct-v0.2,OL-U010,Olympics,Which country had the highest total medal count at the 2004 Athens Olympics?,China
+Mistral-7B-Instruct-v0.2,OL-U011,Olympics,How many medals did Jamaica win in athletics at the 2016 Rio Olympics?,"Eight gold, three silver, and two bronze medals were won by Jamaica in athletics at the 2016 Rio Olympics. In total, they won thirteen medals."
+Mistral-7B-Instruct-v0.2,OL-U012,Olympics,Which athlete won gold in the men's 100 meters at the 2020 Tokyo Olympics?,"The athlete who won gold in the men's 100 meters at the 2020 Tokyo Olympics was Usain Bolt (this is assuming you're asking about the 2016 Olympics, as the 2020 Olympics have already taken place and the gold medal was won by Marcell Jacobs)."
+Mistral-7B-Instruct-v0.2,OL-U013,Olympics,What was Great Britain's total medal count at the 2012 London Olympics?,The total number of medals won by Great Britain at the 2012 London Olympics was 65.
+Mistral-7B-Instruct-v0.2,OL-U014,Olympics,Which country won the most medals in judo at the 2020 Tokyo Olympics?,"Japan won the most medals in judo at the 2020 Tokyo Olympics, with a total of 14 medals (6 gold, 4 silver, 4 bronze)."
+Mistral-7B-Instruct-v0.2,OL-U015,Olympics,How many bronze medals did India win at the 2020 Tokyo Olympics?,The number of bronze medals won by India at the 2020 Tokyo Olympics was 7.
+Mistral-7B-Instruct-v0.2,OL-U016,Olympics,Which delegation recorded the most medals in track cycling at the 2016 Rio Olympics?,"The delegation that recorded the most medals in track cycling at the 2016 Rio Olympics was China, with a total of 12 medals."
+Mistral-7B-Instruct-v0.2,OL-U017,Olympics,Who won the women's singles tennis gold medal at the 2020 Tokyo Olympics?,Naomi Osaka won the women's singles tennis gold medal at the 2020 Tokyo Olympics.
+Mistral-7B-Instruct-v0.2,OL-U018,Olympics,Which country won the men's basketball gold medal at the 2012 London Olympics?,The United States won the men's basketball gold medal at the 2012 London Olympics.
+Mistral-7B-Instruct-v0.2,OL-U019,Olympics,How many medals did Canada win in rowing at the 2008 Beijing Olympics?,The Canadian rowing team won a total of 3 medals at the 2008 Beijing Olympics.
+Mistral-7B-Instruct-v0.2,OL-U020,Olympics,Which nation led the athletics medal table at the 2020 Tokyo Olympics?,United States
+Mistral-7B-Instruct-v0.2,BK-U001,Basketball,Who won the 2023–24 NBA championship?,I'm unable to provide the answer to that question as the 2023-24 NBA championship has not yet taken place.
+Mistral-7B-Instruct-v0.2,BK-U002,Basketball,How many points per game did Luka Doncic average in the 2023–24 NBA regular season?,I'm unable to provide the answer to that question as the 2023-24 NBA regular season has not yet occurred. Luka Doncic's points per game average for that season is unknown at this time.
+Mistral-7B-Instruct-v0.2,BK-U003,Basketball,Which team finished with the best regular-season record in the 2022–23 NBA season?,"The team with the best regular-season record in the 2022–23 NBA season is the Miami Heat, with a record of 67-15."
+Mistral-7B-Instruct-v0.2,BK-U004,Basketball,What was the Boston Celtics' win total in the 2023–24 regular season?,I'm an assistant and I don't have access to real-time or future sports data. The Boston Celtics' win total for the 2023–24 regular season is not available at this time.
+Mistral-7B-Instruct-v0.2,BK-U005,Basketball,Who led the WNBA in assists per game in 2023?,The player who led the WNBA in assists per game in 2023 was [Name of the Player]. [Assists per game] was [Number of Assists].
+Mistral-7B-Instruct-v0.2,BK-U006,Basketball,Which team allowed the fewest points per game in the 2021–22 NBA regular season?,"The Boston Celtics allowed the fewest points per game in the 2021–22 NBA regular season, with an average of 103.9 points allowed per game."
+Mistral-7B-Instruct-v0.2,BK-U007,Basketball,List the top five scorers in the 2023 FIBA Basketball World Cup by total points.,"I. Jamal Murray (Canada) - 252 points
+II. Luka Doncic (Slovenia) - 248 points
+III. Giannis Antetokounmpo (Greece) - 245 points
+IV. Nikola Jokic (Serbia) - 239 points
+V. Jayson Tatum (USA) - 233 points"
+Mistral-7B-Instruct-v0.2,BK-U008,Basketball,What was Nikola Jokic's rebounds per game average in the 2022–23 NBA regular season?,Nikola Jokic had an average of 11.9 rebounds per game in the 2022–23 NBA regular season.
+Mistral-7B-Instruct-v0.2,BK-U009,Basketball,Which country won gold in men's basketball at the 2020 Tokyo Olympics?,United States
+Mistral-7B-Instruct-v0.2,BK-U010,Basketball,How many three-pointers did Stephen Curry make in the 2021–22 NBA regular season?,Stephen Curry made 228 three-pointers in the 2021–22 NBA regular season.
+Mistral-7B-Instruct-v0.2,BK-U011,Basketball,Which team had the highest offensive rating in the 2023–24 NBA regular season?,"The team with the highest offensive rating in the 2023–24 NBA regular season was the Boston Celtics, with a rating of 115.6."
+Mistral-7B-Instruct-v0.2,BK-U012,Basketball,Compare the regular-season win totals of the Bucks and Celtics in 2022–23.,The regular-season win totals for the Bucks and Celtics in 2022-23 are to be determined as the NBA season has not yet ended. Please check back after the season for the updated information.
+Mistral-7B-Instruct-v0.2,BK-U013,Basketball,Who recorded the most blocks per game in the 2023 WNBA season?,"The player with the most blocks per game in the 2023 WNBA season was Brittney Griner, averaging 3.5 blocks per game."
+Mistral-7B-Instruct-v0.2,BK-U014,Basketball,Which team had the best point differential in the 2023–24 NBA season?,"The team with the best point differential in the 2023-24 NBA season was the Miami Heat, with a differential of +8.3 points per game."
+Mistral-7B-Instruct-v0.2,BK-U015,Basketball,How many assists did LeBron James average in the 2020–21 NBA regular season?,LeBron James averaged 7.4 assists per game in the 2020–21 NBA regular season.
+Mistral-7B-Instruct-v0.2,BK-U016,Basketball,Which club won the 2024 EuroLeague title?,I'm unable to provide the answer to that question as the 2024 EuroLeague title has not yet been determined.
+Mistral-7B-Instruct-v0.2,BK-U017,Basketball,What was the average margin of victory in the 2023 FIBA World Cup knockout stage?,The average margin of victory in the 2023 FIBA World Cup knockout stage was 11.2 points.
+Mistral-7B-Instruct-v0.2,BK-U018,Basketball,Which team made the most three-pointers per game in the 2022–23 NBA season?,Golden State Warriors (15.8 three-pointers made per game)
+Mistral-7B-Instruct-v0.2,BK-U019,Basketball,Which player had the highest free-throw percentage in the 2023 WNBA season among qualified players?,"The player with the highest free-throw percentage in the 2023 WNBA season among qualified players was Alyssa Thomas, with a percentage of 0.915."
+Mistral-7B-Instruct-v0.2,BK-U020,Basketball,How many rebounds did the United States average per game in men's basketball at the 2020 Olympics?,The United States men's basketball team averaged 45.3 rebounds per game at the 2020 Olympics.
+Mistral-7B-Instruct-v0.2,TN-U001,Tennis,Who won the men's singles title at Wimbledon 2023?,Novak Djokovic won the men's singles title at Wimbledon 2023.
+Mistral-7B-Instruct-v0.2,TN-U002,Tennis,How many aces did Aryna Sabalenka serve at the 2024 Australian Open?,I'm unable to provide the exact number of aces Aryna Sabalenka served at the 2024 Australian Open as the tournament has already concluded before this interaction. Please check the official WTA statistics for the accurate information.
+Mistral-7B-Instruct-v0.2,TN-U003,Tennis,Which player reached the women's singles final at the 2022 US Open against Iga Swiatek?,The player who reached the women's singles final at the 2022 US Open against Iga Swiatek is Ons Jabeur.
+Mistral-7B-Instruct-v0.2,TN-U004,Tennis,What was Carlos Alcaraz's first-serve percentage in the 2023 Wimbledon final?,Carlos Alcaraz's first-serve percentage in the 2023 Wimbledon final was 68%.
+Mistral-7B-Instruct-v0.2,TN-U005,Tennis,Who recorded the most match wins on ATP clay courts in 2022?,"The player with the most match wins on ATP clay courts in 2022 is Carlos Alcaraz, with a total of 27 wins."
+Mistral-7B-Instruct-v0.2,TN-U006,Tennis,List the top five WTA players by ranking points at the end of 2023.,"I. Sasnovich, Aryna (Belarus) - 9,520 points
+II. Sabalenka, Aryna (Belarus) - 9,385 points
+III. Swanepoel, Elina (South Africa) - 8,912 points
+IV. Pliskova, Karolina (Czech Republic) - 8,850 points
+V. Barty, Ashle"
+Mistral-7B-Instruct-v0.2,TN-U007,Tennis,Which player won the most ATP titles in 2021?,"Daniil Medvedev won the most ATP titles in 2021, with a total of 6 titles."
+Mistral-7B-Instruct-v0.2,TN-U008,Tennis,How many break points did Novak Djokovic save in the 2023 Roland Garros final?,The number of break points saved by Novak Djokovic in the 2023 Roland Garros final is not publicly available information. I cannot provide an answer.
+Mistral-7B-Instruct-v0.2,TN-U009,Tennis,Which country won the 2023 Davis Cup?,I'm unable to provide the answer to that question as the 2023 Davis Cup has not yet been held. Please check back after the tournament for the results.
+Mistral-7B-Instruct-v0.2,TN-U010,Tennis,What was Coco Gauff's win-loss record at Grand Slams in 2023?,Coco Gauff had a win-loss record of 8-3 at Grand Slams in 2023.
+Mistral-7B-Instruct-v0.2,TN-U011,Tennis,Who had the highest ace count in men's singles at the 2024 Australian Open?,"The player with the highest ace count in men's singles at the 2024 Australian Open was John Isner, with a total of 32 aces."
+Mistral-7B-Instruct-v0.2,TN-U012,Tennis,Which player spent the most weeks at world No. 1 in the 2023 ATP season?,"Daniil Medvedev spent the most weeks at world No. 1 in the 2023 ATP season, with a total of 23 weeks."
+Mistral-7B-Instruct-v0.2,TN-U013,Tennis,How many titles did Iga Swiatek win in 2022?,Iga Swiatek won 1 title in 2022.
+Mistral-7B-Instruct-v0.2,TN-U014,Tennis,Which player won the women's singles gold medal at the 2020 Tokyo Olympics?,Naomi Osaka won the women's singles gold medal at the 2020 Tokyo Olympics.
+Mistral-7B-Instruct-v0.2,TN-U015,Tennis,Compare the 2023 match-win totals of Jannik Sinner and Daniil Medvedev.,I'm unable to provide the 2023 match-win totals for Jannik Sinner and Daniil Medvedev as the tennis season has not yet begun. Please check back later in the year for an updated answer.
+Mistral-7B-Instruct-v0.2,TN-U016,Tennis,Who had the best return games won percentage on the WTA Tour in 2023?,Serena Williams had the best return games won percentage on the WTA Tour in 2023 with 68.3%.
+Mistral-7B-Instruct-v0.2,TN-U017,Tennis,What was the average duration of men's singles matches at Wimbledon 2022?,The average duration of men's singles matches at Wimbledon 2022 was 3 hours and 11 minutes.
+Mistral-7B-Instruct-v0.2,TN-U018,Tennis,Which player won the 2024 Miami Open men's singles title?,I'm unable to provide the answer as the 2024 Miami Open men's singles title has not yet been played. Please check back after the tournament for the winner's name.
+Mistral-7B-Instruct-v0.2,TN-U019,Tennis,How many double faults did Elena Rybakina average per match at the 2023 Wimbledon Championships?,I'm unable to provide the exact number of double faults Elena Rybakina averaged per match at the 2023 Wimbledon Championships without access to the specific data. Please check the official Wimbledon or ATP/WTA statistics for the most accurate information.
+Mistral-7B-Instruct-v0.2,TN-U020,Tennis,Which player had the highest ATP ranking at the end of 2022?,The player with the highest ATP ranking at the end of 2022 was Daniil Medvedev.
+Mistral-7B-Instruct-v0.2,F1-U001,Formula 1,Who won the 2023 Formula 1 Drivers' Championship?,Max Verstappen won the 2023 Formula 1 Drivers' Championship.
+Mistral-7B-Instruct-v0.2,F1-U002,Formula 1,How many wins did Max Verstappen record in the 2022 Formula 1 season?,Max Verstappen recorded 15 wins in the 2022 Formula 1 season.
+Mistral-7B-Instruct-v0.2,F1-U003,Formula 1,Which team finished second in the 2023 Constructors' Championship?,Red Bull Racing finished second in the 2023 Constructors' Championship.
+Mistral-7B-Instruct-v0.2,F1-U004,Formula 1,What was Lewis Hamilton's average finishing position in the 2021 Formula 1 season?,"The average finishing position of Lewis Hamilton in the 2021 Formula 1 season was 1.71. (Note: This answer is based on the points system in Formula 1 where 1 point is awarded for finishing 1st, 2 points for finishing 2nd, etc. So, an average position of 1.71 means Hamilton finished roughly 1st in about 71% of the races and 2nd in about 29%"
+Mistral-7B-Instruct-v0.2,F1-U005,Formula 1,Who set the most fastest laps in the 2022 season?,Max Verstappen set the most fastest laps in the 2022 Formula 1 season with a total of 17.
+Mistral-7B-Instruct-v0.2,F1-U006,Formula 1,Which driver scored the most podiums in 2023?,Max Verstappen scored the most podiums in 2023 with a total of 12 podium finishes.
+Mistral-7B-Instruct-v0.2,F1-U007,Formula 1,List the top five drivers by points after the 2024 Bahrain Grand Prix.,"I. Hamilton, Bottas, Verstappen, Perez, Leclerc."
+Mistral-7B-Instruct-v0.2,F1-U008,Formula 1,Which team had the fastest pit-stop average in the 2023 Formula 1 season?,"The team with the fastest pit-stop average in the 2023 Formula 1 season was McLaren, with an average pit-stop time of 1 minute and 18.5 seconds."
+Mistral-7B-Instruct-v0.2,F1-U009,Formula 1,How many pole positions did Charles Leclerc win in 2022?,Charles Leclerc won 3 pole positions in 2022.
+Mistral-7B-Instruct-v0.2,F1-U010,Formula 1,Which driver gained the most positions on lap one across the 2023 season?,Driver: Max Verstappen (gained 11 positions on lap one across the 2023 season)
+Mistral-7B-Instruct-v0.2,F1-U011,Formula 1,What was McLaren's total points tally in the 2023 Constructors' Championship?,The total points tally for McLaren in the 2023 Constructors' Championship was 251.
+Mistral-7B-Instruct-v0.2,F1-U012,Formula 1,Which constructor scored the fewest points in 2022?,"In the 2022 constructors' championship, Alfa Romeo scored the fewest points with a total of 19 points."
+Mistral-7B-Instruct-v0.2,F1-U013,Formula 1,How many retirements did Fernando Alonso have in the 2021 Formula 1 season?,Fernando Alonso had 0 retirements in the 2021 Formula 1 season.
+Mistral-7B-Instruct-v0.2,F1-U014,Formula 1,Which driver achieved the highest average qualifying position in 2023?,Max Verstappen (2023: 1.1)
+Mistral-7B-Instruct-v0.2,F1-U015,Formula 1,Compare the points totals of Ferrari and Mercedes in the 2022 Constructors' Championship.,"Ferrari: 135 points
+Mercedes: 352 points (as of the Hungarian Grand Prix, 2022)"
+Mistral-7B-Instruct-v0.2,F1-U016,Formula 1,Who won the 2024 Monaco Grand Prix?,I'm unable to provide the answer to that question as the 2024 Monaco Grand Prix has not yet taken place.
+Mistral-7B-Instruct-v0.2,F1-U017,Formula 1,What was the median number of overtakes per race in the 2023 Formula 1 season?,The median number of overtakes per race in the 2023 Formula 1 season was 12.5.
+Mistral-7B-Instruct-v0.2,F1-U018,Formula 1,Which driver recorded the most laps led in 2023?,"Max Verstappen led the most laps in the 2023 Formula One season. [Reference: Statista, Formula One, Laps led by driver in the 2023 season]"
+Mistral-7B-Instruct-v0.2,F1-U019,Formula 1,How many sprint race wins did Red Bull drivers collect in 2023?,"I'm an assistant, not a database, but based on the information I have, Red Bull drivers won a total of 12 sprint races in 2023."
+Mistral-7B-Instruct-v0.2,F1-U020,Formula 1,Which team had the best average qualifying result in 2022?,I'm unable to provide the answer directly without knowing which specific sports league or competition you're referring to in 2022 where teams qualify for events. Could you please please specify the league or competition?
+Heuristic-Baseline,CF-U001,Club Football,Who won the 2023–24 English Premier League?,Unknown
+Heuristic-Baseline,CF-U002,Club Football,How many goals did Erling Haaland score in the 2022–23 Premier League season?,Unknown
+Heuristic-Baseline,CF-U003,Club Football,Which club finished second in La Liga in the 2021–22 season?,Unknown
+Heuristic-Baseline,CF-U004,Club Football,What was Arsenal's total points tally in the 2023–24 Premier League season?,Unknown
+Heuristic-Baseline,CF-U005,Club Football,Who kept the most clean sheets in Serie A in the 2021–22 season?,Unknown
+Heuristic-Baseline,CF-U006,Club Football,What was the average attendance of Liverpool home matches in the 2022–23 Premier League season?,Unknown
+Heuristic-Baseline,CF-U007,Club Football,List the top five scorers in the 2023–24 Bundesliga by total goals.,Unknown
+Heuristic-Baseline,CF-U008,Club Football,What was Manchester City's goal difference in the 2021–22 Premier League season?,Unknown
+Heuristic-Baseline,CF-U009,Club Football,Which team conceded the fewest goals in Ligue 1 in the 2022–23 season?,Unknown
+Heuristic-Baseline,CF-U010,Club Football,Compare the total points of Barcelona and Real Madrid in the 2023–24 La Liga season.,Unknown
+Heuristic-Baseline,CF-U011,Club Football,Which club won the 2021–22 UEFA Champions League?,Unknown
+Heuristic-Baseline,CF-U012,Club Football,How many assists did Kevin De Bruyne record in the 2022–23 Premier League season?,Unknown
+Heuristic-Baseline,CF-U013,Club Football,Which team scored the most goals in the 2023–24 Bundesliga season?,Unknown
+Heuristic-Baseline,CF-U014,Club Football,What was Juventus's league position in Serie A in the 2020–21 season?,Unknown
+Heuristic-Baseline,CF-U015,Club Football,Which club had the highest average possession in La Liga in the 2022–23 season?,Unknown
+Heuristic-Baseline,CF-U016,Club Football,How many home wins did Inter Milan have in Serie A in the 2023–24 season?,Unknown
+Heuristic-Baseline,CF-U017,Club Football,Which club earned the most points away from home in the Premier League in the 2021–22 season?,Unknown
+Heuristic-Baseline,CF-U018,Club Football,What was the median number of goals per match in the 2022–23 Ligue 1 season?,Unknown
+Heuristic-Baseline,CF-U019,Club Football,Which club had the fewest losses in the 2023–24 Premier League?,Unknown
+Heuristic-Baseline,CF-U020,Club Football,How many yellow cards did Real Madrid receive in La Liga in the 2021–22 season?,Unknown
+Heuristic-Baseline,IF-U001,International Football,Who scored the most goals in the 2022 FIFA World Cup?,Unknown
+Heuristic-Baseline,IF-U002,International Football,Which team won the 2018 FIFA World Cup?,Unknown
+Heuristic-Baseline,IF-U003,International Football,How many goals did Kylian Mbappe score in the 2022 FIFA World Cup?,Unknown
+Heuristic-Baseline,IF-U004,International Football,What was Argentina's goal difference in the 2022 FIFA World Cup?,Unknown
+Heuristic-Baseline,IF-U005,International Football,Which country conceded the fewest goals in UEFA Euro 2020?,Unknown
+Heuristic-Baseline,IF-U006,International Football,What was the median number of goals per match in the 2018 FIFA World Cup?,Unknown
+Heuristic-Baseline,IF-U007,International Football,Which team finished third in the 2022 FIFA World Cup?,Unknown
+Heuristic-Baseline,IF-U008,International Football,How many wins did Brazil record in the 2014 FIFA World Cup?,Unknown
+Heuristic-Baseline,IF-U009,International Football,Compare the total goals of France and Argentina in the 2022 FIFA World Cup.,Unknown
+Heuristic-Baseline,IF-U010,International Football,Which country had the highest points total in the UEFA Euro 2024 group stage?,Unknown
+Heuristic-Baseline,IF-U011,International Football,Who provided the most assists at the 2021 Copa America?,Unknown
+Heuristic-Baseline,IF-U012,International Football,Which team had the fewest shots on target against them at the 2022 World Cup?,Unknown
+Heuristic-Baseline,IF-U013,International Football,How many clean sheets did England keep at UEFA Euro 2020?,Unknown
+Heuristic-Baseline,IF-U014,International Football,Which country won the 2021 Copa America final?,Unknown
+Heuristic-Baseline,IF-U015,International Football,What was Portugal's average possession at the 2022 FIFA World Cup?,Unknown
+Heuristic-Baseline,IF-U016,International Football,Which team scored first most often at UEFA Euro 2024?,Unknown
+Heuristic-Baseline,IF-U017,International Football,How many yellow cards did Uruguay receive at the 2021 Copa America?,Unknown
+Heuristic-Baseline,IF-U018,International Football,Which nation had the best goal difference in the 2016 Copa America Centenario group stage?,Unknown
+Heuristic-Baseline,IF-U019,International Football,Who attempted the most shots at the 2022 FIFA World Cup?,Unknown
+Heuristic-Baseline,IF-U020,International Football,Which team recorded the most crosses at UEFA Euro 2024?,Unknown
+Heuristic-Baseline,OL-U001,Olympics,Which country won the most gold medals at the 2020 Tokyo Olympics?,Unknown
+Heuristic-Baseline,OL-U002,Olympics,How many total medals did Japan win at the 2020 Tokyo Olympics?,Unknown
+Heuristic-Baseline,OL-U003,Olympics,Which country finished second in the gold medal table at the 2016 Rio Olympics?,Unknown
+Heuristic-Baseline,OL-U004,Olympics,How many gold medals did the United States win at the 2012 London Olympics?,Unknown
+Heuristic-Baseline,OL-U005,Olympics,Which athlete won the most medals at the 2008 Beijing Olympics?,Unknown
+Heuristic-Baseline,OL-U006,Olympics,What was Kenya's total medal count at the 2016 Rio Olympics?,Unknown
+Heuristic-Baseline,OL-U007,Olympics,Compare the total medals of China and the United States at the 2020 Tokyo Olympics.,Unknown
+Heuristic-Baseline,OL-U008,Olympics,Which country won the most silver medals at the 2020 Tokyo Olympics?,Unknown
+Heuristic-Baseline,OL-U009,Olympics,How many medals did Australia win in swimming at the 2020 Tokyo Olympics?,Unknown
+Heuristic-Baseline,OL-U010,Olympics,Which country had the highest total medal count at the 2004 Athens Olympics?,Unknown
+Heuristic-Baseline,OL-U011,Olympics,How many medals did Jamaica win in athletics at the 2016 Rio Olympics?,Unknown
+Heuristic-Baseline,OL-U012,Olympics,Which athlete won gold in the men's 100 meters at the 2020 Tokyo Olympics?,Unknown
+Heuristic-Baseline,OL-U013,Olympics,What was Great Britain's total medal count at the 2012 London Olympics?,Unknown
+Heuristic-Baseline,OL-U014,Olympics,Which country won the most medals in judo at the 2020 Tokyo Olympics?,Unknown
+Heuristic-Baseline,OL-U015,Olympics,How many bronze medals did India win at the 2020 Tokyo Olympics?,Unknown
+Heuristic-Baseline,OL-U016,Olympics,Which delegation recorded the most medals in track cycling at the 2016 Rio Olympics?,Unknown
+Heuristic-Baseline,OL-U017,Olympics,Who won the women's singles tennis gold medal at the 2020 Tokyo Olympics?,Unknown
+Heuristic-Baseline,OL-U018,Olympics,Which country won the men's basketball gold medal at the 2012 London Olympics?,Unknown
+Heuristic-Baseline,OL-U019,Olympics,How many medals did Canada win in rowing at the 2008 Beijing Olympics?,Unknown
+Heuristic-Baseline,OL-U020,Olympics,Which nation led the athletics medal table at the 2020 Tokyo Olympics?,Unknown
+Heuristic-Baseline,BK-U001,Basketball,Who won the 2023–24 NBA championship?,Unknown
+Heuristic-Baseline,BK-U002,Basketball,How many points per game did Luka Doncic average in the 2023–24 NBA regular season?,Unknown
+Heuristic-Baseline,BK-U003,Basketball,Which team finished with the best regular-season record in the 2022–23 NBA season?,Unknown
+Heuristic-Baseline,BK-U004,Basketball,What was the Boston Celtics' win total in the 2023–24 regular season?,Unknown
+Heuristic-Baseline,BK-U005,Basketball,Who led the WNBA in assists per game in 2023?,Unknown
+Heuristic-Baseline,BK-U006,Basketball,Which team allowed the fewest points per game in the 2021–22 NBA regular season?,Unknown
+Heuristic-Baseline,BK-U007,Basketball,List the top five scorers in the 2023 FIBA Basketball World Cup by total points.,Unknown
+Heuristic-Baseline,BK-U008,Basketball,What was Nikola Jokic's rebounds per game average in the 2022–23 NBA regular season?,Unknown
+Heuristic-Baseline,BK-U009,Basketball,Which country won gold in men's basketball at the 2020 Tokyo Olympics?,Unknown
+Heuristic-Baseline,BK-U010,Basketball,How many three-pointers did Stephen Curry make in the 2021–22 NBA regular season?,Unknown
+Heuristic-Baseline,BK-U011,Basketball,Which team had the highest offensive rating in the 2023–24 NBA regular season?,Unknown
+Heuristic-Baseline,BK-U012,Basketball,Compare the regular-season win totals of the Bucks and Celtics in 2022–23.,Unknown
+Heuristic-Baseline,BK-U013,Basketball,Who recorded the most blocks per game in the 2023 WNBA season?,Unknown
+Heuristic-Baseline,BK-U014,Basketball,Which team had the best point differential in the 2023–24 NBA season?,Unknown
+Heuristic-Baseline,BK-U015,Basketball,How many assists did LeBron James average in the 2020–21 NBA regular season?,Unknown
+Heuristic-Baseline,BK-U016,Basketball,Which club won the 2024 EuroLeague title?,Unknown
+Heuristic-Baseline,BK-U017,Basketball,What was the average margin of victory in the 2023 FIBA World Cup knockout stage?,Unknown
+Heuristic-Baseline,BK-U018,Basketball,Which team made the most three-pointers per game in the 2022–23 NBA season?,Unknown
+Heuristic-Baseline,BK-U019,Basketball,Which player had the highest free-throw percentage in the 2023 WNBA season among qualified players?,Unknown
+Heuristic-Baseline,BK-U020,Basketball,How many rebounds did the United States average per game in men's basketball at the 2020 Olympics?,Unknown
+Heuristic-Baseline,TN-U001,Tennis,Who won the men's singles title at Wimbledon 2023?,Unknown
+Heuristic-Baseline,TN-U002,Tennis,How many aces did Aryna Sabalenka serve at the 2024 Australian Open?,Unknown
+Heuristic-Baseline,TN-U003,Tennis,Which player reached the women's singles final at the 2022 US Open against Iga Swiatek?,Unknown
+Heuristic-Baseline,TN-U004,Tennis,What was Carlos Alcaraz's first-serve percentage in the 2023 Wimbledon final?,Unknown
+Heuristic-Baseline,TN-U005,Tennis,Who recorded the most match wins on ATP clay courts in 2022?,Unknown
+Heuristic-Baseline,TN-U006,Tennis,List the top five WTA players by ranking points at the end of 2023.,Unknown
+Heuristic-Baseline,TN-U007,Tennis,Which player won the most ATP titles in 2021?,Unknown
+Heuristic-Baseline,TN-U008,Tennis,How many break points did Novak Djokovic save in the 2023 Roland Garros final?,Unknown
+Heuristic-Baseline,TN-U009,Tennis,Which country won the 2023 Davis Cup?,Unknown
+Heuristic-Baseline,TN-U010,Tennis,What was Coco Gauff's win-loss record at Grand Slams in 2023?,Unknown
+Heuristic-Baseline,TN-U011,Tennis,Who had the highest ace count in men's singles at the 2024 Australian Open?,Unknown
+Heuristic-Baseline,TN-U012,Tennis,Which player spent the most weeks at world No. 1 in the 2023 ATP season?,Unknown
+Heuristic-Baseline,TN-U013,Tennis,How many titles did Iga Swiatek win in 2022?,Unknown
+Heuristic-Baseline,TN-U014,Tennis,Which player won the women's singles gold medal at the 2020 Tokyo Olympics?,Unknown
+Heuristic-Baseline,TN-U015,Tennis,Compare the 2023 match-win totals of Jannik Sinner and Daniil Medvedev.,Unknown
+Heuristic-Baseline,TN-U016,Tennis,Who had the best return games won percentage on the WTA Tour in 2023?,Unknown
+Heuristic-Baseline,TN-U017,Tennis,What was the average duration of men's singles matches at Wimbledon 2022?,Unknown
+Heuristic-Baseline,TN-U018,Tennis,Which player won the 2024 Miami Open men's singles title?,Unknown
+Heuristic-Baseline,TN-U019,Tennis,How many double faults did Elena Rybakina average per match at the 2023 Wimbledon Championships?,Unknown
+Heuristic-Baseline,TN-U020,Tennis,Which player had the highest ATP ranking at the end of 2022?,Unknown
+Heuristic-Baseline,F1-U001,Formula 1,Who won the 2023 Formula 1 Drivers' Championship?,Unknown
+Heuristic-Baseline,F1-U002,Formula 1,How many wins did Max Verstappen record in the 2022 Formula 1 season?,Unknown
+Heuristic-Baseline,F1-U003,Formula 1,Which team finished second in the 2023 Constructors' Championship?,Unknown
+Heuristic-Baseline,F1-U004,Formula 1,What was Lewis Hamilton's average finishing position in the 2021 Formula 1 season?,Unknown
+Heuristic-Baseline,F1-U005,Formula 1,Who set the most fastest laps in the 2022 season?,Unknown
+Heuristic-Baseline,F1-U006,Formula 1,Which driver scored the most podiums in 2023?,Unknown
+Heuristic-Baseline,F1-U007,Formula 1,List the top five drivers by points after the 2024 Bahrain Grand Prix.,Unknown
+Heuristic-Baseline,F1-U008,Formula 1,Which team had the fastest pit-stop average in the 2023 Formula 1 season?,Unknown
+Heuristic-Baseline,F1-U009,Formula 1,How many pole positions did Charles Leclerc win in 2022?,Unknown
+Heuristic-Baseline,F1-U010,Formula 1,Which driver gained the most positions on lap one across the 2023 season?,Unknown
+Heuristic-Baseline,F1-U011,Formula 1,What was McLaren's total points tally in the 2023 Constructors' Championship?,Unknown
+Heuristic-Baseline,F1-U012,Formula 1,Which constructor scored the fewest points in 2022?,Unknown
+Heuristic-Baseline,F1-U013,Formula 1,How many retirements did Fernando Alonso have in the 2021 Formula 1 season?,Unknown
+Heuristic-Baseline,F1-U014,Formula 1,Which driver achieved the highest average qualifying position in 2023?,Unknown
+Heuristic-Baseline,F1-U015,Formula 1,Compare the points totals of Ferrari and Mercedes in the 2022 Constructors' Championship.,Unknown
+Heuristic-Baseline,F1-U016,Formula 1,Who won the 2024 Monaco Grand Prix?,Unknown
+Heuristic-Baseline,F1-U017,Formula 1,What was the median number of overtakes per race in the 2023 Formula 1 season?,Unknown
+Heuristic-Baseline,F1-U018,Formula 1,Which driver recorded the most laps led in 2023?,Unknown
+Heuristic-Baseline,F1-U019,Formula 1,How many sprint race wins did Red Bull drivers collect in 2023?,Unknown
+Heuristic-Baseline,F1-U020,Formula 1,Which team had the best average qualifying result in 2022?,Unknown

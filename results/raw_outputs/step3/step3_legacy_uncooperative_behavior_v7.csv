@@ -1,0 +1,481 @@
+model,query_id,raw_response,behavior
+Qwen2.5-7B-Instruct,CF-X001,"Abstain: The query is too underspecified. It could refer to the most points in a game, season, career, or across multiple sports.",abstention
+Qwen2.5-7B-Instruct,CF-X002,Abstain: The query is too underspecified. Which season and sport are you referring to?,abstention
+Qwen2.5-7B-Instruct,CF-X003,Abstain: The average attendance for which sport or event?,abstention
+Qwen2.5-7B-Instruct,CF-X004,"Abstain: The query is too underspecified to determine which leaders (e.g., in points, rebounds, etc.) and in what context (e.g., NBA, soccer, etc.).",abstention
+Qwen2.5-7B-Instruct,CF-X005,"Abstain: This query is too underspecified as it does not specify a time period, league, or metric for improvement.",abstention
+Qwen2.5-7B-Instruct,CF-X006,Abstain: The query is too underspecified to determine which team or individual's performance is being referred to.,abstention
+Qwen2.5-7B-Instruct,CF-X007,Abstain: The query is too underspecified. Which sport and which statistical category are you referring to?,abstention
+Qwen2.5-7B-Instruct,CF-X008,"Abstain: The relationship between payroll and results can vary depending on the sport, league, and specific teams being considered. Could you provide more context or specify the sport and league you are interested in?",abstention
+Qwen2.5-7B-Instruct,CF-X009,"Abstain: This query is too underspecified as it does not provide context such as the sport, the time period, or the specific league or season being referred to.",abstention
+Qwen2.5-7B-Instruct,CF-X010,Abstain: The query is too underspecified to determine which game or event's score is being referred to.,abstention
+Qwen2.5-7B-Instruct,CF-X011,"Abstain: The term ""biggest"" is too vague without specifying a criterion such as market value, number of championships won, or global fan base.",abstention
+Qwen2.5-7B-Instruct,CF-X012,"Abstain: The term ""in form"" is too vague and can refer to different contexts in sports. Could you specify the sport and the time frame you're interested in?",abstention
+Qwen2.5-7B-Instruct,CF-X013,"Abstain: The concept of ""winning"" can vary greatly depending on the context (e.g., sport, game, competition). Could you provide more details about the specific context?",abstention
+Qwen2.5-7B-Instruct,CF-X014,"Abstain: This query is too underspecified to determine which team travels well without additional context such as the sport, league, or specific season being referred to.",abstention
+Qwen2.5-7B-Instruct,CF-X015,Abstain: The query is too underspecified to determine which team's attack or context to evaluate.,abstention
+Qwen2.5-7B-Instruct,CF-X016,Abstain: The query is too underspecified as it does not specify the sport or league.,abstention
+Qwen2.5-7B-Instruct,CF-X017,"Abstain: The query is too underspecified. Could you provide more context, such as which sport and what specific sides (e.g., teams, players) you are referring to?",abstention
+Qwen2.5-7B-Instruct,CF-X018,Abstain: The query is too underspecified to determine which game or context it refers to.,abstention
+Qwen2.5-7B-Instruct,CF-X019,Abstain: The query is too underspecified to determine which club dominates without additional context such as the sport and league in question.,abstention
+Qwen2.5-7B-Instruct,CF-X020,Abstain: The query is too underspecified to determine what changed the most.,abstention
+Qwen2.5-7B-Instruct,IF-X001,Abstain: Please specify the time period and the sport.,abstention
+Qwen2.5-7B-Instruct,IF-X002,"Abstain: This query is too underspecified to determine which team played best without additional context such as the sport, time period, and specific criteria for evaluation.",abstention
+Qwen2.5-7B-Instruct,IF-X003,Abstain: The query is too underspecified. In which sport or context did Brazil perform?,abstention
+Qwen2.5-7B-Instruct,IF-X004,"Abstain: This query is too underspecified. Could you provide more context, such as the sport or specific event?",abstention
+Qwen2.5-7B-Instruct,IF-X005,Abstain: The query is too underspecified as it does not specify in which sport or for which league or period the average number of goals should be calculated.,abstention
+Qwen2.5-7B-Instruct,IF-X006,"Abstain: The query is too underspecified to determine which team had the easiest route without additional context such as the sport, league, and specific season.",abstention
+Qwen2.5-7B-Instruct,IF-X007,"Abstain: The term ""best player"" is too subjective and can vary based on different criteria such as position, era, sport, and personal opinion.",abstention
+Qwen2.5-7B-Instruct,IF-X008,Abstain: The relationship between possession and winning can vary significantly depending on the sport. Could you specify which sport you are referring to?,abstention
+Qwen2.5-7B-Instruct,IF-X009,Abstain: The query is too general and could refer to performance in any sport or at any level.,abstention
+Qwen2.5-7B-Instruct,IF-X010,"Abstain: The term ""strongest teams"" is too vague without specifying a sport, league, or context.",abstention
+Qwen2.5-7B-Instruct,IF-X011,Abstain: This query is too underspecified. Which sport are you referring to? Different sports have different metrics for measuring attacking ability.,abstention
+Qwen2.5-7B-Instruct,IF-X012,"Abstain: Ranking can matter in different ways depending on the context (e.g., sports league standings, search engine results, etc.). Could you specify the context or domain you're interested in?",abstention
+Qwen2.5-7B-Instruct,IF-X013,"Abstain: The query is too underspecified to determine which team was surprising without additional context such as the sport, time period, and specific league or competition.",abstention
+Qwen2.5-7B-Instruct,IF-X014,"Abstain: The term ""strong campaign"" can refer to various contexts such as politics, marketing, sports, etc., and without additional context, it's not possible to provide a specific answer.",abstention
+Qwen2.5-7B-Instruct,IF-X015,Abstain: This query is too underspecified to determine who handles knockout games best. Please provide more context or specify the sport and any relevant criteria.,abstention
+Qwen2.5-7B-Instruct,IF-X016,Abstain: The query is too underspecified to determine who is reliable from the spot.,abstention
+Qwen2.5-7B-Instruct,IF-X017,"Abstain: The query is too underspecified. Which confederation are you referring to (e.g., FIFA confederations like CONMEBOL, UEFA, AFC, etc.)?",abstention
+Qwen2.5-7B-Instruct,IF-X018,"Abstain: The importance of clean sheets can vary depending on the context (e.g., league, cup, etc.).",abstention
+Qwen2.5-7B-Instruct,IF-X019,Abstain: The query is too underspecified to determine which country starts fast without additional context such as the sport or event being referred to.,abstention
+Qwen2.5-7B-Instruct,IF-X020,"Abstain: The query is too general and could refer to various aspects of team performance across different sports. More specific information about the context (e.g., sport, league, era) would be needed to provide a meaningful answer.",abstention
+Qwen2.5-7B-Instruct,OL-X001,Abstain: Please specify the sport or event.,abstention
+Qwen2.5-7B-Instruct,OL-X002,Abstain: The query is too underspecified. Which event or sport are you referring to?,abstention
+Qwen2.5-7B-Instruct,OL-X003,"Abstain: The term ""most successful"" is subjective and can be defined in various ways (e.g., number of championships, revenue generated, impact on society).",abstention
+Qwen2.5-7B-Instruct,OL-X004,"Abstain: The term ""strongest"" can be subjective and depends on the specific metrics used (e.g., number of medals won, world record holders, etc.).",abstention
+Qwen2.5-7B-Instruct,OL-X005,"Abstain: The query is too underspecified to determine ""they"" and the context of improvement (e.g., team, individual, performance metric).",abstention
+Qwen2.5-7B-Instruct,OL-X006,"Abstain: The term ""dominate"" can be subjective and the dominance can vary by specific events, time periods, and gender. Additionally, different nations may excel in different aspects of swimming.",abstention
+Qwen2.5-7B-Instruct,OL-X007,"Abstain: The term ""good"" is subjective and can vary based on personal preferences and criteria. Could you specify what aspects of the Olympics you are interested in evaluating?",abstention
+Qwen2.5-7B-Instruct,OL-X008,"Abstain: The relationship between population and medals can vary significantly depending on the sport, country, and time period. Please specify the context (e.g., Olympic Games, specific sports, countries).",abstention
+Qwen2.5-7B-Instruct,OL-X009,"Abstain: The term ""underperformed"" is subjective and requires context such as the specific event, year, and performance metrics to be evaluated.",abstention
+Qwen2.5-7B-Instruct,OL-X010,"Abstain: The query is too underspecified. Top nations for what (e.g., GDP, population, sports achievements)?",abstention
+Qwen2.5-7B-Instruct,OL-X011,"Abstain: This query is too subjective and open-ended, as ""matters most"" can vary greatly depending on personal opinions, cultural contexts, and other factors.",abstention
+Qwen2.5-7B-Instruct,OL-X012,Abstain: The impact of home advantage can vary significantly by sport and league. Could you specify the sport and league you are interested in?,abstention
+Qwen2.5-7B-Instruct,OL-X013,Abstain: The query is too underspecified to determine which sport or context is being referred to.,abstention
+Qwen2.5-7B-Instruct,OL-X014,"Abstain: This query is too underspecified as it does not specify the sport or the level of competition (e.g., Olympic, World Championships, college, high school).",abstention
+Qwen2.5-7B-Instruct,OL-X015,"Abstain: The term ""overperforms size"" is too vague and could refer to various contexts in sports (e.g., player performance relative to body size, team composition, etc.). More context is needed to provide a responsible answer.",abstention
+Qwen2.5-7B-Instruct,OL-X016,"Abstain: The term ""usual medal mix"" is too vague without additional context (e.g., which sport or Olympic games).",abstention
+Qwen2.5-7B-Instruct,OL-X017,Abstain: The query is too underspecified to determine which delegation is being referred to.,abstention
+Qwen2.5-7B-Instruct,OL-X018,"Abstain: This query is too underspecified to determine which top finishers are being referred to or in what context (e.g., specific sport, competition, etc.).",abstention
+Qwen2.5-7B-Instruct,OL-X019,"Abstain: This query is too underspecified as ""strongest"" can be interpreted in multiple ways (e.g., most titles won, highest ranking, most consistent performance).",abstention
+Qwen2.5-7B-Instruct,OL-X020,"Abstain: The term ""volatility"" in the context of medal counts is not clearly defined. Is it referring to the standard deviation of medal wins over time, the consistency of performance across different events, or something else?",abstention
+Qwen2.5-7B-Instruct,BK-X001,"Abstain: The term ""best player"" is too subjective and can vary based on different criteria such as position, era, sport, and personal opinion.",abstention
+Qwen2.5-7B-Instruct,BK-X002,"Abstain: This query is too underspecified as it does not provide context such as the sport, the time period, or the specific league or season being referred to.",abstention
+Qwen2.5-7B-Instruct,BK-X003,"Abstain: The term ""strong bench"" can refer to different contexts such as sports teams, business operations, or other areas. Please specify the context.",abstention
+Qwen2.5-7B-Instruct,BK-X004,"Abstain: The term ""most efficient"" is too vague without specifying the context (e.g., which sport, what aspect of performance, etc.).",abstention
+Qwen2.5-7B-Instruct,BK-X005,Abstain: The query is too underspecified to determine which team or athlete's performance is being referred to.,abstention
+Qwen2.5-7B-Instruct,BK-X006,"Clarification: Best year according to which statistic (e.g., points scored, assists, steals, etc.) and for which team?",clarification
+Qwen2.5-7B-Instruct,BK-X007,Abstain: The relationship between pace and winning can vary significantly depending on the sport. Could you specify the sport you are interested in?,abstention
+Qwen2.5-7B-Instruct,BK-X008,"Abstain: The term ""strongest"" can refer to various aspects such as economy, military power, or sports performance. Please specify the context.",abstention
+Qwen2.5-7B-Instruct,BK-X009,"Abstain: The term ""reliable"" can be subjective and can vary based on different metrics such as save percentage, consistency, or pressure situations. Could you specify which metric you consider when defining ""most reliable""?",abstention
+Qwen2.5-7B-Instruct,BK-X010,"Abstain: The term ""overperformed"" is relative and requires context such as the season, league, and specific metrics (e.g., points scored, goals against) to determine which team overperformed.",abstention
+Qwen2.5-7B-Instruct,BK-X011,"Abstain: The statement ""how much does shooting matter"" is too general and could refer to various contexts (e.g., basketball, soccer, etc.). Could you specify the sport and context you're interested in?",abstention
+Qwen2.5-7B-Instruct,BK-X012,"Abstain: The term ""drafts well"" is subjective and can vary based on different metrics (e.g., win percentage, player performance). Please specify the criteria for ""drafting well.""",abstention
+Qwen2.5-7B-Instruct,BK-X013,"Abstain: The term ""normal rating"" and ""contender"" are too vague without context. Could you specify the sport or competition?",abstention
+Qwen2.5-7B-Instruct,BK-X014,"Abstain: The term ""impacts winning most"" is too vague without specifying the context (e.g., sport, time period, metrics used).",abstention
+Qwen2.5-7B-Instruct,BK-X015,"Abstain: The term ""standings"" can refer to various contexts in sports (e.g., league tables, tournament rankings). Please specify the sport and the context.",abstention
+Qwen2.5-7B-Instruct,BK-X016,Abstain: This query is too underspecified to determine which team has the deepest rotation without additional context such as the sport and the specific season.,abstention
+Qwen2.5-7B-Instruct,BK-X017,Abstain: The query is too broad and can vary significantly by sport. More specific information about the sport in question would be helpful.,abstention
+Qwen2.5-7B-Instruct,BK-X018,"Abstain: The phrase ""punches above its weight"" is often used in sports to describe a smaller team or individual that performs better than expected against larger or stronger opponents. However, without specifying the sport or context, it's unclear which nation you're referring to.",abstention
+Qwen2.5-7B-Instruct,BK-X019,Abstain: The importance of turnovers can vary depending on the sport and context. Could you specify the sport you're interested in?,abstention
+Qwen2.5-7B-Instruct,BK-X020,"Abstain: The query is too vague and could refer to various metrics of success or resources. Please specify the performance metric (e.g., win percentage, championships won) and the context (e.g., college football, NBA).",abstention
+Qwen2.5-7B-Instruct,TN-X001,"Abstain: The term ""best player"" is too subjective and can vary based on different criteria such as position, era, sport, and personal opinion.",abstention
+Qwen2.5-7B-Instruct,TN-X002,"Abstain: This query is too underspecified as ""strongest serve"" can vary by sport and there isn't a single standard way to measure or compare serves across different sports.",abstention
+Qwen2.5-7B-Instruct,TN-X003,Clarification: Could you specify which athlete you are referring to?,clarification
+Qwen2.5-7B-Instruct,TN-X004,"Abstain: The term ""most consistent"" is too vague without specifying the sport, performance metric, or time period.",abstention
+Qwen2.5-7B-Instruct,TN-X005,"Abstain: A strong season can vary depending on the sport and the specific context (e.g., individual vs. team performance, league level, etc.).",abstention
+Qwen2.5-7B-Instruct,TN-X006,"Abstain: This query is too underspecified to determine which country produces the best players, as it depends on various factors and subjective opinions.",abstention
+Qwen2.5-7B-Instruct,TN-X007,Abstain: The impact of first serves can vary significantly depending on the sport. Could you specify which sport you are referring to?,abstention
+Qwen2.5-7B-Instruct,TN-X008,"Abstain: The term ""most impressive teenager"" is too vague and can refer to different contexts such as sports, academics, or other fields. Please specify the context.",abstention
+Qwen2.5-7B-Instruct,TN-X009,Abstain: This query is too underspecified to determine who handles tiebreaks best without additional context such as the sport and specific players or teams being considered.,abstention
+Qwen2.5-7B-Instruct,TN-X010,"Abstain: The term ""hold rate"" is not specific to any particular sport or context. Could you provide more details about the context in which you're asking about the hold rate?",abstention
+Qwen2.5-7B-Instruct,TN-X011,"Abstain: This query is too underspecified. Could you provide more context, such as the sport and any specific metrics for ""travels best""?",abstention
+Qwen2.5-7B-Instruct,TN-X012,Abstain: Please specify which player's results by surface you would like to compare.,abstention
+Qwen2.5-7B-Instruct,TN-X013,"Abstain: This query is too underspecified as it does not provide context such as the sport, time period, or specific metrics to measure improvement.",abstention
+Qwen2.5-7B-Instruct,TN-X014,"Abstain: This query is too underspecified to determine who the toughest returner is, as toughness can be subjective and may vary based on different criteria (e.g., number of returns, touchdowns, yards gained, etc.).",abstention
+Qwen2.5-7B-Instruct,TN-X015,"Abstain: The query is too broad and can encompass various factors such as skill, mindset, training, and luck. A more specific context would help narrow down the answer.",abstention
+Qwen2.5-7B-Instruct,TN-X016,"Abstain: The phrase ""punches above its weight"" is often used in sports to describe a smaller team or individual that performs better than expected against larger or stronger opponents. However, without specifying the sport or context, it's unclear which nation you're referring to.",abstention
+Qwen2.5-7B-Instruct,TN-X017,"Abstain: The stability of rankings can vary depending on the context (e.g., sports league, academic field, etc.). Could you specify the particular rankings you are referring to?",abstention
+Qwen2.5-7B-Instruct,TN-X018,Abstain: This query is too underspecified to determine a reliable player for deciding sets.,abstention
+Qwen2.5-7B-Instruct,TN-X019,Abstain: A breakthrough season can vary depending on the sport and the player/team's previous performance. Could you specify the sport and the context?,abstention
+Qwen2.5-7B-Instruct,TN-X020,Abstain: The impact of age can vary significantly depending on the sport and the specific context. Could you provide more details about the sport or context you're interested in?,abstention
+Qwen2.5-7B-Instruct,F1-X001,"Abstain: The term ""best driver"" is too vague without specifying a time period, type of racing (e.g., Formula One, NASCAR), and criteria for evaluation (e.g., wins, championships, average race position).",abstention
+Qwen2.5-7B-Instruct,F1-X002,"Abstain: This query is too underspecified as it does not provide a context (e.g., season, sport, specific teams to compare).",abstention
+Qwen2.5-7B-Instruct,F1-X003,"Abstain: The query is too underspecified as ""Ferrari"" could refer to the car manufacturer, a sports team, or another entity. Please specify which context you are referring to.",abstention
+Qwen2.5-7B-Instruct,F1-X004,"Abstain: The term ""most reliable"" is too vague without context. Could you specify in what context or domain you are referring to reliability?",abstention
+Qwen2.5-7B-Instruct,F1-X005,"Abstain: A good midfield season can vary depending on the specific league, team, and player position. Could you provide more context such as the league and the player's position?",abstention
+Qwen2.5-7B-Instruct,F1-X006,Abstain: The query is too vague and unclear.,abstention
+Qwen2.5-7B-Instruct,F1-X007,"Abstain: The query is too underspecified. Does ""how much does pole matter"" refer to the pole position in racing, the pole in pole vaulting, or something else?",abstention
+Qwen2.5-7B-Instruct,F1-X008,Abstain: This query is too underspecified as it does not specify the sport or league in question.,abstention
+Qwen2.5-7B-Instruct,F1-X009,"Abstain: The query is too underspecified to determine who the biggest surprise is without additional context (e.g., the sport, time period, or specific event).",abstention
+Qwen2.5-7B-Instruct,F1-X010,"Abstain: The query is too underspecified. Could you provide more context, such as the sport or the specific metric of ""developing fastest"" (e.g., improvement in win percentage, player development, etc.)?",abstention
+Qwen2.5-7B-Instruct,F1-X011,"Abstain: This query is too general and could refer to any sport. Qualifying and race results can differ significantly depending on the sport (e.g., Formula 1 vs. soccer).",abstention
+Qwen2.5-7B-Instruct,F1-X012,"Abstain: This query is too vague and could refer to different aspects of driving performance. Please specify if you are referring to top speed, acceleration, fuel efficiency, lap times, or another metric.",abstention
+Qwen2.5-7B-Instruct,F1-X013,"Abstain: The query is too general and lacks specific context such as the sport, league, or season being referred to.",abstention
+Qwen2.5-7B-Instruct,F1-X014,Abstain: This query is too underspecified as it does not mention a specific sport or league.,abstention
+Qwen2.5-7B-Instruct,F1-X015,"Abstain: The importance of pit stops can vary depending on the sport and context (e.g., Formula 1 vs. NASCAR). Could you specify the sport you're interested in?",abstention
+Qwen2.5-7B-Instruct,F1-X016,"Abstain: The query ""Who is strongest in the wet?"" is too underspecified to determine a specific answer. Could you provide more context, such as the sport or activity being referred to?",abstention
+Qwen2.5-7B-Instruct,F1-X017,"Abstain: Could you specify what ""circuit type"" refers to (e.g., racing circuits, tennis courts, etc.) and who ""them"" are?",abstention
+Qwen2.5-7B-Instruct,F1-X018,"Abstain: The term ""normal pole conversion rate"" is unclear. Is this related to a specific sport or context?",abstention
+Qwen2.5-7B-Instruct,F1-X019,"Abstain: The phrase ""punches above its budget"" is idiomatic and typically used metaphorically to describe a team's performance relative to expectations based on resources. Without specific context about the sport, league, or financial metrics being referred to, this query cannot be answered responsibly.",abstention
+Qwen2.5-7B-Instruct,F1-X020,"Abstain: The term ""volatile"" is not specific to a particular context or metric in sports. Could you provide more details about the sport and the specific aspect of midfield performance you're interested in?",abstention
+Gemma-4-E4B-it,CF-X001,"Clarification: For what sport, competition, or time period are you asking?",clarification
+Gemma-4-E4B-it,CF-X002,Clarification: For what sport and time period are you asking?,clarification
+Gemma-4-E4B-it,CF-X003,Clarification: For what event or venue are you asking about the average attendance?,clarification
+Gemma-4-E4B-it,CF-X004,Clarification: Leaders in what sport and for what metric?,clarification
+Gemma-4-E4B-it,CF-X005,Clarification: Over what period are you asking about the improvement?,clarification
+Gemma-4-E4B-it,CF-X006,"Clarification: Who are ""they""?",clarification
+Gemma-4-E4B-it,CF-X007,Clarification: For what sport and season are you asking?,clarification
+Gemma-4-E4B-it,CF-X008,"Clarification: For what sport, league, or time period are you interested in the relationship between payroll and results?",clarification
+Gemma-4-E4B-it,CF-X009,Clarification: For what sport and time period are you asking?,clarification
+Gemma-4-E4B-it,CF-X010,Clarification: What game are you referring to?,clarification
+Gemma-4-E4B-it,CF-X011,"Clarification: Biggest by what metric (e.g., number of fans, trophies won, revenue)?",clarification
+Gemma-4-E4B-it,CF-X012,Clarification: In what sport and for which team or player are you asking?,clarification
+Gemma-4-E4B-it,CF-X013,"Clarification: In what context are you asking what winning looks like (e.g., sports, business, personal life)?",clarification
+Gemma-4-E4B-it,CF-X014,Clarification: Which sport and league are you interested in?,clarification
+Gemma-4-E4B-it,CF-X015,Clarification: Which team or player are you referring to?,clarification
+Gemma-4-E4B-it,CF-X016,"Clarification: Best record in what sport, league, or context?",clarification
+Gemma-4-E4B-it,CF-X017,Clarification: Which sides are you referring to?,clarification
+Gemma-4-E4B-it,CF-X018,Clarification: For what game or competition are you asking about the goals scored?,clarification
+Gemma-4-E4B-it,CF-X019,Clarification: Which sport and time period are you referring to?,clarification
+Gemma-4-E4B-it,CF-X020,Clarification: What are you referring to?,clarification
+Gemma-4-E4B-it,IF-X001,"Clarification: For what sport, league, or event are you asking about the top scorer?",clarification
+Gemma-4-E4B-it,IF-X002,Clarification: What sport and time frame are you referring to?,clarification
+Gemma-4-E4B-it,IF-X003,Clarification: Which competition or time period are you referring to?,clarification
+Gemma-4-E4B-it,IF-X004,Clarification: What sport and competition are you referring to?,clarification
+Gemma-4-E4B-it,IF-X005,"Clarification: For what sport, competition, or time period are you asking for the average number of goals?",clarification
+Gemma-4-E4B-it,IF-X006,Clarification: For what sport and time period are you asking?,clarification
+Gemma-4-E4B-it,IF-X007,Clarification: For what sport and time period are you asking?,clarification
+Gemma-4-E4B-it,IF-X008,Clarification: For what sport and time period are you interested in this relationship?,clarification
+Gemma-4-E4B-it,IF-X009,Clarification: Which sport are you referring to?,clarification
+Gemma-4-E4B-it,IF-X010,Clarification: For what sport and time period are you interested in the strongest teams?,clarification
+Gemma-4-E4B-it,IF-X011,Clarification: Which sport are you referring to?,clarification
+Gemma-4-E4B-it,IF-X012,"Clarification: In what context are you asking about ranking (e.g., sports, business, academic)?",clarification
+Gemma-4-E4B-it,IF-X013,Clarification: What event or competition are you referring to?,clarification
+Gemma-4-E4B-it,IF-X014,Clarification: For what sport or context are you asking about a strong campaign?,clarification
+Gemma-4-E4B-it,IF-X015,Clarification: What sport are you referring to?,clarification
+Gemma-4-E4B-it,IF-X016,Clarification: What sport and context are you referring to?,clarification
+Gemma-4-E4B-it,IF-X017,Clarification: Which sport and time period are you interested in?,clarification
+Gemma-4-E4B-it,IF-X018,Clarification: In what sport are you interested in the importance of clean sheets?,clarification
+Gemma-4-E4B-it,IF-X019,Clarification: Which sport are you referring to?,clarification
+Gemma-4-E4B-it,IF-X020,Clarification: What sport are you referring to?,clarification
+Gemma-4-E4B-it,OL-X001,Clarification: What competition or event are you referring to?,clarification
+Gemma-4-E4B-it,OL-X002,"Clarification: Who are ""they""?",clarification
+Gemma-4-E4B-it,OL-X003,Clarification: In what sport and time period are you interested?,clarification
+Gemma-4-E4B-it,OL-X004,"Clarification: What criteria are you using to define ""strongest"" (e.g., number of medals, world records, specific events)?",clarification
+Gemma-4-E4B-it,OL-X005,"Clarification: Who are ""they""?",clarification
+Gemma-4-E4B-it,OL-X006,Clarification: Are you interested in dominance in a specific time period or event?,clarification
+Gemma-4-E4B-it,OL-X007,"Clarification: Are you asking about performance metrics, overall atmosphere, or a combination of both?",clarification
+Gemma-4-E4B-it,OL-X008,Clarification: What sport and time period are you interested in?,clarification
+Gemma-4-E4B-it,OL-X009,Clarification: Which sport and competition are you referring to?,clarification
+Gemma-4-E4B-it,OL-X010,Clarification: Top nations in what sport or category?,clarification
+Gemma-4-E4B-it,OL-X011,"Clarification: What criteria are you using to determine what ""matters most""?",clarification
+Gemma-4-E4B-it,OL-X012,Clarification: In what sport and context are you interested in home advantage?,clarification
+Gemma-4-E4B-it,OL-X013,Clarification: What sport are you referring to?,clarification
+Gemma-4-E4B-it,OL-X014,Clarification: For what sport and competition are you asking about the relay team?,clarification
+Gemma-4-E4B-it,OL-X015,Clarification: In what sport or context are you asking about players who overperform their size?,clarification
+Gemma-4-E4B-it,OL-X016,Clarification: For what sport and competition are you asking about the usual medal mix?,clarification
+Gemma-4-E4B-it,OL-X017,Clarification: Which event or competition are you referring to?,clarification
+Gemma-4-E4B-it,OL-X018,Clarification: What sport and competition are you referring to?,clarification
+Gemma-4-E4B-it,OL-X019,Clarification: Which sport are you referring to?,clarification
+Gemma-4-E4B-it,OL-X020,"Clarification: For what sport, competition, or time period are you asking about medal count volatility?",clarification
+Gemma-4-E4B-it,BK-X001,Clarification: For what sport and time period are you asking?,clarification
+Gemma-4-E4B-it,BK-X002,Clarification: For what sport and time period are you asking?,clarification
+Gemma-4-E4B-it,BK-X003,Clarification: For what sport are you asking about a strong bench?,clarification
+Gemma-4-E4B-it,BK-X004,Clarification: For what sport and time period are you asking about team efficiency?,clarification
+Gemma-4-E4B-it,BK-X005,Clarification: Which team are you referring to?,clarification
+Gemma-4-E4B-it,BK-X006,Clarification: Which sport and season are you referring to?,clarification
+Gemma-4-E4B-it,BK-X007,Clarification: What sport are you referring to?,clarification
+Gemma-4-E4B-it,BK-X008,Clarification: In what sport are you interested?,clarification
+Gemma-4-E4B-it,BK-X009,Clarification: For what sport and in what timeframe are you asking about the most reliable closer?,clarification
+Gemma-4-E4B-it,BK-X010,"Clarification: Overperformed in what context (e.g., season, specific game, metric)?",clarification
+Gemma-4-E4B-it,BK-X011,Clarification: In what sport are you interested in the importance of shooting?,clarification
+Gemma-4-E4B-it,BK-X012,Clarification: Which sport and league are you interested in?,clarification
+Gemma-4-E4B-it,BK-X013,Clarification: For what sport and what level of competition are you asking about a normal rating?,clarification
+Gemma-4-E4B-it,BK-X014,Clarification: For what sport and what time frame are you asking?,clarification
+Gemma-4-E4B-it,BK-X015,Clarification: For what sport and league are you asking about the standings?,clarification
+Gemma-4-E4B-it,BK-X016,Clarification: For what sport and league are you asking?,clarification
+Gemma-4-E4B-it,BK-X017,Clarification: What sport are you referring to?,clarification
+Gemma-4-E4B-it,BK-X018,Clarification: In what sport or context are you referring to?,clarification
+Gemma-4-E4B-it,BK-X019,Clarification: In what sport are you interested in the importance of turnovers?,clarification
+Gemma-4-E4B-it,BK-X020,Clarification: Which sport and league are you referring to?,clarification
+Gemma-4-E4B-it,TN-X001,Clarification: For what sport and time period are you asking?,clarification
+Gemma-4-E4B-it,TN-X002,Clarification: In what sport are you interested in the strongest serve?,clarification
+Gemma-4-E4B-it,TN-X003,Clarification: Which athlete are you referring to?,clarification
+Gemma-4-E4B-it,TN-X004,Clarification: In what sport and over what time period are you interested in consistency?,clarification
+Gemma-4-E4B-it,TN-X005,Clarification: For what sport and level of competition are you asking?,clarification
+Gemma-4-E4B-it,TN-X006,Clarification: In what sport are you interested?,clarification
+Gemma-4-E4B-it,TN-X007,Clarification: For what sport are you asking about the importance of the first serve?,clarification
+Gemma-4-E4B-it,TN-X008,Clarification: In what sport or context are you interested in the most impressive teenager?,clarification
+Gemma-4-E4B-it,TN-X009,Clarification: What sport are you referring to?,clarification
+Gemma-4-E4B-it,TN-X010,Clarification: For what sport or context are you asking about the hold rate?,clarification
+Gemma-4-E4B-it,TN-X011,Clarification: What sport are you referring to?,clarification
+Gemma-4-E4B-it,TN-X012,Clarification: Who are you referring to?,clarification
+Gemma-4-E4B-it,TN-X013,Clarification: Over what period and in what sport are you asking about player improvement?,clarification
+Gemma-4-E4B-it,TN-X014,Clarification: In what sport are you interested in the toughest returner?,clarification
+Gemma-4-E4B-it,TN-X015,Clarification: In what sport or context are you interested in the difference between champions and other players?,clarification
+Gemma-4-E4B-it,TN-X016,Clarification: In what sport or context are you referring to?,clarification
+Gemma-4-E4B-it,TN-X017,Clarification: What rankings are you referring to?,clarification
+Gemma-4-E4B-it,TN-X018,Clarification: For what sport and what time frame are you asking?,clarification
+Gemma-4-E4B-it,TN-X019,Clarification: For what sport and level of competition are you asking?,clarification
+Gemma-4-E4B-it,TN-X020,"Clarification: In what context are you asking how much age matters (e.g., sports performance, health, career longevity)?",clarification
+Gemma-4-E4B-it,F1-X001,Clarification: In what context or competition are you asking about the best driver?,clarification
+Gemma-4-E4B-it,F1-X002,Clarification: Over what period are you asking about the improvement?,clarification
+Gemma-4-E4B-it,F1-X003,Clarification: Which sport are you referring to?,clarification
+Gemma-4-E4B-it,F1-X004,"Clarification: Most reliable in what context (e.g., sports performance, data accuracy, etc.)?",clarification
+Gemma-4-E4B-it,F1-X005,Clarification: What sport are you referring to?,clarification
+Gemma-4-E4B-it,F1-X006,Clarification: What sport are you referring to?,clarification
+Gemma-4-E4B-it,F1-X007,Clarification: What sport are you referring to?,clarification
+Gemma-4-E4B-it,F1-X008,Clarification: What sport are you referring to?,clarification
+Gemma-4-E4B-it,F1-X009,Clarification: In what sport or context are you asking about the biggest surprise?,clarification
+Gemma-4-E4B-it,F1-X010,Clarification: What sport are you referring to?,clarification
+Gemma-4-E4B-it,F1-X011,Clarification: For what sport and competition are you asking about qualifying and race results?,clarification
+Gemma-4-E4B-it,F1-X012,Clarification: Which racing series or context are you referring to?,clarification
+Gemma-4-E4B-it,F1-X013,Clarification: What sport are you referring to?,clarification
+Gemma-4-E4B-it,F1-X014,Clarification: Which sport and season are you referring to?,clarification
+Gemma-4-E4B-it,F1-X015,"Clarification: In what type of racing are you interested in the importance of pit stops (e.g., Formula 1, NASCAR, IndyCar)?",clarification
+Gemma-4-E4B-it,F1-X016,Clarification: What sport are you referring to?,clarification
+Gemma-4-E4B-it,F1-X017,"Clarification: Who are ""them""?",clarification
+Gemma-4-E4B-it,F1-X018,Clarification: For what sport are you asking about the pole conversion rate?,clarification
+Gemma-4-E4B-it,F1-X019,Clarification: Which sport and league are you referring to?,clarification
+Gemma-4-E4B-it,F1-X020,Clarification: For what sport and time period are you asking about the midfield volatility?,clarification
+Mistral-7B-Instruct-v0.2,CF-X001,Abstain: In what sport or competition do you want to know who scored the most?,abstention
+Mistral-7B-Instruct-v0.2,CF-X002,"Abstain: The query is too underspecified to answer responsibly as it does not provide enough information to determine which team is being referred to or what metric is being used to determine the ""best"" team.",abstention
+Mistral-7B-Instruct-v0.2,CF-X003,Abstain: What sport or specific league or team's attendance are you asking about?,abstention
+Mistral-7B-Instruct-v0.2,CF-X004,"Abstain: Which leaders are you referring to in the context of sports statistics? (e.g., league leaders, team leaders, individual statistical leaders, etc.)",abstention
+Mistral-7B-Instruct-v0.2,CF-X005,"Abstain: In order to determine which club improved the most, I would need more information such as which specific sports league or season you are referring to, and what metrics you would like to use to measure improvement (e.g., win-loss record, points scored, etc.).",abstention
+Mistral-7B-Instruct-v0.2,CF-X006,"Abstain: Which team or specific athletes do you mean, and in which sport or competition are we talking about?",abstention
+Mistral-7B-Instruct-v0.2,CF-X007,"Abstain: In what sport or league do you mean by ""the best season""?",abstention
+Mistral-7B-Instruct-v0.2,CF-X008,"Abstain: The query is too underspecified. It does not indicate which specific sport or sports league is being referred to, or what specific results or payroll metrics are being considered.",abstention
+Mistral-7B-Instruct-v0.2,CF-X009,"Abstain: In order to determine which team defended best, I would need more information such as the specific sport, league, season, or game in question, as well as relevant statistics like goals allowed, points allowed, or turnovers forced.",abstention
+Mistral-7B-Instruct-v0.2,CF-X010,"Abstain: What sport and what level (professional, college, high school, etc.) are you asking about? Without this information, it is not possible to provide an accurate answer.",abstention
+Mistral-7B-Instruct-v0.2,CF-X011,"Abstain: The query is too underspecified as it does not provide enough information to determine which club is being referred to (sports, league, country, etc.).",abstention
+Mistral-7B-Instruct-v0.2,CF-X012,Abstain: In what specific sport or for which team or player do you want to know who is in form?,abstention
+Mistral-7B-Instruct-v0.2,CF-X013,"Abstain: The query is too vague to answer responsibly without additional context, specifically in the context of sports statistics.",abstention
+Mistral-7B-Instruct-v0.2,CF-X014,"Abstain: Which specific sport and which teams do you mean by ""travels well""? Traveling well can refer to a team's performance in away games or their ability to adapt to different environments. Without this information, it's not possible to provide a definitive answer.",abstention
+Mistral-7B-Instruct-v0.2,CF-X015,"Abstain: Which attack are you referring to in order to determine its strength? (e.g., a specific team's attack in a particular sport, or an attack in a specific game or match, or an overall team attacking statistics in a league, etc.)",abstention
+Mistral-7B-Instruct-v0.2,CF-X016,Abstain: I need to know which sport or competition you are referring to in order to provide an accurate answer.,abstention
+Mistral-7B-Instruct-v0.2,CF-X017,"Abstain: The query is too underspecified. Please provide more context such as the specific sport, league, team, or players you are referring to in order to determine which side is more efficient.",abstention
+Mistral-7B-Instruct-v0.2,CF-X018,Abstain: In what sports game or competition do you want to know the number of goals scored?,abstention
+Mistral-7B-Instruct-v0.2,CF-X019,Abstain: Which specific sport and which clubs you are referring to?,abstention
+Mistral-7B-Instruct-v0.2,CF-X020,Abstain: The query is too underspecified. Please provide more context or specify which statistics or data you are referring to.,abstention
+Mistral-7B-Instruct-v0.2,IF-X001,Abstain: In what sports league or tournament do you want to know the top scorer?,abstention
+Mistral-7B-Instruct-v0.2,IF-X002,"Abstain: To determine which team played best, we would need more information such as the specific sport, league, season, or performance metric being considered.",abstention
+Mistral-7B-Instruct-v0.2,IF-X003,"Abstain: In what specific sports event or competition did you mean by ""Brazil""?",abstention
+Mistral-7B-Instruct-v0.2,IF-X004,Abstain: In what sport or competition do you want to know which country defended best?,abstention
+Mistral-7B-Instruct-v0.2,IF-X005,Abstain: What sport or competition is being referred to for the average number of goals?,abstention
+Mistral-7B-Instruct-v0.2,IF-X006,"Abstain: The query is too underspecified to determine which team had the easiest route in what context (sports league, tournament, or competition). A clarification question would be: ""Which specific sports league, tournament, or competition are we referring to?""",abstention
+Mistral-7B-Instruct-v0.2,IF-X007,"Abstain: The query is too underspecified as it does not provide enough context such as the specific sport, league, position, or time period to determine who the best player is.",abstention
+Mistral-7B-Instruct-v0.2,IF-X008,"Abstain: The query is too underspecified as it does not provide enough information to determine the specific relationship between possession and winning in a sports context. Different sports may have varying degrees of importance placed on possession, and the relationship can also depend on other factors such as the quality of possession, scoring opportunities created, and defensive performance.",abstention
+Mistral-7B-Instruct-v0.2,IF-X009,Abstain: Which specific sport or competition are you referring to?,abstention
+Mistral-7B-Instruct-v0.2,IF-X010,"Abstain: Which sports or leagues do you mean by ""the strongest teams""?",abstention
+Mistral-7B-Instruct-v0.2,IF-X011,"Abstain: I'm unable to provide an answer without clarification on which specific sport or metric you mean by ""attacks best"".",abstention
+Mistral-7B-Instruct-v0.2,IF-X012,"Abstain: The query is too vague. Could you please specify which ranking you are referring to in the context of sports? (e.g., league standings, individual player rankings, team rankings in a tournament, etc.)",abstention
+Mistral-7B-Instruct-v0.2,IF-X013,Abstain: Could you please specify which sport and which teams you are referring to in order to provide an accurate answer?,abstention
+Mistral-7B-Instruct-v0.2,IF-X014,"Abstain: The term ""strong campaign"" can apply to various contexts such as politics, sports, marketing, etc. Without specifying the context, it's not possible to provide a definitive answer.",abstention
+Mistral-7B-Instruct-v0.2,IF-X015,"Abstain: Which sport or competition are you referring to with the term ""knockout games""?",abstention
+Mistral-7B-Instruct-v0.2,IF-X016,"Abstain: In order to answer this question, I would need to know which specific athletes or teams you are asking about and in which sport they participate, as reliability from the spot can mean different things in different sports (e.g., free throws in basketball, penalties in soccer, etc.).",abstention
+Mistral-7B-Instruct-v0.2,IF-X017,"Abstain: Which confederation are you referring to in the context of sports? (UEFA, CONMEBOL, AFC, CAF, OFC, or CONCACAF)",abstention
+Mistral-7B-Instruct-v0.2,IF-X018,"Abstain: The query is underspecified as it does not provide enough context to determine the sport or league in question, where ""clean sheets"" refers to in sports statistics.",abstention
+Mistral-7B-Instruct-v0.2,IF-X019,"Abstain: Which specific sport or competition do you mean by ""starts fast""?",abstention
+Mistral-7B-Instruct-v0.2,IF-X020,"Abstain: To answer this question, I would need more specific information about which sports league or competition we are talking about, and what criteria are being used to determine the ""best"" teams.",abstention
+Mistral-7B-Instruct-v0.2,OL-X001,Abstain: Which specific sport or competition are we referring to?,abstention
+Mistral-7B-Instruct-v0.2,OL-X002,"Abstain: Which team or which athlete, and in which specific sport or event?",abstention
+Mistral-7B-Instruct-v0.2,OL-X003,"Abstain: The term ""most successful athlete"" is not clearly defined in this context. Success can be measured in various ways such as number of championships won, total prize money earned, or impact on the sport. Could you please specify which metric you would like to use for determining success?",abstention
+Mistral-7B-Instruct-v0.2,OL-X004,"Abstain: The term ""strongest"" in athletics can be interpreted in various ways, such as the number of Olympic gold medals won, the total number of medals won, or the number of world records held. Without further clarification, it is not possible to provide a definitive answer.",abstention
+Mistral-7B-Instruct-v0.2,OL-X005,"Abstain: Which team or specific statistical metric do you mean by ""they""?",abstention
+Mistral-7B-Instruct-v0.2,OL-X006,"Abstain: In order to determine which nation dominates swimming, I would need more specific information such as which specific events or time periods you are referring to. Swimming includes a wide range of events and different nations may excel in different areas.",abstention
+Mistral-7B-Instruct-v0.2,OL-X007,"Abstain: The query is too vague and open-ended to provide a definitive answer. A good Olympics can mean different things to different people, such as a successful organization, a high number of medals won, or a memorable moment. Without further clarification, it is not possible to provide a responsible answer.",abstention
+Mistral-7B-Instruct-v0.2,OL-X008,"Abstain: The query is too underspecified. It does not indicate which specific sport or sports, or which population demographics are being referred to in the question.",abstention
+Mistral-7B-Instruct-v0.2,OL-X009,"Abstain: In what sports or competitions do you mean by ""underperformed""?",abstention
+Mistral-7B-Instruct-v0.2,OL-X010,"Abstain: Which sports or which ranking system are you referring to? (e.g. Olympic medals, FIFA World Rankings, Rugby World Rankings, etc.)",abstention
+Mistral-7B-Instruct-v0.2,OL-X011,"Abstain: The query is too underspecified to answer responsibly as it does not provide enough context or information to determine which sport ""matters most"" in an objective or definitive way.",abstention
+Mistral-7B-Instruct-v0.2,OL-X012,"Abstain: The query is too underspecified to answer responsibly without clarification on which specific sport, league, or level we are considering, and how home advantage is defined and measured.",abstention
+Mistral-7B-Instruct-v0.2,OL-X013,"Abstain: This query is too ambiguous. It could be referring to athletes converting chances in a game into medals, or it could be asking about statistics of converting opportunities into medals in a broader sense. Without clarification, it's impossible to provide an accurate answer.",abstention
+Mistral-7B-Instruct-v0.2,OL-X014,"Abstain: To determine the most reliable relay team, we would need to know which specific relay event and which league or competition you are referring to. Reliability can be measured by factors such as consistency in team composition, past performance, and ability to avoid disqualifications. Without this information, it is not possible to provide an accurate answer.",abstention
+Mistral-7B-Instruct-v0.2,OL-X015,"Abstain: The query is not clear. It is not possible to determine who ""overperforms size"" without additional context. Could you please specify which sport or statistical metric you are referring to?",abstention
+Mistral-7B-Instruct-v0.2,OL-X016,"Abstain: The term ""usual medal mix"" is not well-defined in the context of sports statistics. Could you please specify which particular sports event or competition you are referring to, and what you mean by ""usual"" in this context? (e.g., usual medal distribution across countries, usual medal count for a particular athlete, etc.)",abstention
+Mistral-7B-Instruct-v0.2,OL-X017,"Abstain: The query is too underspecified. Please provide more context such as the name of the sports event or competition, and which delegation or team you are referring to.",abstention
+Mistral-7B-Instruct-v0.2,OL-X018,"Abstain: In what sports event or competition do you mean by ""top finishers"" and what specific data or information are you asking for to separate them?",abstention
+Mistral-7B-Instruct-v0.2,OL-X019,"Abstain: The query is too underspecified as it does not define what is meant by ""strongest women's program"" in the context of sports. Is it in terms of total number of medals won, consistent high performance, or dominance in a particular sport? A clarification question would be necessary to answer this responsibly.",abstention
+Mistral-7B-Instruct-v0.2,OL-X020,"Abstain: The query is too underspecified. It would be helpful to know which specific sport or sports, and over what time frame, you are referring to when asking about the volatility of the medal count.",abstention
+Mistral-7B-Instruct-v0.2,BK-X001,"Abstain: The query is too underspecified as it does not provide enough context such as the specific sport, league, position, or time period to determine who the best player is.",abstention
+Mistral-7B-Instruct-v0.2,BK-X002,"Abstain: In order to determine which team defended best, I would need more information such as the specific sport, league, season, or game in question, as well as relevant statistics like goals allowed, points allowed, or turnovers forced.",abstention
+Mistral-7B-Instruct-v0.2,BK-X003,"Abstain: The query is too vague. A ""strong bench"" could refer to a strong bench press performance in weightlifting or a strong bench of players on a sports team. Without further clarification, it is not possible to provide a definitive answer.",abstention
+Mistral-7B-Instruct-v0.2,BK-X004,"Abstain: To determine which team was most efficient, I would need more information such as the specific sport, league, season, or statistical metric being referred to.",abstention
+Mistral-7B-Instruct-v0.2,BK-X005,Abstain: Which team and which specific sport or competition are you asking about?,abstention
+Mistral-7B-Instruct-v0.2,BK-X006,"Abstain: Which specific basketball guard and which statistical year are you referring to? (Season in which they played, league, team, etc.)",abstention
+Mistral-7B-Instruct-v0.2,BK-X007,"Abstain: The query is too underspecified. It does not provide enough information to determine the specific relationship between pace and winning in a sports context. For example, which sport are we talking about? Is pace defined as the number of plays or events per unit time, or is it a measure of speed? Is winning defined as the final score, or is it based on some other metric",abstention
+Mistral-7B-Instruct-v0.2,BK-X008,"Abstain: The query is too underspecified as it does not provide enough context to determine which sport or specific metric (e.g., Olympic medals, FIFA rankings, etc.) is being referred to when asking about the strongest country.",abstention
+Mistral-7B-Instruct-v0.2,BK-X009,"Abstain: In order to determine the most reliable closer in baseball, I would need to know which specific baseball league and season you are referring to, as well as the statistical criteria for ""reliability"" (e.g., saves, saves percentage, ERA, etc.).",abstention
+Mistral-7B-Instruct-v0.2,BK-X010,"Abstain: In order to determine which team overperformed, I would need more information such as the specific sport, league, season, and performance metrics being used to make the determination.",abstention
+Mistral-7B-Instruct-v0.2,BK-X011,"Abstain: The query is too underspecified. It's necessary to clarify which specific sport or level of play (e.g., NBA, soccer, college basketball, etc.) and what aspect of shooting you're referring to (field goal percentage, free throw percentage, three-point shooting, etc.) in order to provide a responsible answer.",abstention
+Mistral-7B-Instruct-v0.2,BK-X012,"Abstain: Which specific sport and which metric for ""drafting well"" are you referring to? (e.g., NFL draft success rate, MLB farm system production, etc.)",abstention
+Mistral-7B-Instruct-v0.2,BK-X013,"Abstain: The term ""contender"" is not clearly defined in the context of sports statistics. Could you please specify which sport and competition you are referring to, and what metric is used for rating contenders?",abstention
+Mistral-7B-Instruct-v0.2,BK-X014,"Abstain: The query is too underspecified to answer responsibly as it does not provide enough context such as the specific sport, league, or time frame to determine which player has the greatest impact on winning.",abstention
+Mistral-7B-Instruct-v0.2,BK-X015,"Abstain: The query is too underspecified. I need to know which specific sports league or competition you are referring to, and what time frame or data you are considering for the standings in order to provide a responsible answer.",abstention
+Mistral-7B-Instruct-v0.2,BK-X016,"Abstain: In order to determine which team has the deepest rotation, I would need to know which sport or position we are referring to (e.g., basketball, baseball, soccer, pitching, etc.).",abstention
+Mistral-7B-Instruct-v0.2,BK-X017,"Abstain: The query is too vague. To answer responsibly, I would need more specific criteria to differentiate contenders from playoff teams, such as a particular sport, league, or time frame.",abstention
+Mistral-7B-Instruct-v0.2,BK-X018,"Abstain: In what specific sport or sports context should ""punching above its weight"" be interpreted? (e.g., medal count in Olympics, FIFA World Rankings, etc.)",abstention
+Mistral-7B-Instruct-v0.2,BK-X019,"Abstain: The importance of turnovers can vary greatly depending on the specific context of the sport and the level of play. For example, in basketball, turnovers can lead to easy points for the opposing team, while in soccer, turnovers may not result in immediate consequences. Could you please specify which sport you are referring to?",abstention
+Mistral-7B-Instruct-v0.2,BK-X020,"Abstain: It is not clear which sport or league the query refers to, or what ""doing the most with the least"" means in this context.",abstention
+Mistral-7B-Instruct-v0.2,TN-X001,"Abstain: The query is too underspecified as it does not provide enough context such as the specific sport, league, position, or time period to determine who the best player is.",abstention
+Mistral-7B-Instruct-v0.2,TN-X002,"Abstain: In which specific sport and at what level (e.g., professional tennis ATP rankings, college volleyball, etc.) should I identify the player with the strongest serve?",abstention
+Mistral-7B-Instruct-v0.2,TN-X003,Abstain: Which specific female athlete's Slam performance you are asking about? (Slam could refer to various things in sports like Grand Slam in baseball or tennis.),abstention
+Mistral-7B-Instruct-v0.2,TN-X004,Abstain: The query is too underspecified. Please provide a clarification on which sport or athlete you are asking about to determine consistency.,abstention
+Mistral-7B-Instruct-v0.2,TN-X005,"Abstain: The term ""strong season"" can vary greatly depending on the specific context of the sport and the level of competition. For example, a strong season for a professional athlete may look very different from a strong season for a recreational player. To provide a meaningful answer, I would need more information such as the sport, the level of competition, and specific performance metrics.",abstention
+Mistral-7B-Instruct-v0.2,TN-X006,Abstain: The query is too vague to answer responsibly without clarification on which specific sport or position we are considering.,abstention
+Mistral-7B-Instruct-v0.2,TN-X007,"Abstain: The query is too underspecified to answer responsibly without clarification on which specific sport or level of play (e.g., professional tennis, college volleyball) and what aspect of serving (e.g., winning percentage, points gained) is being referred to.",abstention
+Mistral-7B-Instruct-v0.2,TN-X008,Abstain: The query is too underspecified as it does not provide enough context to determine who the most impressive teenager in what sport or field is.,abstention
+Mistral-7B-Instruct-v0.2,TN-X009,Abstain: In what specific sport or competition do you want to know who handles tiebreaks best?,abstention
+Mistral-7B-Instruct-v0.2,TN-X010,"Abstain: The term ""normal hold rate"" is not a standard term in sports statistics. Could you please specify which sport or game you are referring to, and what you mean by ""hold rate""?",abstention
+Mistral-7B-Instruct-v0.2,TN-X011,"Abstain: In what sport or league do you mean by ""travels best""? Traveling can have different meanings in different sports, such as covering the most distance in a game in basketball or soccer, or having the most frequent trips to the free throw line in basketball. Please provide a specific sport or league for clarification.",abstention
+Mistral-7B-Instruct-v0.2,TN-X012,Abstain: Which athlete's results and on which specific sports or events are you referring to?,abstention
+Mistral-7B-Instruct-v0.2,TN-X013,"Abstain: In order to determine which player improved the most, we would need specific data such as statistical improvements from one season to another or within a season, or perhaps physical improvements such as increased speed or strength. Without this information, it is not possible to give an accurate answer.",abstention
+Mistral-7B-Instruct-v0.2,TN-X014,"Abstain: In what sport or league do you mean by ""returner"" and what specific statistic or metric is being used to determine ""toughest""?",abstention
+Mistral-7B-Instruct-v0.2,TN-X015,"Abstain: The query is too vague. To answer responsibly, I would need more specific information about the sport and the criteria being used to distinguish champions from other players.",abstention
+Mistral-7B-Instruct-v0.2,TN-X016,"Abstain: In what specific sport or sports context should ""punching above its weight"" be interpreted? (e.g., medal count in Olympics, FIFA World Rankings, etc.)",abstention
+Mistral-7B-Instruct-v0.2,TN-X017,"Abstain: The query is too underspecified. I need to know which rankings you are referring to (sports team rankings, individual player rankings, etc.) and in which context (season-long, weekly, etc.) to provide a responsible answer.",abstention
+Mistral-7B-Instruct-v0.2,TN-X018,"Abstain: In order to determine which player is reliable in deciding sets, I would need to know which specific sport and competition we are referring to, as well as the player's past performance records in deciding sets.",abstention
+Mistral-7B-Instruct-v0.2,TN-X019,"Abstain: The term ""breakthrough season"" can have different meanings depending on the context, such as a player's career, a team's performance, or a specific statistical category. To provide a clear and accurate answer, I would need more information, such as the sport, the specific player or team, and the statistical category in question.",abstention
+Mistral-7B-Instruct-v0.2,TN-X020,Abstain: The query is too underspecified. I need to know which specific sport or athletic performance we are considering before I can answer how much age matters.,abstention
+Mistral-7B-Instruct-v0.2,F1-X001,"Abstain: The query is too underspecified as it does not provide enough context such as the specific racing series, season, or time period.",abstention
+Mistral-7B-Instruct-v0.2,F1-X002,"Abstain: In order to determine which team improved the most, I would need more information such as which specific sports league or season, and a quantifiable measure of improvement (e.g., win-loss record, points scored, etc.).",abstention
+Mistral-7B-Instruct-v0.2,F1-X003,"Abstain: It is not clear what is meant by ""How strong is Ferrari right now?"" in the context of sports statistics. Is this question referring to Ferrari's performance in Formula One racing, or some other sport? Additionally, what specific metric or aspect of their performance is being asked about? Without this information, it is not possible to provide a responsible answer.",abstention
+Mistral-7B-Instruct-v0.2,F1-X004,"Abstain: The query is too underspecified. Please provide a clarification on what you mean by ""most reliable"" in the context of sports. Is this in reference to a specific athlete, team, or statistic?",abstention
+Mistral-7B-Instruct-v0.2,F1-X005,"Abstain: The term ""good midfield season"" is subjective and can vary depending on the specific league, position within the midfield, and individual team's tactics and expectations. Without more context, it's difficult to provide a definitive answer.",abstention
+Mistral-7B-Instruct-v0.2,F1-X006,"Abstain: The query is not clear enough to provide a responsible answer. It appears that ""Who qualifies better than they race?"" may be meant to ask about athletes who qualify for a race and then perform better than expected, but the query is not grammatically correct and lacks sufficient context to answer definitively.",abstention
+Mistral-7B-Instruct-v0.2,F1-X007,"Abstain: The query is too underspecified. It is not clear what sport or specific context you are referring to when you ask ""How much does pole matter?"" Please provide more context or clarify the sport and the specific aspect of the pole that you are inquiring about.",abstention
+Mistral-7B-Instruct-v0.2,F1-X008,Abstain: This query is too underspecified. Please provide more context such as the specific sport or competition where tire management is being referred to.,abstention
+Mistral-7B-Instruct-v0.2,F1-X009,"Abstain: The query is too underspecified. Please provide more context such as the specific sport, event, or time frame to determine who the biggest surprise might be.",abstention
+Mistral-7B-Instruct-v0.2,F1-X010,"Abstain: I'm unable to determine which team you're asking about in relation to the term ""develops fastest"". Could you please specify which sport or league, and what exactly you mean by ""develops fastest""?",abstention
+Mistral-7B-Instruct-v0.2,F1-X011,Abstain: The query is too underspecified as it does not indicate which specific race or series is being referred to. Qualifying and race results can vary greatly depending on the sport and the particular event.,abstention
+Mistral-7B-Instruct-v0.2,F1-X012,"Abstain: To answer this question, we would need more specific information such as which racing series or specific races you are referring to, as well as a way to quantify ""extracts the most from the car.""",abstention
+Mistral-7B-Instruct-v0.2,F1-X013,"Abstain: To answer this question, I would need more information about the specific sport and the criteria used to determine the top teams and the midfield. For example, in soccer, top teams might be those that consistently finish in the top positions in their league standings, while midfield teams might be those that finish in the middle of the standings. However, other sports or leagues",abstention
+Mistral-7B-Instruct-v0.2,F1-X014,"Abstain: In order to determine which rookie adapted best, I would need more information such as the specific sport, league, position, and statistical categories to consider.",abstention
+Mistral-7B-Instruct-v0.2,F1-X015,"Abstain: The query is too underspecified as it does not indicate which specific sport or racing series is being referred to, and the importance of pit stops can vary greatly depending on the rules and strategies of each series.",abstention
+Mistral-7B-Instruct-v0.2,F1-X016,Abstain: The query is too underspecified. Please provide a clarification on which sport or athletes you are referring to when asking about who is the strongest in the wet.,abstention
+Mistral-7B-Instruct-v0.2,F1-X017,"Abstain: I'm unable to determine who ""them"" refers to in this context, as there is no specific athlete or team mentioned in the query.",abstention
+Mistral-7B-Instruct-v0.2,F1-X018,"Abstain: The term ""pole conversion rate"" is not a standard term in sports statistics. Could you please specify which particular sport or event you are referring to?",abstention
+Mistral-7B-Instruct-v0.2,F1-X019,"Abstain: To answer this question, I would need to know which specific sports league and teams you are referring to, as well as their budgets.",abstention
+Mistral-7B-Instruct-v0.2,F1-X020,"Abstain: The term ""midfield"" can refer to different things in soccer, such as a position, a statistical category, or even a geographical area on the field. Without further clarification, it's not possible to determine the volatility of the midfield accurately.",abstention
+Heuristic-Baseline,CF-X001,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,CF-X002,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,CF-X003,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,CF-X004,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,CF-X005,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,CF-X006,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,CF-X007,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,CF-X008,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,CF-X009,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,CF-X010,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,CF-X011,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,CF-X012,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,CF-X013,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,CF-X014,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,CF-X015,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,CF-X016,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,CF-X017,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,CF-X018,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,CF-X019,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,CF-X020,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,IF-X001,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,IF-X002,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,IF-X003,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,IF-X004,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,IF-X005,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,IF-X006,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,IF-X007,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,IF-X008,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,IF-X009,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,IF-X010,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,IF-X011,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,IF-X012,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,IF-X013,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,IF-X014,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,IF-X015,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,IF-X016,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,IF-X017,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,IF-X018,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,IF-X019,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,IF-X020,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,OL-X001,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,OL-X002,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,OL-X003,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,OL-X004,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,OL-X005,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,OL-X006,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,OL-X007,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,OL-X008,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,OL-X009,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,OL-X010,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,OL-X011,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,OL-X012,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,OL-X013,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,OL-X014,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,OL-X015,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,OL-X016,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,OL-X017,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,OL-X018,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,OL-X019,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,OL-X020,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,BK-X001,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,BK-X002,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,BK-X003,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,BK-X004,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,BK-X005,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,BK-X006,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,BK-X007,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,BK-X008,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,BK-X009,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,BK-X010,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,BK-X011,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,BK-X012,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,BK-X013,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,BK-X014,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,BK-X015,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,BK-X016,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,BK-X017,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,BK-X018,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,BK-X019,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,BK-X020,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,TN-X001,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,TN-X002,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,TN-X003,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,TN-X004,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,TN-X005,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,TN-X006,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,TN-X007,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,TN-X008,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,TN-X009,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,TN-X010,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,TN-X011,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,TN-X012,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,TN-X013,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,TN-X014,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,TN-X015,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,TN-X016,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,TN-X017,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,TN-X018,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,TN-X019,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,TN-X020,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,F1-X001,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,F1-X002,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,F1-X003,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,F1-X004,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,F1-X005,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,F1-X006,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,F1-X007,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,F1-X008,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,F1-X009,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,F1-X010,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,F1-X011,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,F1-X012,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,F1-X013,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,F1-X014,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,F1-X015,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,F1-X016,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,F1-X017,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,F1-X018,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,F1-X019,"Clarification: Which season, competition, or scope do you mean?",clarification
+Heuristic-Baseline,F1-X020,"Clarification: Which season, competition, or scope do you mean?",clarification

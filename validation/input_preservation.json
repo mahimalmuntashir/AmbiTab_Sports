@@ -1,0 +1,120 @@
+{
+  "technical_scope": "File preservation and anonymous metadata; not independent annotation/factual review.",
+  "raw_and_rating_files": [
+    {
+      "file": "raw_outputs/step1/step1_raw_outputs_execution_v7.csv",
+      "sha256": "def74c617ebe2545b8c78817411ffbcf0e7ca6b3fb311cb47ddb97f4d5d96ae8",
+      "unchanged_from_supplied_source": true
+    },
+    {
+      "file": "raw_outputs/step3/step3_legacy_uncooperative_behavior_v7.csv",
+      "sha256": "55065d0aca30227d16665abcc9f55fc76a5627dff4b93122f53a998ab0ece789",
+      "unchanged_from_supplied_source": true
+    },
+    {
+      "file": "raw_outputs/step3/step3_raw_outputs_unified_action360_v7.csv",
+      "sha256": "aa04cd3ead6f5747852a1ebdfa95bde5838996d616f26be7a82a3d73c1c53ce4",
+      "unchanged_from_supplied_source": true
+    },
+    {
+      "file": "checkpoints/step1_execution_fresh_v7.json",
+      "sha256": "b34cb068877cd894d413508aa5bda0244b76d429ecfc054a4909431772e0c0aa",
+      "unchanged_from_supplied_source": true
+    },
+    {
+      "file": "checkpoints/step3_legacy_uncooperative120_v7.json",
+      "sha256": "a34ec698a3d3f4f261d1bb86eb1e80269e01b6638ced913233c95a5a3155a703",
+      "unchanged_from_supplied_source": true
+    },
+    {
+      "file": "checkpoints/step3_unified_action360_v7.json",
+      "sha256": "b3b04d2d88a19cc4e18efee55a77b5fbbcd3a4c419e1248e26f3bb975ee99a69",
+      "unchanged_from_supplied_source": true
+    },
+    {
+      "file": "human_evaluation/cooperative/cooperative_annotator_A_FILLED.csv",
+      "sha256": "4d4d2babfe12bac95762402b923967c0e2faab195a935fd60fdc807a5afcaf50",
+      "unchanged_from_supplied_source": true
+    },
+    {
+      "file": "human_evaluation/cooperative/cooperative_annotator_B_FILLED.csv",
+      "sha256": "b8e07b92999227cfd0fe7b78a87e24d628c5356ba99d8b98ca2b6333060cbbf5",
+      "unchanged_from_supplied_source": true
+    },
+    {
+      "file": "human_evaluation/cooperative/cooperative_human_gold_final_480.csv",
+      "sha256": "a9506d5726a6e409eb3d92280dc9ee6335847a58cda6720bb39bbab76d30c5b0",
+      "unchanged_from_supplied_source": true
+    },
+    {
+      "file": "human_evaluation/execution/STEP1_HUMAN_AUDIT_INSTRUCTIONS.txt",
+      "sha256": "e18bb7b497e23246b5b1356647c0ba535b500dafb190f6984c9718dc4d98f6fb",
+      "unchanged_from_supplied_source": true
+    },
+    {
+      "file": "human_evaluation/execution/step1_execution_annotator_A_FILLED.csv",
+      "sha256": "985f05c4c1cd3ca0778304fa9f5ce004409fd23040ef25c4d99347aea6706105",
+      "unchanged_from_supplied_source": true
+    },
+    {
+      "file": "human_evaluation/execution/step1_execution_annotator_B_FILLED.csv",
+      "sha256": "77f4d72d727319a3774c16a127364489db2e4a24c6067cc560b1c8329c1acda3",
+      "unchanged_from_supplied_source": true
+    },
+    {
+      "file": "human_evaluation/execution/step1_execution_human_agreement.csv",
+      "sha256": "13e225d2316617910d17527a52b7d59b58c64d8d36d9d5a840f9b45806c20642",
+      "unchanged_from_supplied_source": true
+    },
+    {
+      "file": "human_evaluation/execution/step1_execution_human_gold_final.csv",
+      "sha256": "5b3f67778c571d474fe2d882fce47b04f919e95f36172102505490d17a693c23",
+      "unchanged_from_supplied_source": true
+    }
+  ],
+  "workbook_metadata_operations": [
+    {
+      "file": "archive/supplied_workbooks/AmbiTab_Sports_Benchmark_Data_Dictionary.xlsx",
+      "sheet_XML_unchanged_during_metadata_removal": true
+    },
+    {
+      "file": "archive/supplied_workbooks/AmbiTab_Sports_Final_Annotation_Schema.xlsx",
+      "sheet_XML_unchanged_during_metadata_removal": true
+    },
+    {
+      "file": "archive/supplied_workbooks/cooperative_adjudication_records.xlsx",
+      "sheet_XML_unchanged_during_metadata_removal": true
+    },
+    {
+      "file": "benchmark/AmbiTab_Sports_Benchmark_Data_Dictionary.xlsx",
+      "sheet_XML_unchanged_during_metadata_removal": true
+    },
+    {
+      "file": "benchmark/AmbiTab_Sports_Final_Annotation_Schema.xlsx",
+      "sheet_XML_unchanged_during_metadata_removal": true
+    },
+    {
+      "file": "benchmark/annotation/AmbiTab_Sports_Final_Construction_Adjudication.xlsx",
+      "sheet_XML_unchanged_during_metadata_removal": true
+    },
+    {
+      "file": "benchmark/annotation/AmbiTab_Sports_Full_Annotator_A_completed.xlsx",
+      "sheet_XML_unchanged_during_metadata_removal": true
+    },
+    {
+      "file": "benchmark/annotation/AmbiTab_Sports_Full_Annotator_B_completed.xlsx",
+      "sheet_XML_unchanged_during_metadata_removal": true
+    },
+    {
+      "file": "benchmark/annotation/AmbiTab_Sports_Full_Master_Adjudication.xlsx",
+      "sheet_XML_unchanged_during_metadata_removal": true
+    },
+    {
+      "file": "human_evaluation/cooperative/cooperative_adjudication_records.xlsx",
+      "sheet_XML_unchanged_during_metadata_removal": true
+    }
+  ],
+  "identifying_content_scan_passed": true,
+  "benchmark_scientific_fields": "All supplied fields preserved; verification_status qualified and original claims stored separately.",
+  "cooperative_workbook": "Score and response cells preserved; README provenance statements qualified; entirely blank trailing Summary column omitted."
+}

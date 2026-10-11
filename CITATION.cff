@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Citation metadata is anonymized for peer review and will be replaced after the review process."
+title: "AmbiTab-Sports: An Ambiguity-Aware Benchmark for Interaction Decisions in Sports Data Question Answering"
+type: dataset
+authors:
+  - family-names: "Authors"
+    given-names: "Anonymous"
+version: "review-release"
+date-released: 2026-10-03

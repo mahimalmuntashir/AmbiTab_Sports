@@ -1,0 +1,4 @@
+dimension,n,exact_agreement,weighted_cohen_kappa,disagreement_count
+interpretation_validity,480,0.591666666666667,0.234062722173947,196
+assumption_quality,480,0.5375,0.159385357035251,222
+answer_usefulness,480,0.68125,0.654171291947741,153

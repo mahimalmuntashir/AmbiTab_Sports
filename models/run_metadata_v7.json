@@ -1,0 +1,21 @@
+{
+  "human_gold_file": "cooperative_human_gold_final_480.csv",
+  "total_benchmark_queries": 360,
+  "unambiguous_queries": 120,
+  "cooperative_queries": 120,
+  "uncooperative_queries": 120,
+  "human_scored_responses": 480,
+  "primary_seed": 42,
+  "bootstrap_resamples": 5000,
+  "permutation_resamples": 10000,
+  "step1_generation_errors": 0,
+  "step3_generation_errors": 0,
+  "legacy_generation_errors": 0,
+  "step4_decision": "RECAST_PRE_RETRIEVAL",
+  "step4_table_coverage": 0.0,
+  "historical_benchmark_filename": "AmbiTab_Sports_Full_Gold_Benchmark_v1.csv",
+  "benchmark_file": "benchmark/AmbiTab_Sports_Full_Gold_Benchmark_FINAL.csv",
+  "metadata_status": "Historical run fields retained; release filenames/provenance corrected. Not a complete historical environment lock.",
+  "independent_human_review_verified": false,
+  "historical_model_revision_shas": "not_recorded"
+}

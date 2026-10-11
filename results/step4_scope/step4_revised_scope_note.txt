@@ -1,0 +1,1 @@
+Models in the archived experiments received no source tables. Reference URLs in the benchmark support gold-source review and were not supplied as table evidence. Saved execution can reflect parametric knowledge; contamination is unmeasured. No table-grounded condition or fabricated evidence was created.
