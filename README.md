@@ -47,11 +47,9 @@ Execution answers are preserved from the supplied benchmark. Original verificati
 
 The historical train/dev/test split is 252/54/54. All 360 items are used in the revised zero-shot analyses, with 120 U/C/X queries and 20 queries per subdomain/track cell.
 
-## Manuscript and repository URL
+## Manuscript
 
-The manuscript and response are anonymous drafts that accurately describe the recorded evidence and remaining scientific limits. Compile from `paper/` with `latexmk -pdf ambitab_sports_revised.tex`, then `latexmk -pdf response_to_reviewers.tex` and `latexmk -pdf revision_cover_letter.tex`. The main manuscript must compile first because the response uses its labels/page references.
-
-Add the actual anonymous review URL to the single `RepositoryURL` value in `paper/submission_settings.tex`, then recompile. After intentional release edits, rerun validation, refresh checksums with `python code/write_manifest.py`, and verify them with `python code/verify_manifest.py`. No public URL or upload is asserted here. Restore author details only in the journal's author-identifying submission version, outside the anonymous repository.
+The manuscript and response are anonymous drafts that accurately describe the recorded evidence and remaining scientific limits. Compile from `paper/` with `latexmk -pdf ambitab_sports_revised.tex`, then `latexmk -pdf response_to_reviewers.tex` and `latexmk -pdf revision_cover_letter.tex`. 
 
 ## Optional fresh inference
 
